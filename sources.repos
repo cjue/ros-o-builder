@@ -23,6 +23,14 @@ repositories:
     type: git
     url: https://github.com/ros-o/roscpp_core.git
     version: obese-devel
+  cmake_modules:
+    type: git
+    url: https://github.com/ros/cmake_modules.git
+    version: 0.5-devel
+  rospack:
+    type: git
+    url: https://github.com/ros/rospack.git
+    version: noetic-devel
   gencpp:
     type: git
     url: https://github.com/ros-o/gencpp.git
@@ -55,7 +63,7 @@ repositories:
     type: git
     url: https://github.com/ros/message_runtime.git
     version: kinetic-devel
-  rospack:
+  std_msgs:
     type: git
-    url: https://github.com/ros/rospack.git
-    version: noetic-devel
+    url: https://github.com/ros/std_msgs.git
+    version: kinetic-devel
