@@ -27,6 +27,10 @@ repositories:
     type: git
     url: https://github.com/ros-o/roscpp_core.git
     version: obese-devel
+  roslisp:
+    type: git
+    url: https://github.com/ros/roslisp.git
+    version: master
   cmake_modules:
     type: git
     url: https://github.com/ros/cmake_modules.git
@@ -71,10 +75,14 @@ repositories:
     type: git
     url: https://github.com/ros-o/pluginlib.git
     version: obese-devel
-  diagnostics:
+  class_loader:
     type: git
-    url: https://github.com/ros-o/diagnostics.git
-    version: obese-devel
+    url: https://github.com/ros/class_loader.git
+    version: noetic-devel
+  common_msgs:
+    type: git
+    url: https://github.com/ros/common_msgs.git
+    version: noetic-devel
   std_msgs:
     type: git
     url: https://github.com/ros/std_msgs.git
