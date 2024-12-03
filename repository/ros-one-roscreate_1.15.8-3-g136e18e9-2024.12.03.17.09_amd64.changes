@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 Jul 2021 00:00:00 -0000
+Source: ros-one-roscreate
+Binary: ros-one-roscreate
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.15.8-3-g136e18e9-2024.12.03.17.09
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-roscreate - roscreate contains a tool that assists in the creation of ROS fil
+Changes:
+ ros-one-roscreate (1.15.8-3-g136e18e9-2024.12.03.17.09) jammy; urgency=high
+ .
+   * Update maintainers (#272 <https://github.com/ros/ros/issues/272>)
+   * Contributors: Jacob Perron
+Checksums-Sha1:
+ d65f26bb89bd8626a4ddbc7b4e373da867abee9e 8171 ros-one-roscreate_1.15.8-3-g136e18e9-2024.12.03.17.09_amd64.buildinfo
+ cd3cd614f2b9f35b80e0ae9d3bf1e36563cea08d 12778 ros-one-roscreate_1.15.8-3-g136e18e9-2024.12.03.17.09_amd64.deb
+Checksums-Sha256:
+ 24407b8d25471e6b5c9587bf7c2eaa030b7eb9f62f020c6709725b535ac0d420 8171 ros-one-roscreate_1.15.8-3-g136e18e9-2024.12.03.17.09_amd64.buildinfo
+ b4fbc2d6b8009c62857d7893693a433ccdc7a28dfbd43678346adb1fb2fc2137 12778 ros-one-roscreate_1.15.8-3-g136e18e9-2024.12.03.17.09_amd64.deb
+Files:
+ 3e5ce212a5aa03988b18a79c42e39a8f 8171 misc optional ros-one-roscreate_1.15.8-3-g136e18e9-2024.12.03.17.09_amd64.buildinfo
+ c152b7ffa5ac55332599e82689eba6a9 12778 misc optional ros-one-roscreate_1.15.8-3-g136e18e9-2024.12.03.17.09_amd64.deb

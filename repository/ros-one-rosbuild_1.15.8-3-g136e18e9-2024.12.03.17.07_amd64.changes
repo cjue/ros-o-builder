@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 21 Jul 2021 00:00:00 -0000
+Source: ros-one-rosbuild
+Binary: ros-one-rosbuild
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.15.8-3-g136e18e9-2024.12.03.17.07
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-rosbuild - rosbuild contains scripts for managing the CMake-based build syst
+Changes:
+ ros-one-rosbuild (1.15.8-3-g136e18e9-2024.12.03.17.07) jammy; urgency=high
+ .
+   * Fix spelling (#277 <https://github.com/ros/ros/issues/277>)
+   * Update maintainers (#272 <https://github.com/ros/ros/issues/272>)
+   * Contributors: Jacob Perron, freddii
+Checksums-Sha1:
+ 140a0074eaf36c2129da22809440a19aaa0b8bfa 8166 ros-one-rosbuild_1.15.8-3-g136e18e9-2024.12.03.17.07_amd64.buildinfo
+ dd58d2f18fa074a150d680d774cd0f283bc6560d 28538 ros-one-rosbuild_1.15.8-3-g136e18e9-2024.12.03.17.07_amd64.deb
+Checksums-Sha256:
+ 1449643802d70ab3072f6b15721bf32c07b00a0a8d3516c3b852f8ec76f94ddd 8166 ros-one-rosbuild_1.15.8-3-g136e18e9-2024.12.03.17.07_amd64.buildinfo
+ c588982e1f2bfdaf8d5b18669ce79511249b8afd4a549e63584d25d8a481d52f 28538 ros-one-rosbuild_1.15.8-3-g136e18e9-2024.12.03.17.07_amd64.deb
+Files:
+ 863c47001ba2d88e206030c10f022200 8166 misc optional ros-one-rosbuild_1.15.8-3-g136e18e9-2024.12.03.17.07_amd64.buildinfo
+ cc90c290a0bcaac03996d66ac17b4bb4 28538 misc optional ros-one-rosbuild_1.15.8-3-g136e18e9-2024.12.03.17.07_amd64.deb

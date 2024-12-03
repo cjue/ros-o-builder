@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 16 Feb 2017 00:00:00 -0000
+Source: ros-one-gennodejs
+Binary: ros-one-gennodejs
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 2.0.1-8-g19d224c-2024.12.03.16.58
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Smith <csmith@rethinkrobotics.com>
+Changed-By: Chris Smith <csmith@rethinkrobotics.com>
+Description:
+ ros-one-gennodejs - Javascript ROS message and service generators.
+Changes:
+ ros-one-gennodejs (2.0.1-8-g19d224c-2024.12.03.16.58) jammy; urgency=high
+ .
+   * Fix an issue uncovered in checking fixed size message fields
+   * Contributors: Chris Smith
+Checksums-Sha1:
+ 687a2f41bd2f647e971b15754dae8f7a9c3f250d 8219 ros-one-gennodejs_2.0.1-8-g19d224c-2024.12.03.16.58_amd64.buildinfo
+ 1a91b805b682fd9b22821aa5aa49df2bdbd0c077 23958 ros-one-gennodejs_2.0.1-8-g19d224c-2024.12.03.16.58_amd64.deb
+Checksums-Sha256:
+ 2090dbde4b0bde77dac8ef09aa252f3f6a8e1224d0a5f66d5023573efc0a6c56 8219 ros-one-gennodejs_2.0.1-8-g19d224c-2024.12.03.16.58_amd64.buildinfo
+ 7f3a3c3d04971d90f83d5e135189fbdbc939fac22b237420334c7f1a887b26e7 23958 ros-one-gennodejs_2.0.1-8-g19d224c-2024.12.03.16.58_amd64.deb
+Files:
+ da8aeb3a8ffb3a2beea563eee311407b 8219 misc optional ros-one-gennodejs_2.0.1-8-g19d224c-2024.12.03.16.58_amd64.buildinfo
+ 15a402b1b9599be7ecdfd8638001be1e 23958 misc optional ros-one-gennodejs_2.0.1-8-g19d224c-2024.12.03.16.58_amd64.deb

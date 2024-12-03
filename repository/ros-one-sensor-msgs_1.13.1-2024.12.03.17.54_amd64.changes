@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 11 Jan 2021 00:00:00 -0000
+Source: ros-one-sensor-msgs
+Binary: ros-one-sensor-msgs
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.1-2024.12.03.17.54
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-sensor-msgs - This package defines messages for commonly used sensors, includin
+Changes:
+ ros-one-sensor-msgs (1.13.1-2024.12.03.17.54) jammy; urgency=high
+ .
+   * Update package maintainers (#168 <https://github.com/ros/common_msgs/issues/168>)
+   * Contributors: Michel Hidalgo
+Checksums-Sha1:
+ 2b052cd5bbfee155964efe0591c55ca597244380 9791 ros-one-sensor-msgs_1.13.1-2024.12.03.17.54_amd64.buildinfo
+ 00293185d28f7ae1bf22b217c5943ec89be5f44b 136604 ros-one-sensor-msgs_1.13.1-2024.12.03.17.54_amd64.deb
+Checksums-Sha256:
+ ded5024e1156ded11f4b2bf432e9b3c91796fa651c8196856a89cff54e161952 9791 ros-one-sensor-msgs_1.13.1-2024.12.03.17.54_amd64.buildinfo
+ e4ef689ab579591c0fbaf1cc4271f753e3939814b28d97dc54117515ce224730 136604 ros-one-sensor-msgs_1.13.1-2024.12.03.17.54_amd64.deb
+Files:
+ a7d476721c6bdf9bb95ef1243671c6b9 9791 misc optional ros-one-sensor-msgs_1.13.1-2024.12.03.17.54_amd64.buildinfo
+ 575a16b635fcb0ea8f43c990b28cda03 136604 misc optional ros-one-sensor-msgs_1.13.1-2024.12.03.17.54_amd64.deb
