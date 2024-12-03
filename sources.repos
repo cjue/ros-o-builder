@@ -19,6 +19,10 @@ repositories:
     type: git
     url: https://github.com/ros/ros_comm_msgs.git
     version: kinetic-devel
+  rosconsole:
+    type: git
+    url: https://github.com/ros-o/rosconsole.git
+    version: obese-devel
   roscpp_core:
     type: git
     url: https://github.com/ros-o/roscpp_core.git
@@ -63,6 +67,14 @@ repositories:
     type: git
     url: https://github.com/ros/message_runtime.git
     version: kinetic-devel
+  pluginlib:
+    type: git
+    url: https://github.com/ros-o/pluginlib.git
+    version: obese-devel
+  diagnostics:
+    type: git
+    url: https://github.com/ros-o/diagnostics.git
+    version: obese-devel
   std_msgs:
     type: git
     url: https://github.com/ros/std_msgs.git
