@@ -1,0 +1,337 @@
+catkin:
+  ubuntu:
+    - catkin
+    - libgtest-dev
+    - libgmock-dev
+collada_parser:
+  ubuntu:
+    - libcollada-parser-dev
+collada_urdf:
+  ubuntu:
+    - libcollada-urdf-dev
+octomap:
+  ubuntu:
+    - liboctomap-dev
+python3-catkin-pkg-modules:
+  ubuntu:
+    - python3-catkin-pkg
+python3-rosdep:
+  ubuntu:
+    - python3-rosdep2
+python3-rosdep-modules:
+  ubuntu:
+    - python3-rosdep2
+python3-rospkg-modules:
+  ubuntu:
+    - python3-rospkg
+orocos_kdl:
+  ubuntu:
+    - liborocos-kdl-dev
+libdlib:
+  ubuntu:
+    - libdlib-dev
+libuvc:
+  ubuntu:
+    - libuvc-dev
+python-imaging:
+  ubuntu:
+    - python3-pil
+python:
+  ubuntu:
+    - python3
+python_orocos_kdl:
+  ubuntu:
+    - python3-pykdl
+python-freezegun-pip:
+  ubuntu:
+    - python3-freezegun
+freezegun:
+  ubuntu:
+    - python3-freezegun
+python-serial:
+  ubuntu:
+    - python3-serial
+python-sphinx:
+  ubuntu:
+    - python3-sphinx
+python-statsd:
+  ubuntu:
+    - python3-statsd
+cython:
+  ubuntu:
+    - cython3
+bfl:
+  ubuntu:
+    - liborocos-bfl-dev
+# this package does not exist (and shouldn't, because it was moved to moveit-resources)
+# but it's still referenced as conflicting with moveit_resources
+prbt_ikfast_manipulator_plugin:
+  ubuntu:
+    - ros-one-prbt-ikfast-manipulator-plugin
+# this package is not available in the default ubuntu repositories due to licensing issues
+# rosdep still needs to resolve it when building warehouse_ros_mongo
+mongodb:
+  ubuntu: []
+
+# The deb builder does not resolve pip dependencies, so we have to ignore them where there is no apt package
+python-chainer-pip:
+  ubuntu: []
+python-fcn-pip:
+  ubuntu: []
+python-gdown-pip:
+  ubuntu: []
+python-pygithub3:
+  ubuntu: []
+python-slacker-cli:
+  ubuntu: []
+python-tabulate-pip:
+  ubuntu:
+    - python3-tabulate
+
+# does not exist in ubuntu jammy yet, only added there in noble
+#python3-catkin-tools:
+#  ubuntu:
+#    - catkin-tools
+
+# these break in roseus in ubuntu jammy, so we have to rely on TORK's released catkin packages
+#euslisp:
+#  ubuntu:
+#    - euslisp-dev
+#jskeus:
+#  ubuntu:
+#    - jskeus-dev
+
+genmsg:
+  ubuntu:
+  - ros-one-genmsg
+gencpp:
+  ubuntu:
+  - ros-one-gencpp
+geneus:
+  ubuntu:
+  - ros-one-geneus
+genlisp:
+  ubuntu:
+  - ros-one-genlisp
+gennodejs:
+  ubuntu:
+  - ros-one-gennodejs
+genpy:
+  ubuntu:
+  - ros-one-genpy
+cmake_modules:
+  ubuntu:
+  - ros-one-cmake-modules
+class_loader:
+  ubuntu:
+  - ros-one-class-loader
+common_msgs:
+  ubuntu:
+  - ros-one-common-msgs
+cpp_common:
+  ubuntu:
+  - ros-one-cpp-common
+message_generation:
+  ubuntu:
+  - ros-one-message-generation
+message_runtime:
+  ubuntu:
+  - ros-one-message-runtime
+mk:
+  ubuntu:
+  - ros-one-mk
+ros:
+  ubuntu:
+  - ros-one-ros
+ros_comm:
+  ubuntu:
+  - ros-one-ros-comm
+ros_environment:
+  ubuntu:
+  - ros-one-ros-environment
+rosbag_migration_rule:
+  ubuntu:
+  - ros-one-rosbag-migration-rule
+rosbash:
+  ubuntu:
+  - ros-one-rosbash
+rosboost_cfg:
+  ubuntu:
+  - ros-one-rosboost-cfg
+rosbuild:
+  ubuntu:
+  - ros-one-rosbuild
+rosclean:
+  ubuntu:
+  - ros-one-rosclean
+roscpp_core:
+  ubuntu:
+  - ros-one-roscpp-core
+roscpp_traits:
+  ubuntu:
+  - ros-one-roscpp-traits
+roscreate:
+  ubuntu:
+  - ros-one-roscreate
+rosgraph:
+  ubuntu:
+  - ros-one-rosgraph
+roslang:
+  ubuntu:
+  - ros-one-roslang
+roslisp:
+  ubuntu:
+  - ros-one-roslisp
+rosmake:
+  ubuntu:
+  - ros-one-rosmake
+rosmaster:
+  ubuntu:
+  - ros-one-rosmaster
+rospack:
+  ubuntu:
+  - ros-one-rospack
+rosparam:
+  ubuntu:
+  - ros-one-rosparam
+rospy:
+  ubuntu:
+  - ros-one-rospy
+rosservice:
+  ubuntu:
+  - ros-one-rosservice
+rostime:
+  ubuntu:
+  - ros-one-rostime
+roscpp_serialization:
+  ubuntu:
+  - ros-one-roscpp-serialization
+roslaunch:
+  ubuntu:
+  - ros-one-roslaunch
+rosunit:
+  ubuntu:
+  - ros-one-rosunit
+setup_files:
+  ubuntu:
+  - ros-one-setup-files
+roslib:
+  ubuntu:
+  - ros-one-roslib
+rosconsole:
+  ubuntu:
+  - ros-one-rosconsole
+pluginlib:
+  ubuntu:
+  - ros-one-pluginlib
+roslz4:
+  ubuntu:
+  - ros-one-roslz4
+rostest:
+  ubuntu:
+  - ros-one-rostest
+std_msgs:
+  ubuntu:
+  - ros-one-std-msgs
+actionlib_msgs:
+  ubuntu:
+  - ros-one-actionlib-msgs
+diagnostic_msgs:
+  ubuntu:
+  - ros-one-diagnostic-msgs
+geometry_msgs:
+  ubuntu:
+  - ros-one-geometry-msgs
+nav_msgs:
+  ubuntu:
+  - ros-one-nav-msgs
+rosgraph_msgs:
+  ubuntu:
+  - ros-one-rosgraph-msgs
+shape_msgs:
+  ubuntu:
+  - ros-one-shape-msgs
+std_srvs:
+  ubuntu:
+  - ros-one-std-srvs
+test_roslib_comm:
+  ubuntu:
+  - ros-one-test-roslib-comm
+trajectory_msgs:
+  ubuntu:
+  - ros-one-trajectory-msgs
+visualization_msgs:
+  ubuntu:
+  - ros-one-visualization-msgs
+xmlrpcpp:
+  ubuntu:
+  - ros-one-xmlrpcpp
+roscpp:
+  ubuntu:
+  - ros-one-roscpp
+rosout:
+  ubuntu:
+  - ros-one-rosout
+message_filters:
+  ubuntu:
+  - ros-one-message-filters
+rosbag_storage:
+  ubuntu:
+  - ros-one-rosbag-storage
+rosmsg:
+  ubuntu:
+  - ros-one-rosmsg
+rosnode:
+  ubuntu:
+  - ros-one-rosnode
+rostopic:
+  ubuntu:
+  - ros-one-rostopic
+test_rosbag_storage:
+  ubuntu:
+  - ros-one-test-rosbag-storage
+test_roscpp:
+  ubuntu:
+  - ros-one-test-roscpp
+test_rosgraph:
+  ubuntu:
+  - ros-one-test-rosgraph
+test_roslaunch:
+  ubuntu:
+  - ros-one-test-roslaunch
+test_rosmaster:
+  ubuntu:
+  - ros-one-test-rosmaster
+test_rosparam:
+  ubuntu:
+  - ros-one-test-rosparam
+topic_tools:
+  ubuntu:
+  - ros-one-topic-tools
+rosbag:
+  ubuntu:
+  - ros-one-rosbag
+roswtf:
+  ubuntu:
+  - ros-one-roswtf
+sensor_msgs:
+  ubuntu:
+  - ros-one-sensor-msgs
+stereo_msgs:
+  ubuntu:
+  - ros-one-stereo-msgs
+test_rosbag:
+  ubuntu:
+  - ros-one-test-rosbag
+test_rospy:
+  ubuntu:
+  - ros-one-test-rospy
+test_rosservice:
+  ubuntu:
+  - ros-one-test-rosservice
+test_rostest:
+  ubuntu:
+  - ros-one-test-rostest
+test_rostopic:
+  ubuntu:
+  - ros-one-test-rostopic

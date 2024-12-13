@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Wed, 14 Oct 2020 00:00:00 -0000
+Source: ros-one-rosconsole
+Binary: ros-one-rosconsole
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.14.3-5-ge3753eec-2024.12.13.15.24
+Distribution: jammy
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-one-rosconsole - ROS console output library.
+Changes:
+ ros-one-rosconsole (1.14.3-5-ge3753eec-2024.12.13.15.24) jammy; urgency=high
+ .
+   * support NO_COLOR environment variable (#46 <https://github.com/ros/rosconsole/issues/46>)
+Checksums-Sha1:
+ 615dd2f5f10dbc5f2dd862fd39b07df55424da8b 1214980 ros-one-rosconsole-dbgsym_1.14.3-5-ge3753eec-2024.12.13.15.24_amd64.ddeb
+ 5b36a6bcf619e00d9c69917c4272947dc5250c60 11493 ros-one-rosconsole_1.14.3-5-ge3753eec-2024.12.13.15.24_amd64.buildinfo
+ 891c45fe8ab1e734fc8401634116a006ccc1dc99 111882 ros-one-rosconsole_1.14.3-5-ge3753eec-2024.12.13.15.24_amd64.deb
+Checksums-Sha256:
+ a00ca7e7b34eff084e4bc44927722c635ae6c3df451e73b8e5c2ec5fd10d560f 1214980 ros-one-rosconsole-dbgsym_1.14.3-5-ge3753eec-2024.12.13.15.24_amd64.ddeb
+ 300d0717570fc33c5cbf97fa684a48db2ea52e2737d113f536aae3e9d6b4c1e7 11493 ros-one-rosconsole_1.14.3-5-ge3753eec-2024.12.13.15.24_amd64.buildinfo
+ bec147ea1bcf43bb4b79177f90beb8924b3cd3d9ae66b040ae6a85fe1610f1fc 111882 ros-one-rosconsole_1.14.3-5-ge3753eec-2024.12.13.15.24_amd64.deb
+Files:
+ 98bd089196fefe6aa21d7883b18172ca 1214980 debug optional ros-one-rosconsole-dbgsym_1.14.3-5-ge3753eec-2024.12.13.15.24_amd64.ddeb
+ 628d7088b6d898a6b01177ccaadc68e6 11493 misc optional ros-one-rosconsole_1.14.3-5-ge3753eec-2024.12.13.15.24_amd64.buildinfo
+ fc38669139235e18af58eb22bca150d6 111882 misc optional ros-one-rosconsole_1.14.3-5-ge3753eec-2024.12.13.15.24_amd64.deb

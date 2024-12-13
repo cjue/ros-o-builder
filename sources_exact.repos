@@ -1,0 +1,93 @@
+repositories:
+  ros_environment:
+    type: git
+    url: https://github.com/ros-o/ros_environment.git
+    version: 2686e94715f726215d674c630ba707a0278628d2
+  setup_files:
+    type: git
+    url: https://github.com/v4hn/setup_files.git
+    version: 658f1cdb6bfda40cddfeb184f3ca12878e67ed9d
+  roscpp_core:
+    type: git
+    url: https://github.com/ros-o/roscpp_core.git
+    version: cae00b47f0d6cdbd7712fd4b4e223d49f784c8f0
+  cmake_modules:
+    type: git
+    url: https://github.com/ros/cmake_modules.git
+    version: 05347c136b2a160116b7ff1e94cd6eb6ce596fc1
+  genmsg:
+    type: git
+    url: https://github.com/ros/genmsg.git
+    version: 7d8b6ce6f43b6e39ea8261125d270f2d3062356f
+  rosbag_migration_rule:
+    type: git
+    url: https://github.com/ros/rosbag_migration_rule.git
+    version: 2269b623b677903c3d775f304ec941f042e880ab
+  rospack:
+    type: git
+    url: https://github.com/ros/rospack.git
+    version: ad85a874575bbed74124b722b42b545537cc6aa3
+  genlisp:
+    type: git
+    url: https://github.com/ros/genlisp.git
+    version: 0.4.18
+  gencpp:
+    type: git
+    url: https://github.com/ros-o/gencpp.git
+    version: c7517c02de8ba16ed769d667ff485b7a5beee5de
+  gennodejs:
+    type: git
+    url: https://github.com/RethinkRobotics-opensource/gennodejs.git
+    version: 19d224c6158a1411a7b3f576e885fb8e8a9195d6
+  geneus:
+    type: git
+    url: https://github.com/jsk-ros-pkg/geneus.git
+    version: 3.0.0
+  genpy:
+    type: git
+    url: https://github.com/ros/genpy.git
+    version: f70658f2200dfb7c98e99e9cf15be61cfaa1a432
+  class_loader:
+    type: git
+    url: https://github.com/ros/class_loader.git
+    version: 9f3288d1df56f005b7c43384d05e8016e3b3f030
+  message_generation:
+    type: git
+    url: https://github.com/ros/message_generation.git
+    version: 0.4.1
+  message_runtime:
+    type: git
+    url: https://github.com/ros/message_runtime.git
+    version: 0.4.13
+  ros:
+    type: git
+    url: https://github.com/ros/ros.git
+    version: 136e18e9dfda748a87b5ed197a36587f612c6e46
+  std_msgs:
+    type: git
+    url: https://github.com/ros/std_msgs.git
+    version: f3554d4182c057f7b9c9ddb1911629126148ae7e
+  ros_comm_msgs:
+    type: git
+    url: https://github.com/ros/ros_comm_msgs.git
+    version: f51a0429966debce1284d245209d9c68d6d99a1c
+  rosconsole:
+    type: git
+    url: https://github.com/ros-o/rosconsole.git
+    version: e3753eec58bf4e76012d019fd307349f94d1d0be
+  roslisp:
+    type: git
+    url: https://github.com/ros/roslisp.git
+    version: 1.9.25
+  pluginlib:
+    type: git
+    url: https://github.com/ros-o/pluginlib.git
+    version: 51a2cb0a114b2d772deaa452ed61a0b0aba216a6
+  common_msgs:
+    type: git
+    url: https://github.com/ros/common_msgs.git
+    version: 1.13.1
+  ros_comm:
+    type: git
+    url: https://github.com/cjue/ros_comm.git
+    version: 678162e301d30875ebd9aed7c9d69d69a7ae1ff4

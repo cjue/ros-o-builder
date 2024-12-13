@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 Jul 2021 00:00:00 -0000
+Source: ros-one-rosboost-cfg
+Binary: ros-one-rosboost-cfg
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.15.8-3-g136e18e9-2024.12.13.15.16
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-rosboost-cfg - Contains scripts used by the rosboost-cfg tool for determining cf
+Changes:
+ ros-one-rosboost-cfg (1.15.8-3-g136e18e9-2024.12.13.15.16) jammy; urgency=high
+ .
+   * Update maintainers (#272 <https://github.com/ros/ros/issues/272>)
+   * Contributors: Jacob Perron
+Checksums-Sha1:
+ c2bcfdf666b7e9933f3c395ffeeeb2d518687956 8186 ros-one-rosboost-cfg_1.15.8-3-g136e18e9-2024.12.13.15.16_amd64.buildinfo
+ fc6275ef760f46e5f9e031b45186fbdb88e56c01 14610 ros-one-rosboost-cfg_1.15.8-3-g136e18e9-2024.12.13.15.16_amd64.deb
+Checksums-Sha256:
+ fd172160522e258ffd355ec6522804c160c2aa5f69a3efbcfc1f200cbef68917 8186 ros-one-rosboost-cfg_1.15.8-3-g136e18e9-2024.12.13.15.16_amd64.buildinfo
+ e829b0e586e09723b24b6c5d808a97f82c45c4c25ca0576cfa34658718ed53f5 14610 ros-one-rosboost-cfg_1.15.8-3-g136e18e9-2024.12.13.15.16_amd64.deb
+Files:
+ ea314b8b2823edf84ecf6d448bfb255a 8186 misc optional ros-one-rosboost-cfg_1.15.8-3-g136e18e9-2024.12.13.15.16_amd64.buildinfo
+ f8ef267753b348b3e2650329f6f88eb6 14610 misc optional ros-one-rosboost-cfg_1.15.8-3-g136e18e9-2024.12.13.15.16_amd64.deb
