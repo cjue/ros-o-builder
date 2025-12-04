@@ -41,8 +41,8 @@ repositories:
     version: kinetic-devel
   genpy:
     type: git
-    url: https://github.com/ros/genpy.git
-    version: main
+    url: https://github.com/ros-o/genpy.git
+    version: obese-devel
   geometry:
     type: git
     url: https://github.com/ros-o/geometry.git
