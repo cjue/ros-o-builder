@@ -69,8 +69,8 @@ repositories:
     version: obese-devel
   robot_state_publisher:
     type: git
-    url: https://github.com/ros-o/robot_state_publisher.git
-    version: obese-devel
+    url: https://github.com/isys-vision/robot_state_publisher.git
+    version: mikado
   ros:
     type: git
     url: https://github.com/ros/ros.git
