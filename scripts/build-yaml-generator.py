@@ -89,7 +89,7 @@ jobs:
       - name: move packages to repo
         run: |
           mv ${{ env.AGG }} /home/runner/apt_repo
-      - uses: v4hn/ros-deb-builder-action/deploy@@roso-noble
+      - uses: cjue/ros-deb-builder-action/deploy@@roso-noble
         with:
           BRANCH: ${{ env.BRANCH }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
