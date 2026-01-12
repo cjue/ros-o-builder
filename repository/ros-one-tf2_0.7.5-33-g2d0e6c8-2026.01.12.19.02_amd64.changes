@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-tf2
+Binary: ros-one-tf2
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.7.5-33-g2d0e6c8-2026.01.12.19.02
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-tf2 - tf2 is the second generation of the transform library, which lets
+Changes:
+ ros-one-tf2 (0.7.5-33-g2d0e6c8-2026.01.12.19.02) jammy; urgency=high
+Checksums-Sha1:
+ 359d036d83719058a7b1e6340eddb4d779f9bc46 799464 ros-one-tf2-dbgsym_0.7.5-33-g2d0e6c8-2026.01.12.19.02_amd64.ddeb
+ 8b20f236bd7e9d37eb3b1b562d728181ac9198c3 10377 ros-one-tf2_0.7.5-33-g2d0e6c8-2026.01.12.19.02_amd64.buildinfo
+ 9aba6ef69fcb627f38637ad54f31914e927b86af 104264 ros-one-tf2_0.7.5-33-g2d0e6c8-2026.01.12.19.02_amd64.deb
+Checksums-Sha256:
+ 353102bf560fbc1c6e31b274d452ce014f4131f68ae92afec71117e4df4e7a76 799464 ros-one-tf2-dbgsym_0.7.5-33-g2d0e6c8-2026.01.12.19.02_amd64.ddeb
+ 9bdcb388323259d0aba367c5914cb030447fa59256d88942ffc5443fe3356208 10377 ros-one-tf2_0.7.5-33-g2d0e6c8-2026.01.12.19.02_amd64.buildinfo
+ 239c7fc9789fcb4ae1b9cc36aa73819bc9fdddb371b9515a5949fe24c5fb7ae8 104264 ros-one-tf2_0.7.5-33-g2d0e6c8-2026.01.12.19.02_amd64.deb
+Files:
+ 823b5673f6eb61397f978c787ed57957 799464 debug optional ros-one-tf2-dbgsym_0.7.5-33-g2d0e6c8-2026.01.12.19.02_amd64.ddeb
+ b8a613cb0d3b8054e01e2e66eed43cb6 10377 misc optional ros-one-tf2_0.7.5-33-g2d0e6c8-2026.01.12.19.02_amd64.buildinfo
+ 55ca5fb92f9da7e7962624ccf104c58a 104264 misc optional ros-one-tf2_0.7.5-33-g2d0e6c8-2026.01.12.19.02_amd64.deb

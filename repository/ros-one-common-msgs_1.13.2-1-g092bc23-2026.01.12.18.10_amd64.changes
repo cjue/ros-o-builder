@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-common-msgs
+Binary: ros-one-common-msgs
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.01.12.18.10
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-common-msgs - common_msgs contains messages that are widely used by other ROS p
+Changes:
+ ros-one-common-msgs (1.13.2-1-g092bc23-2026.01.12.18.10) jammy; urgency=high
+Checksums-Sha1:
+ 6eef8f4d30ddcc8f94107e539df6c294511dc92c 8242 ros-one-common-msgs_1.13.2-1-g092bc23-2026.01.12.18.10_amd64.buildinfo
+ 096e8092cdd4f37d45a2ad3101d88518c95bd03e 2868 ros-one-common-msgs_1.13.2-1-g092bc23-2026.01.12.18.10_amd64.deb
+Checksums-Sha256:
+ 2736e0a74b7ef094516ff06814d2e0b66dc74289c8ad1185bc66d6114c56b026 8242 ros-one-common-msgs_1.13.2-1-g092bc23-2026.01.12.18.10_amd64.buildinfo
+ 25d77840f7045d092ec43d2226eadbac721eb43413e7a746ae10790e64fac5c0 2868 ros-one-common-msgs_1.13.2-1-g092bc23-2026.01.12.18.10_amd64.deb
+Files:
+ 5b9c0754c505982f6af589eddd72d50f 8242 misc optional ros-one-common-msgs_1.13.2-1-g092bc23-2026.01.12.18.10_amd64.buildinfo
+ 8ca3a70c9ba503f9dca7da63a11df1df 2868 misc optional ros-one-common-msgs_1.13.2-1-g092bc23-2026.01.12.18.10_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-nav-msgs
+Binary: ros-one-nav-msgs
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.01.12.18.13
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-nav-msgs - nav_msgs defines the common messages used to interact with the na
+Changes:
+ ros-one-nav-msgs (1.13.2-1-g092bc23-2026.01.12.18.13) jammy; urgency=high
+Checksums-Sha1:
+ 0b5e8c25e4dbb4ffec3bc75df6cebf8dceab8cfd 9964 ros-one-nav-msgs_1.13.2-1-g092bc23-2026.01.12.18.13_amd64.buildinfo
+ 266640d32c4f1912eee5a1daa4c9d7c7be148ce3 68682 ros-one-nav-msgs_1.13.2-1-g092bc23-2026.01.12.18.13_amd64.deb
+Checksums-Sha256:
+ 604ba91f1244eea81783e6bf4bb86d17d8f497446300b72dba94f139cfb3ae49 9964 ros-one-nav-msgs_1.13.2-1-g092bc23-2026.01.12.18.13_amd64.buildinfo
+ ba83f3a43f7f08273f87ff873087b3fd8bc7b19a28a1db020c991f61ed2cca42 68682 ros-one-nav-msgs_1.13.2-1-g092bc23-2026.01.12.18.13_amd64.deb
+Files:
+ 299db2fc551961c967125fe9438335fa 9964 misc optional ros-one-nav-msgs_1.13.2-1-g092bc23-2026.01.12.18.13_amd64.buildinfo
+ c42c8110511776af32b00f321a0286b1 68682 misc optional ros-one-nav-msgs_1.13.2-1-g092bc23-2026.01.12.18.13_amd64.deb

@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 06 Mar 2020 00:00:00 -0000
+Source: ros-one-urdf
+Binary: ros-one-urdf
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-2-g3df8012-2026.01.12.18.56
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Changed-By: Chris Lalancette <clalancette@osrfoundation.org>
+Description:
+ ros-one-urdf - This package contains a C++ parser for the Unified Robot Descript
+Changes:
+ ros-one-urdf (1.13.2-2-g3df8012-2026.01.12.18.56) jammy; urgency=high
+ .
+   * Windows bringup. (#31 <https://github.com/ros/urdf/issues/31>)
+   * update library install destination (#28 <https://github.com/ros/urdf/issues/28>)
+   * Solved problem when static linking against urdf (#25 <https://github.com/ros/urdf/issues/25>)
+   * unit test: add missing link name (#26 <https://github.com/ros/urdf/issues/26>)
+   * update deprecated macro for MSVC (#27 <https://github.com/ros/urdf/issues/27>)
+   * Contributors: James Xu, Robert Haschke, Sean Yen, ivanpauno
+Checksums-Sha1:
+ 9ca85b97ae7c1f87d7560477870df710a8edf713 827818 ros-one-urdf-dbgsym_1.13.2-2-g3df8012-2026.01.12.18.56_amd64.ddeb
+ 89b6e11b2b4637637aebbee11384595a77814e19 14173 ros-one-urdf_1.13.2-2-g3df8012-2026.01.12.18.56_amd64.buildinfo
+ 572c319c20d2c819ba3b6fb3519e08bf15963602 71728 ros-one-urdf_1.13.2-2-g3df8012-2026.01.12.18.56_amd64.deb
+Checksums-Sha256:
+ ff9ac801bc0ef635456cbab6d41a7eb1be2be5658df3fa251826e3eddc847624 827818 ros-one-urdf-dbgsym_1.13.2-2-g3df8012-2026.01.12.18.56_amd64.ddeb
+ b30c1bf1ad95cc9a013d4dc767a839ee40ebddff0b68442383eb00c7d27b6a37 14173 ros-one-urdf_1.13.2-2-g3df8012-2026.01.12.18.56_amd64.buildinfo
+ eebb4c462e9fa68eb4c98d4ae1aa8e00db86d2e05fe4846bd66de091b07e41a6 71728 ros-one-urdf_1.13.2-2-g3df8012-2026.01.12.18.56_amd64.deb
+Files:
+ bb836bc572f78c4550dd312534fc1a2f 827818 debug optional ros-one-urdf-dbgsym_1.13.2-2-g3df8012-2026.01.12.18.56_amd64.ddeb
+ 0194fed63101ed9ba7bd651dff0cb5ae 14173 misc optional ros-one-urdf_1.13.2-2-g3df8012-2026.01.12.18.56_amd64.buildinfo
+ 42d5b920db444139220cf771d681eaf2 71728 misc optional ros-one-urdf_1.13.2-2-g3df8012-2026.01.12.18.56_amd64.deb

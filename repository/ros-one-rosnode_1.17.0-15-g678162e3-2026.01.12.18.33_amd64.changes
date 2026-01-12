@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-rosnode
+Binary: ros-one-rosnode
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.01.12.18.33
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosnode - rosnode is a command-line tool for displaying debug information a
+Changes:
+ ros-one-rosnode (1.17.0-15-g678162e3-2026.01.12.18.33) jammy; urgency=high
+ .
+   * Enable rosrun & roslaunch to find rosnode script (#2262 <https://github.com/ros/ros_comm/issues/2262>)
+   * Contributors: G.A. vd. Hoorn
+Checksums-Sha1:
+ 664475bf40f99800cbd3ddf03cf2263dd5268fef 13018 ros-one-rosnode_1.17.0-15-g678162e3-2026.01.12.18.33_amd64.buildinfo
+ 04908e9760fff935a476b2a428fd9fe4f8f37bcc 22344 ros-one-rosnode_1.17.0-15-g678162e3-2026.01.12.18.33_amd64.deb
+Checksums-Sha256:
+ f9379f847e91643c042df1cdd096e020721d46840649bc53aa6be46b06474ba0 13018 ros-one-rosnode_1.17.0-15-g678162e3-2026.01.12.18.33_amd64.buildinfo
+ cd08b815881f6eaf74eb0157faa16e105171f7ba82da3514277bcd0d5049a09a 22344 ros-one-rosnode_1.17.0-15-g678162e3-2026.01.12.18.33_amd64.deb
+Files:
+ 00db381379d0619c4b76a2f903b784dc 13018 misc optional ros-one-rosnode_1.17.0-15-g678162e3-2026.01.12.18.33_amd64.buildinfo
+ dae20a81720e0fcd2b86ddbb18b81229 22344 misc optional ros-one-rosnode_1.17.0-15-g678162e3-2026.01.12.18.33_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-gencpp
+Binary: ros-one-gencpp
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.7.2-2026.01.12.17.48
+Distribution: jammy
+Urgency: high
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Changed-By: Dirk Thomas <dthomas@osrfoundation.org>
+Description:
+ ros-one-gencpp - C++ ROS message and service generators.
+Changes:
+ ros-one-gencpp (0.7.2-2026.01.12.17.48) jammy; urgency=high
+ .
+   * Fix msg printer for arrays (#58 <https://github.com/ros/gencpp/issues/58>)
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 53d4a03608f3eb4ca481d2ddbb824481b88a6685 8228 ros-one-gencpp_0.7.2-2026.01.12.17.48_amd64.buildinfo
+ d3f26ef3c351f64f40e1b99e1233ad911ae94ebd 16062 ros-one-gencpp_0.7.2-2026.01.12.17.48_amd64.deb
+Checksums-Sha256:
+ 559d50ab25276f3d1629f0ee07cd5afa9962b5d6741227e3752b690798527bbc 8228 ros-one-gencpp_0.7.2-2026.01.12.17.48_amd64.buildinfo
+ 11ad631a1fcaffaa102890b58aaa5432bae29dc6f2ca214536ca127241512244 16062 ros-one-gencpp_0.7.2-2026.01.12.17.48_amd64.deb
+Files:
+ 19805b76017e6f16ae7d39ae9147eef1 8228 misc optional ros-one-gencpp_0.7.2-2026.01.12.17.48_amd64.buildinfo
+ 6f4424c89b2b509bfaf3cc66bdcfbb27 16062 misc optional ros-one-gencpp_0.7.2-2026.01.12.17.48_amd64.deb

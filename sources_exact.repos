@@ -1,0 +1,137 @@
+repositories:
+  ros_environment:
+    type: git
+    url: https://github.com/ros-o/ros_environment.git
+    version: ee6d16783a15f6543bad12d2e504ed58309bc5fe
+  setup_files:
+    type: git
+    url: https://github.com/v4hn/setup_files.git
+    version: 658f1cdb6bfda40cddfeb184f3ca12878e67ed9d
+  roscpp_core:
+    type: git
+    url: https://github.com/ros-o/roscpp_core.git
+    version: cae00b47f0d6cdbd7712fd4b4e223d49f784c8f0
+  cmake_modules:
+    type: git
+    url: https://github.com/ros/cmake_modules.git
+    version: 1dc801474ec65483a78b1f623bea51029d33225b
+  genmsg:
+    type: git
+    url: https://github.com/ros/genmsg.git
+    version: 7d8b6ce6f43b6e39ea8261125d270f2d3062356f
+  rosbag_migration_rule:
+    type: git
+    url: https://github.com/ros/rosbag_migration_rule.git
+    version: 2269b623b677903c3d775f304ec941f042e880ab
+  roslint:
+    type: git
+    url: https://github.com/ros/roslint.git
+    version: ac02636aed43d39014ecfde8bd838718f8cd070f
+  class_loader:
+    type: git
+    url: https://github.com/ros/class_loader.git
+    version: 0.5.2
+  gennodejs:
+    type: git
+    url: https://github.com/RethinkRobotics-opensource/gennodejs.git
+    version: 19d224c6158a1411a7b3f576e885fb8e8a9195d6
+  genpy:
+    type: git
+    url: https://github.com/ros/genpy.git
+    version: f70658f2200dfb7c98e99e9cf15be61cfaa1a432
+  gencpp:
+    type: git
+    url: https://github.com/ros-o/gencpp.git
+    version: 0.7.2
+  rospack:
+    type: git
+    url: https://github.com/ros/rospack.git
+    version: fd4d6fd87895c389c58b52e4009fe0b793769818
+  genlisp:
+    type: git
+    url: https://github.com/ros/genlisp.git
+    version: 0.4.18
+  geneus:
+    type: git
+    url: https://github.com/jsk-ros-pkg/geneus.git
+    version: 3.0.0
+  message_generation:
+    type: git
+    url: https://github.com/ros/message_generation.git
+    version: 0.4.1
+  message_runtime:
+    type: git
+    url: https://github.com/ros/message_runtime.git
+    version: 0.4.13
+  ros:
+    type: git
+    url: https://github.com/ros/ros.git
+    version: 99fd9bb76338f3315cd0a89af700d789ef337ea6
+  std_msgs:
+    type: git
+    url: https://github.com/ros/std_msgs.git
+    version: f3554d4182c057f7b9c9ddb1911629126148ae7e
+  ros_comm_msgs:
+    type: git
+    url: https://github.com/ros/ros_comm_msgs.git
+    version: f51a0429966debce1284d245209d9c68d6d99a1c
+  angles:
+    type: git
+    url: https://github.com/ros/angles.git
+    version: 2392b18b4101cf2e81b77e89e3535959ad03d1ca
+  rosconsole:
+    type: git
+    url: https://github.com/ros-o/rosconsole.git
+    version: e3753eec58bf4e76012d019fd307349f94d1d0be
+  roslisp:
+    type: git
+    url: https://github.com/ros/roslisp.git
+    version: 1.9.25
+  rosconsole_bridge:
+    type: git
+    url: https://github.com/ros/rosconsole_bridge.git
+    version: 38b0830978c2a7e51fd51af1e6191e4a87f628b4
+  pluginlib:
+    type: git
+    url: https://github.com/ros-o/pluginlib.git
+    version: 51a2cb0a114b2d772deaa452ed61a0b0aba216a6
+  common_msgs:
+    type: git
+    url: https://github.com/ros/common_msgs.git
+    version: 092bc230c8153dd4cfee0c84c9796cc7e6b09fdb
+  ros_comm:
+    type: git
+    url: https://github.com/cjue/ros_comm.git
+    version: 678162e301d30875ebd9aed7c9d69d69a7ae1ff4
+  rosbag_snapshot:
+    type: git
+    url: https://github.com/ros/rosbag_snapshot.git
+    version: 1.0.6
+  actionlib:
+    type: git
+    url: https://github.com/ros-o/actionlib.git
+    version: 792eeda2b13dc3f6fdc1274a61ccc3df058e864f
+  urdf:
+    type: git
+    url: https://github.com/ros-o/urdf.git
+    version: 3df80125127fecb72c6d2ce64587f57662a3b402
+  urdfdom_py:
+    type: git
+    url: https://github.com/ros/urdf_parser_py.git
+    version: 0.4.6
+  geometry2:
+    type: git
+    url: https://github.com/ros-o/geometry2.git
+    version: 2d0e6c812d1962cae6f466b10e76a3c06f64a67b
+  kdl_parser:
+    type: git
+    url: https://github.com/ros-o/kdl_parser.git
+    version: 093117a993f71c0edbc87fb5d21cdccc087a7539
+  geometry:
+    type: git
+    url: https://github.com/ros-o/geometry.git
+    version: faeeae78261896159072ca08270491e7f4aed3e5
+  robot_state_publisher:
+    type: git
+    url: https://github.com/isys-vision/robot_state_publisher.git
+    version: 498648a4a863105fa9394ddc06d7a5fa0772f97d

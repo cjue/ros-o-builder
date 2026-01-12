@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-tf2-py
+Binary: ros-one-tf2-py
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.7.5-33-g2d0e6c8-2026.01.12.19.05
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-tf2-py - The tf2_py package
+Changes:
+ ros-one-tf2-py (0.7.5-33-g2d0e6c8-2026.01.12.19.05) jammy; urgency=high
+ .
+   * Fix Python Linking on OSX (#502 <https://github.com/ros/geometry2/issues/502>)
+   * Contributors: Michael Görner, Tobias Fischer
+Checksums-Sha1:
+ 380d10eb3f6bc200a576dac50b560f652d1d30f5 206438 ros-one-tf2-py-dbgsym_0.7.5-33-g2d0e6c8-2026.01.12.19.05_amd64.ddeb
+ 8098c80ecc3abe297343cb64e75e08f525833ea4 12951 ros-one-tf2-py_0.7.5-33-g2d0e6c8-2026.01.12.19.05_amd64.buildinfo
+ 282d9406c9b8f6fd0cc96184f835506639feef23 29928 ros-one-tf2-py_0.7.5-33-g2d0e6c8-2026.01.12.19.05_amd64.deb
+Checksums-Sha256:
+ da7df2b1ff5f19fb1213afcf1b8649b8a05e3f14956a15100946609337faa383 206438 ros-one-tf2-py-dbgsym_0.7.5-33-g2d0e6c8-2026.01.12.19.05_amd64.ddeb
+ 9206fc7dd1dd885367419903420f1b92cc7af01d45b0f524dd4799102b0d9692 12951 ros-one-tf2-py_0.7.5-33-g2d0e6c8-2026.01.12.19.05_amd64.buildinfo
+ 2d2c7ff469d31a82ee0e9ea83b00d5a165e6d85954490e3550c7c15d7d4e779a 29928 ros-one-tf2-py_0.7.5-33-g2d0e6c8-2026.01.12.19.05_amd64.deb
+Files:
+ 68c7848733905a87b228f4c6d8f4a9ed 206438 debug optional ros-one-tf2-py-dbgsym_0.7.5-33-g2d0e6c8-2026.01.12.19.05_amd64.ddeb
+ 1ae1dc16c27f7bbe167858417a336422 12951 misc optional ros-one-tf2-py_0.7.5-33-g2d0e6c8-2026.01.12.19.05_amd64.buildinfo
+ ff574d1ea986f79608cf3b316fe5db04 29928 misc optional ros-one-tf2-py_0.7.5-33-g2d0e6c8-2026.01.12.19.05_amd64.deb

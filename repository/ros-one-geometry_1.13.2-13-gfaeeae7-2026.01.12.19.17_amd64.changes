@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-geometry
+Binary: ros-one-geometry
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-13-gfaeeae7-2026.01.12.19.17
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-geometry - A metapackage for geometry library suite.
+Changes:
+ ros-one-geometry (1.13.2-13-gfaeeae7-2026.01.12.19.17) jammy; urgency=high
+Checksums-Sha1:
+ 5e9dad14c5d90e601463fa5ab9cbbbe0289c4994 8231 ros-one-geometry_1.13.2-13-gfaeeae7-2026.01.12.19.17_amd64.buildinfo
+ ed4777e57941b87c50a2101d6ff883e1f49568e1 3422 ros-one-geometry_1.13.2-13-gfaeeae7-2026.01.12.19.17_amd64.deb
+Checksums-Sha256:
+ 1c28b3746b0aa8ac1a66a177700459435177aa4ec1c542ecfa64fef47ba63074 8231 ros-one-geometry_1.13.2-13-gfaeeae7-2026.01.12.19.17_amd64.buildinfo
+ cf34848bebc367f7f738a612097fa3d6aad0a582fc9005710dc3ad58b72eede9 3422 ros-one-geometry_1.13.2-13-gfaeeae7-2026.01.12.19.17_amd64.deb
+Files:
+ f34cb37c851513cdc319a57edf1d28f1 8231 misc optional ros-one-geometry_1.13.2-13-gfaeeae7-2026.01.12.19.17_amd64.buildinfo
+ ea32528f186af23780c8abd28deff91c 3422 misc optional ros-one-geometry_1.13.2-13-gfaeeae7-2026.01.12.19.17_amd64.deb
