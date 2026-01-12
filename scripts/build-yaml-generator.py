@@ -35,8 +35,8 @@ concurrency:
 
 env:
   DISTRIBUTION: ubuntu
-  DEB_DISTRO: jammy
-  BRANCH: jammy-one-experimental
+  DEB_DISTRO: resolute
+  BRANCH: resolute-one-experimental
   JOBS_YAML: /home/runner/jobs.yaml
   AGG: /home/runner/apt_repo_dependencies
 
