@@ -1,0 +1,2 @@
+Package,Version,URL,Status,Bloom Log,Build Log,Deb File,Installed Files
+setup_files,0-2026.01.13.09.38,https://github.com/v4hn/setup_files/tree/main,failed-sbuild,setup_files_0-2026.01.13.09.38-bloom_generate.log,ros-one-setup-files_0-2026.01.13.09.38_amd64-2026-01-13T09:38:09Z.build,,

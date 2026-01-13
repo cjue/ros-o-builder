@@ -1,0 +1,9 @@
+repositories:
+  ros_environment:
+    type: git
+    url: https://github.com/ros-o/ros_environment.git
+    version: ee6d16783a15f6543bad12d2e504ed58309bc5fe
+  setup_files:
+    type: git
+    url: https://github.com/v4hn/setup_files.git
+    version: 658f1cdb6bfda40cddfeb184f3ca12878e67ed9d

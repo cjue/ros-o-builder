@@ -1,0 +1,215 @@
+sbuild (Debian sbuild) 0.85.10ubuntu0.2 (02 May 2025) on runnervmi13qx.5gwla1swo3surccstcunnuqdtg.yx.internal.cloudapp.net
+
++================================================================================+
+| ros-one-setup-files 0-2026.01.13.09.38 (amd64) Tue, 13 Jan 2026 09:38:09 +0000 |
++================================================================================+
+
+Package: ros-one-setup-files
+Version: 0-2026.01.13.09.38
+Source Version: 0-2026.01.13.09.38
+Distribution: noble
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Profiles: nocheck
+Build Type: binary
+
+Unpacking /home/runner/.cache/sbuild/noble-amd64.tar to /tmp/tmp.sbuild.BmfM3nk0BT...
+I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-iAhV4I' with '<<RESOLVERDIR>>'
+
++------------------------------------------------------------------------------+
+| Update chroot                                Tue, 13 Jan 2026 09:38:13 +0000 |
++------------------------------------------------------------------------------+
+
+Get:1 file:/build/package//resolver-VN1V00/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-VN1V00/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-VN1V00/apt_archive ./ Release [597 B]
+Get:2 file:/build/package//resolver-VN1V00/apt_archive ./ Release [597 B]
+Get:3 file:/build/package//resolver-VN1V00/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-VN1V00/apt_archive ./ Release.gpg
+Get:4 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+Get:5 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1401 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1693 kB]
+Get:10 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [920 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1510 kB]
+Get:12 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1404 kB]
+Fetched 22.5 MB in 3s (8800 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
++------------------------------------------------------------------------------+
+| Fetch source files                           Tue, 13 Jan 2026 09:38:17 +0000 |
++------------------------------------------------------------------------------+
+
+
+Local sources
+-------------
+
+/home/runner/work/ros-o-builder/ros-o-builder/src/ros-one-setup-files_0-2026.01.13.09.38.dsc exists in /home/runner/work/ros-o-builder/ros-o-builder/src; copying to chroot
+I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
+I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
+
++------------------------------------------------------------------------------+
+| Install package build dependencies           Tue, 13 Jan 2026 09:38:18 +0000 |
++------------------------------------------------------------------------------+
+
+
+Setup apt archive
+-----------------
+
+Merged Build-Depends: debhelper (>= 9.0.0), catkin, libgmock-dev, libgtest-dev, build-essential, fakeroot, dumb-init
+Filtered Build-Depends: debhelper (>= 9.0.0), catkin, libgmock-dev, libgtest-dev, build-essential, fakeroot, dumb-init
+dpkg-deb: building package 'sbuild-build-depends-main-dummy' in '/<<RESOLVERDIR>>/apt_archive/sbuild-build-depends-main-dummy.deb'.
+Ign:1 copy:/<<RESOLVERDIR>>/apt_archive ./ InRelease
+Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ Release [609 B]
+Ign:3 copy:/<<RESOLVERDIR>>/apt_archive ./ Release.gpg
+Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [661 B]
+Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [693 B]
+Fetched 1963 B in 0s (0 B/s)
+Reading package lists...
+Get:1 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ Release [597 B]
+Get:2 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ Release [597 B]
+Get:3 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ Release.gpg
+Reading package lists...
+Reading package lists...
+
+Install main build dependencies (apt-based resolver)
+----------------------------------------------------
+
+Installing build dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ sbuild-build-depends-main-dummy : Depends: catkin but it is not installable
+E: Unable to correct problems, you have held broken packages.
+apt-get failed.
+E: Package installation failed
+Not removing build depends: cloned chroot in use
+
+Setup apt archive
+-----------------
+
+Merged Build-Depends: dose-distcheck
+Filtered Build-Depends: dose-distcheck
+dpkg-deb: building package 'sbuild-build-depends-dose3-dummy' in '/<<RESOLVERDIR>>/apt_archive/sbuild-build-depends-dose3-dummy.deb'.
+Ign:1 copy:/<<RESOLVERDIR>>/apt_archive ./ InRelease
+Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ Release [615 B]
+Ign:3 copy:/<<RESOLVERDIR>>/apt_archive ./ Release.gpg
+Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [1240 B]
+Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [1308 B]
+Fetched 3163 B in 0s (0 B/s)
+Reading package lists...
+Get:1 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ Release [597 B]
+Get:2 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ Release [597 B]
+Get:3 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-VN1V00/apt_archive ./ Release.gpg
+Reading package lists...
+Reading package lists...
+
+Install dose3 build dependencies (apt-based resolver)
+-----------------------------------------------------
+
+Installing build dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  dose-distcheck
+The following NEW packages will be installed:
+  dose-distcheck sbuild-build-depends-dose3-dummy
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1221 kB of archives.
+After this operation, 4472 kB of additional disk space will be used.
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-dose3-dummy 0.invalid.0 [640 B]
+Get:2 http://archive.ubuntu.com/ubuntu noble/universe amd64 dose-distcheck amd64 7.0.0-4build3 [1220 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 1221 kB in 1s (897 kB/s)
+Selecting previously unselected package dose-distcheck.
+(Reading database ... 11250 files and directories currently installed.)
+Preparing to unpack .../dose-distcheck_7.0.0-4build3_amd64.deb ...
+Unpacking dose-distcheck (7.0.0-4build3) ...
+Selecting previously unselected package sbuild-build-depends-dose3-dummy.
+Preparing to unpack .../sbuild-build-depends-dose3-dummy_0.invalid.0_amd64.deb ...
+Unpacking sbuild-build-depends-dose3-dummy (0.invalid.0) ...
+Setting up dose-distcheck (7.0.0-4build3) ...
+Setting up sbuild-build-depends-dose3-dummy (0.invalid.0) ...
+(I)Doseparse: Parsing and normalizing...
+(I)Dose_deb: Parsing Packages file -...
+(I)Dose_common: total packages 87496
+(I)Dose_applications: Cudf Universe: 87496 packages
+(I)Dose_applications: --checkonly specified, consider all packages as background packages
+(I)Dose_applications: Solving...
+output-version: 1.2
+native-architecture: amd64
+report:
+ -
+  package: sbuild-build-depends-main-dummy
+  version: 0.invalid.0
+  architecture: amd64
+  status: broken
+  reasons:
+   -
+    missing:
+     pkg:
+      package: sbuild-build-depends-main-dummy
+      version: 0.invalid.0
+      architecture: amd64
+      unsat-dependency: catkin:amd64
+ 
+background-packages: 87495
+foreground-packages: 1
+total-packages: 87496
+broken-packages: 1
+
++------------------------------------------------------------------------------+
+| Cleanup                                      Tue, 13 Jan 2026 09:38:34 +0000 |
++------------------------------------------------------------------------------+
+
+Purging /<<BUILDDIR>>
+Not cleaning session: cloned chroot in use
+E: Package build dependencies not satisfied; skipping
+
++------------------------------------------------------------------------------+
+| Summary                                      Tue, 13 Jan 2026 09:38:35 +0000 |
++------------------------------------------------------------------------------+
+
+Build Architecture: amd64
+Build Profiles: nocheck
+Build Type: binary
+Build-Space: n/a
+Build-Time: 0
+Distribution: noble
+Fail-Stage: install-deps
+Host Architecture: amd64
+Install-Time: 0
+Job: /home/runner/work/ros-o-builder/ros-o-builder/src/ros-one-setup-files_0-2026.01.13.09.38.dsc
+Machine Architecture: amd64
+Package: ros-one-setup-files
+Package-Time: 0
+Source-Version: 0-2026.01.13.09.38
+Space: n/a
+Status: given-back
+Version: 0-2026.01.13.09.38
+--------------------------------------------------------------------------------
+Finished at 2026-01-13T09:38:09Z
+Build needed 00:00:00, no disk space
