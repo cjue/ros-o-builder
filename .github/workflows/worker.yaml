@@ -9,7 +9,7 @@ on:
 
 env:
   DISTRIBUTION: ubuntu
-  DEB_DISTRO: resolute
+  DEB_DISTRO: noble
   JOBS_YAML: /home/runner/jobs.yaml
 
 jobs:

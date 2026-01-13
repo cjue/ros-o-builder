@@ -1,5 +1,5 @@
 # unstable ubuntu-jammy docker with (some) preinstalled ros-one packages
-FROM ubuntu:resolute
+FROM ubuntu:noble
 
 RUN apt update
 RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install tzdata
