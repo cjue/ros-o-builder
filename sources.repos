@@ -93,8 +93,8 @@ repositories:
     version: master
   rosbag_snapshot:
     type: git
-    url: https://github.com/ros/rosbag_snapshot.git
-    version: main
+    url: https://github.com/isys-vision/rosbag_snapshot.git
+    version: mikado
   rosconsole:
     type: git
     url: https://github.com/ros-o/rosconsole.git
