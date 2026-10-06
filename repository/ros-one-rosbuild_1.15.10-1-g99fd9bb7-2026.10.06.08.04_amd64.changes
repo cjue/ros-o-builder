@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sat, 26 Apr 2025 00:00:00 -0000
+Source: ros-one-rosbuild
+Binary: ros-one-rosbuild
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.04
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-rosbuild - rosbuild contains scripts for managing the CMake-based build syst
+Changes:
+ ros-one-rosbuild (1.15.10-1-g99fd9bb7-2026.10.06.08.04) jammy; urgency=high
+Checksums-Sha1:
+ 6267d53246108da36f1f1431f227edb7c84b2852 8271 ros-one-rosbuild_1.15.10-1-g99fd9bb7-2026.10.06.08.04_amd64.buildinfo
+ 83c7124962a099c289e1fac85cfc2e6bf2157c36 28558 ros-one-rosbuild_1.15.10-1-g99fd9bb7-2026.10.06.08.04_amd64.deb
+Checksums-Sha256:
+ cf5edadf954f1aa4a5b50e155df805300757982047172bc592e42694c37265bd 8271 ros-one-rosbuild_1.15.10-1-g99fd9bb7-2026.10.06.08.04_amd64.buildinfo
+ 8721ca056a01a04b6b261de2b7efcfaeced0d56c563e465171cd75656cf43b0d 28558 ros-one-rosbuild_1.15.10-1-g99fd9bb7-2026.10.06.08.04_amd64.deb
+Files:
+ 6028662940b411e7179c91827dc66f0c 8271 misc optional ros-one-rosbuild_1.15.10-1-g99fd9bb7-2026.10.06.08.04_amd64.buildinfo
+ cac89ace5e6176fdbfd04550a1ba8aea 28558 misc optional ros-one-rosbuild_1.15.10-1-g99fd9bb7-2026.10.06.08.04_amd64.deb

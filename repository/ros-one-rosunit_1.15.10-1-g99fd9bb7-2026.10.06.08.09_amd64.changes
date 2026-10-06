@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sat, 26 Apr 2025 00:00:00 -0000
+Source: ros-one-rosunit
+Binary: ros-one-rosunit
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.09
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-rosunit - Unit-testing package for ROS.
+Changes:
+ ros-one-rosunit (1.15.10-1-g99fd9bb7-2026.10.06.08.09) jammy; urgency=high
+Checksums-Sha1:
+ 1b0f01247e0601b95829ad03329b905dc48f6f55 8266 ros-one-rosunit_1.15.10-1-g99fd9bb7-2026.10.06.08.09_amd64.buildinfo
+ 3585b15b6a41ce5e4eed1ff6d4a018601a9073e2 50456 ros-one-rosunit_1.15.10-1-g99fd9bb7-2026.10.06.08.09_amd64.deb
+Checksums-Sha256:
+ 61ff017e3403c959f54aea08cec26940c844dd1731d1ab90a0c79547df610402 8266 ros-one-rosunit_1.15.10-1-g99fd9bb7-2026.10.06.08.09_amd64.buildinfo
+ 37f32c3c42800f0b483d1ccac9a63dce8e3a75a0c3a01631921175b12b193d52 50456 ros-one-rosunit_1.15.10-1-g99fd9bb7-2026.10.06.08.09_amd64.deb
+Files:
+ 8caf1ccf4bbac82f96493d8267838873 8266 misc optional ros-one-rosunit_1.15.10-1-g99fd9bb7-2026.10.06.08.09_amd64.buildinfo
+ 83c28bce6b1c425948080ef08e84c864 50456 misc optional ros-one-rosunit_1.15.10-1-g99fd9bb7-2026.10.06.08.09_amd64.deb

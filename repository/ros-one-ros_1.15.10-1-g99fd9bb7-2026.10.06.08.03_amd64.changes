@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sat, 26 Apr 2025 00:00:00 -0000
+Source: ros-one-ros
+Binary: ros-one-ros
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.03
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-ros - ROS packaging system
+Changes:
+ ros-one-ros (1.15.10-1-g99fd9bb7-2026.10.06.08.03) jammy; urgency=high
+Checksums-Sha1:
+ 6804426f500f5098fbd3bf54fe33a1941cda9240 8243 ros-one-ros_1.15.10-1-g99fd9bb7-2026.10.06.08.03_amd64.buildinfo
+ 55967b4e2b44fb8ffa48c0202c578d827e7a9cb8 1898 ros-one-ros_1.15.10-1-g99fd9bb7-2026.10.06.08.03_amd64.deb
+Checksums-Sha256:
+ 097115afe95591a2480c17c67bd9b891faf90ba2f49e7124d8786eac0247d0b4 8243 ros-one-ros_1.15.10-1-g99fd9bb7-2026.10.06.08.03_amd64.buildinfo
+ 68d82eeb8bcf4acc4d91e4b70f339af7db8677350f3a771047da6a44224d1d48 1898 ros-one-ros_1.15.10-1-g99fd9bb7-2026.10.06.08.03_amd64.deb
+Files:
+ 5da3580939897742f13116de3d60aec8 8243 misc optional ros-one-ros_1.15.10-1-g99fd9bb7-2026.10.06.08.03_amd64.buildinfo
+ c6f33eec2adc4d1478bdc5c1ebeedef4 1898 misc optional ros-one-ros_1.15.10-1-g99fd9bb7-2026.10.06.08.03_amd64.deb

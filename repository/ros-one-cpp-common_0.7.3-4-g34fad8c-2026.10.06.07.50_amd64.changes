@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 15 Jun 2023 00:00:00 -0000
+Source: ros-one-cpp-common
+Binary: ros-one-cpp-common
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.7.3-4-g34fad8c-2026.10.06.07.50
+Distribution: jammy
+Urgency: high
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Changed-By: Martin Pecka <peckama2@fel.cvut.cz>
+Description:
+ ros-one-cpp-common - cpp_common contains C++ code for doing things that are not necess
+Changes:
+ ros-one-cpp-common (0.7.3-4-g34fad8c-2026.10.06.07.50) jammy; urgency=high
+ .
+   * Changed maintainer to Martin Pecka
+   * Contributors: Martin Pecka
+Checksums-Sha1:
+ 41fa535b49415eabeed84b6e38b4ed8b15f3ab53 137070 ros-one-cpp-common-dbgsym_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.ddeb
+ 210b62bf30614fbc9e3c3c500de2097dd618cf75 9450 ros-one-cpp-common_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.buildinfo
+ 2404b33f373d28a4a8f16b2a9fc44cabea2dce9d 21778 ros-one-cpp-common_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.deb
+Checksums-Sha256:
+ 51f9e287580a9aa5e3592217132c4c63c481709dae319c131f6fadd3f5e86d70 137070 ros-one-cpp-common-dbgsym_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.ddeb
+ 1240bbbc483715b3f3cc1b2a13ebd734995c1a3ba07c257b34e3960ac90043ec 9450 ros-one-cpp-common_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.buildinfo
+ eed43d9164995ca320cd27c21f8aee9548bd1e0c63ee5bd4fd7725c4138e6eea 21778 ros-one-cpp-common_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.deb
+Files:
+ 6a72846c73ac204a0177cfeac2acd816 137070 debug optional ros-one-cpp-common-dbgsym_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.ddeb
+ b78ca34c532511f71d16872ad9908dc4 9450 misc optional ros-one-cpp-common_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.buildinfo
+ 3cb84528f52bd6ef980fffe7d516ab20 21778 misc optional ros-one-cpp-common_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.deb

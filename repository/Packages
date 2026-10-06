@@ -1,0 +1,2416 @@
+Package: ros-one-actionlib-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.14.0-7-g792eeda-2026.10.06.09.00
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-actionlib
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 440
+Depends: ros-one-actionlib (= 1.14.0-7-g792eeda-2026.10.06.09.00)
+Filename: ./ros-one-actionlib-dbgsym_1.14.0-7-g792eeda-2026.10.06.09.00_amd64.ddeb
+Size: 405622
+MD5sum: 4c5f0873fa5abe9ca30691878e1d7737
+SHA1: 747c08f86f3d1f5f574bc21b2c38e403b9a92841
+SHA256: c86bcba2cb871951b587127d1055b78d991ba4706db1ac0d198194ec03d8104b
+SHA512: e82e4a3dea92ed36390ff8bca5dedb8e8e77c6daa41b0013929adca8d06790703389fd7dc7f786103cdf562038b299e1656e533614143ff10e275c5dd6e72ef7
+Description: debug symbols for ros-one-actionlib
+Build-Ids: a0e23f41611cddd8cd223e1e40e33041bd3ed143
+
+Package: ros-one-actionlib-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.18
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 216
+Depends: ros-one-message-generation, ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-actionlib-msgs_1.13.2-1-g092bc23-2026.10.06.08.18_amd64.deb
+Size: 27952
+MD5sum: 08af08638402fd799e1dcf8e34086dbd
+SHA1: d49a35428b5163d0c511d24e84ed2e15b72ea422
+SHA256: 4a6ebf14b1f25a737cc838b49115e3a38ef224808588d4594106d839841b2431
+SHA512: cd43ca60925e7e7d1ed2f42697774f1f9bbc10731e980608adee2f90568512d9e16356a04d11c63f9254f1bdc1956e8e1b511456700a518d42cedc22f63e4152
+Homepage: http://wiki.ros.org/actionlib_msgs
+Description: actionlib_msgs defines the common messages to interact with an action server and an action client.
+ For full documentation of the actionlib API see the actionlib package.
+
+Package: ros-one-actionlib-tools
+Architecture: amd64
+Version: 1.14.0-7-g792eeda-2026.10.06.09.02
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 74
+Depends: python3-wxgtk4.0, ros-one-actionlib, ros-one-actionlib-msgs, ros-one-roslib, ros-one-rospy, ros-one-rostopic
+Filename: ./ros-one-actionlib-tools_1.14.0-7-g792eeda-2026.10.06.09.02_amd64.deb
+Size: 14544
+MD5sum: e1d98d65d95c3c8b73e2e113a86fa90a
+SHA1: 18d05a2eeeacf1097fa9d6815320a6815ef4387c
+SHA256: 4121a1530dc247d6bc41607bb2f1d7b268b9ee5884b902b44d368d51be79ded8
+SHA512: 5e9059264c153e1bf60565e0a77a21fb553415c1e8f3174335f403b7f05defe19a847685039b9659381c9c6f062fda8af9d6956981e662e48d7059f3e74a07dd
+Homepage: http://www.ros.org/wiki/actionlib
+Description: The actionlib_tools package
+
+Package: ros-one-actionlib
+Architecture: amd64
+Version: 1.14.0-7-g792eeda-2026.10.06.09.00
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 1584
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libboost-dev, libboost-thread-dev, ros-one-actionlib-msgs, ros-one-message-runtime, ros-one-roscpp, ros-one-rospy, ros-one-rostest, ros-one-std-msgs
+Filename: ./ros-one-actionlib_1.14.0-7-g792eeda-2026.10.06.09.00_amd64.deb
+Size: 134834
+MD5sum: 4f74174550d740ff3c0b38bc99a6729a
+SHA1: d8c1a214de0594d10c715dbf65ccbcb9c7bafb45
+SHA256: fbaba3e065ef0c834575058a7647cf0fd3435f0c98d8b002197625e7017bfccf
+SHA512: ec01ec48b74f2a2dada856b78c737d9c15ba25db29f47d4fbe9bf0ee532f8c966c425c70ff0d2b173919e95c1d80df6f5a0e766f65afd673e40e70597d8892b1
+Homepage: http://www.ros.org/wiki/actionlib
+Description: The actionlib stack provides a standardized interface for interfacing with preemptable tasks.
+ Examples of this include moving the base to a target location, performing a laser scan and returning the resulting point cloud, detecting the handle of a door, etc.
+
+Package: ros-one-angles
+Architecture: amd64
+Version: 1.9.13-2-g2392b18-2026.10.06.08.11
+Priority: optional
+Section: misc
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Installed-Size: 76
+Filename: ./ros-one-angles_1.9.13-2-g2392b18-2026.10.06.08.11_amd64.deb
+Size: 13288
+MD5sum: 5fcd6f237dfc9f818bd368f8c7d95bf3
+SHA1: 79b18ceabd92ad721dce49b06929bb2ecd667a8b
+SHA256: 8932fa623c794749b1478ff18f67f3553d5214922a902471d99a6a1c53fa9454
+SHA512: 2dbba9ee691c5ccd9fb613c090aa485affdaeb86edff316fe52d459f4a4b3bb448cc5e202fb566cb14bff3df6d5dc7731fa69bab32800f989df7e51376585989
+Homepage: http://wiki.ros.org/angles
+Description: This package provides a set of simple math utilities to work with angles.
+ The utilities cover simple things like normalizing an angle and conversion between degrees and radians. But even if you're trying to calculate things like the shortest angular distance between two joint space positions of your robot, but the joint motion is constrained by joint limits, this package is what you need. The code in this package is stable and well tested. There are no plans for major changes in the near future.
+
+Package: ros-one-class-loader-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.5.2-2026.10.06.07.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-class-loader
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 688
+Depends: ros-one-class-loader (= 0.5.2-2026.10.06.07.56)
+Filename: ./ros-one-class-loader-dbgsym_0.5.2-2026.10.06.07.56_amd64.ddeb
+Size: 635846
+MD5sum: 96b25c23e3a1e4e37e7b6d5922e62414
+SHA1: 50b808f3b3233fa4f90ca6cbab53e00c11d2ac08
+SHA256: 340879a7f39d697e33a9772de8d669e204b37b4ac0fe0803b91804dc6a7df7d2
+SHA512: d439d71383137066a9ddfd23790ff366941f3b5d371da05091bde65d84b8138e6eef97d7934429e69699245e2991659ac7c62cb18f0e452ee545d60411680738
+Description: debug symbols for ros-one-class-loader
+Build-Ids: 4974ff32ccfe21c44641337d3c74a9f7e444ff5c
+
+Package: ros-one-class-loader
+Architecture: amd64
+Version: 0.5.2-2026.10.06.07.56
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 251
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpocofoundation80 (>= 1.11.0), libstdc++6 (>= 11), libboost-filesystem-dev, libboost-system-dev, libboost-thread-dev, libconsole-bridge-dev, libpoco-dev
+Filename: ./ros-one-class-loader_0.5.2-2026.10.06.07.56_amd64.deb
+Size: 65186
+MD5sum: 1bda90ae5c6d96523da360ee0b976425
+SHA1: 1c4103851e6536d10cb67a38c1ebca854077e127
+SHA256: 5ff5c79796845d0e8395359da647f1a93170d89efd062159b1726f54c2c2d9f0
+SHA512: 630345be41f7184ce3f020cdfa82568ab0c046ac8f2de30daf20c3110da51b5c75864f4b0655af07719ff55088e3a3cd5f661c0de111cf7b07af7c715089e63c
+Homepage: http://ros.org/wiki/class_loader
+Description: The class_loader package is a ROS-independent package for loading plugins during runtime and the foundation of the higher level ROS &quot;pluginlib&quot; library.
+ class_loader utilizes the host operating system's runtime loader to open runtime libraries (e.g. .so/.dll files), introspect the library for exported plugin classes, and allows users to instantiate objects of said exported classes without the explicit declaration (i.e. header file) for those classes.
+
+Package: ros-one-cmake-modules
+Architecture: amd64
+Version: 0.5.2-1-g1dc8014-2026.10.06.07.51
+Priority: optional
+Section: misc
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Installed-Size: 83
+Filename: ./ros-one-cmake-modules_0.5.2-1-g1dc8014-2026.10.06.07.51_amd64.deb
+Size: 18616
+MD5sum: 2520965003a8370490b632d66698c146
+SHA1: eddc6fb87377536a8597a1851f94151ded007100
+SHA256: 7db73e22d53894c948b4c1da54c23876ac5d932287b9bdf2e4c74deff4e2d5e3
+SHA512: 9d10b1117880442e1c8f44c532400e2e22a6841169a778b9b6e81624f80cc77651a1c37062d93feaa75b6ca531b240ce1cc422296305f1acbea2fdbcceeba401
+Description: A common repository for CMake Modules which are not distributed with CMake but are commonly used by ROS packages.
+
+Package: ros-one-common-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.19
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 15
+Depends: ros-one-actionlib-msgs, ros-one-diagnostic-msgs, ros-one-geometry-msgs, ros-one-nav-msgs, ros-one-sensor-msgs, ros-one-shape-msgs, ros-one-stereo-msgs, ros-one-trajectory-msgs, ros-one-visualization-msgs
+Filename: ./ros-one-common-msgs_1.13.2-1-g092bc23-2026.10.06.08.19_amd64.deb
+Size: 2870
+MD5sum: d4887b62defe92f8fa863d273f29ed89
+SHA1: f4031d225052a56eb23316b4e3f166f8d3401e52
+SHA256: f2606e7300008bfd7188ede76ddd5902004aeb65226c0084b9506a41efff2316
+SHA512: 560234f32e431de2b66449771a0b70b219b8d80e454f96ad3784390e806a0527e76a1b095c222eedf10b2e5790ad046dacfbb9a37d5c42d959904cc044cae635
+Homepage: http://wiki.ros.org/common_msgs
+Description: common_msgs contains messages that are widely used by other ROS packages.
+ These includes messages for actions (actionlib_msgs), diagnostics (diagnostic_msgs), geometric primitives (geometry_msgs), robot navigation (nav_msgs), and common sensors (sensor_msgs), such as laser range finders, cameras, point clouds.
+
+Package: ros-one-cpp-common-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.3-4-g34fad8c-2026.10.06.07.50
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-cpp-common
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 159
+Depends: ros-one-cpp-common (= 0.7.3-4-g34fad8c-2026.10.06.07.50)
+Filename: ./ros-one-cpp-common-dbgsym_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.ddeb
+Size: 137070
+MD5sum: 6a72846c73ac204a0177cfeac2acd816
+SHA1: 41fa535b49415eabeed84b6e38b4ed8b15f3ab53
+SHA256: 51f9e287580a9aa5e3592217132c4c63c481709dae319c131f6fadd3f5e86d70
+SHA512: fdfc07827ecaa0fdf422f25e36be42c9ca96a469cec221e2c186c3e755a55590b564c515d60e65da2572dab60c3f6f9169b70345fbb16e1f8beb03b14aca39b7
+Description: debug symbols for ros-one-cpp-common
+Build-Ids: b08056c286b35b1b3a1c074c1d1dda401246b6bb
+
+Package: ros-one-cpp-common
+Architecture: amd64
+Version: 0.7.3-4-g34fad8c-2026.10.06.07.50
+Priority: optional
+Section: misc
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 93
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libboost-system-dev, libboost-thread-dev, libconsole-bridge-dev
+Filename: ./ros-one-cpp-common_0.7.3-4-g34fad8c-2026.10.06.07.50_amd64.deb
+Size: 21778
+MD5sum: 3cb84528f52bd6ef980fffe7d516ab20
+SHA1: 2404b33f373d28a4a8f16b2a9fc44cabea2dce9d
+SHA256: eed43d9164995ca320cd27c21f8aee9548bd1e0c63ee5bd4fd7725c4138e6eea
+SHA512: 6ef1831b673a8f64eef0a633a6926df719a1af1b10d5720fd1bddd66ad7481d336e5f9501889ae016b5efcd54c07e54198789d529b72616533c17c81d9bdd629
+Homepage: http://www.ros.org/wiki/cpp_common
+Description: cpp_common contains C++ code for doing things that are not necessarily ROS related, but are useful for multiple packages.
+ This includes things like the ROS_DEPRECATED and ROS_FORCE_INLINE macros, as well as code for getting backtraces. This package is a component of roscpp.
+
+Package: ros-one-diagnostic-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.20
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 344
+Depends: ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-diagnostic-msgs_1.13.2-1-g092bc23-2026.10.06.08.20_amd64.deb
+Size: 33836
+MD5sum: 9fc5cde320cc2664badc4cc8d1d2de80
+SHA1: 640f317b0b953cfa56137598cae4420d76e49e8b
+SHA256: d0eb034656a98fb14c2dc65cd8242d426d6df364dedc98f7b4699b491f1efd79
+SHA512: 465b78183af7da32cf90bebdc6c87ea4a8f3dab5b217565005151b1db87d85421cdebc758c7099c9c22433dd667c365fd20cea493ef3d8931db3bfefd86cac98
+Homepage: http://wiki.ros.org/diagnostic_msgs
+Description: This package holds the diagnostic messages which provide the standardized interface for the diagnostic and runtime monitoring systems in ROS.
+ These messages are currently used by the diagnostics Stack, which provides libraries for simple ways to set and access the messages, as well as automated ways to process the diagnostic data. These messages are used for long term logging and will not be changed unless there is a very important reason.
+
+Package: ros-one-eigen-conversions-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.06.09.22
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-eigen-conversions
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 373
+Depends: ros-one-eigen-conversions (= 1.13.2-14-geeb32b2-2026.10.06.09.22)
+Filename: ./ros-one-eigen-conversions-dbgsym_1.13.2-14-geeb32b2-2026.10.06.09.22_amd64.ddeb
+Size: 360350
+MD5sum: 27598ffd0066e983b46022368e0522f1
+SHA1: f8f4c2a77fa940baad9ce95b0bf3aedc326832cc
+SHA256: 822f7b9dd645b576417e0da555f0798e83386cdb3a486280543234546d8e02c7
+SHA512: 144c33ec8cf27331a70a88e3f35b292ed98873ea84fc15362076ada6675a6c62da0810192bf6759335dd4e48efafe6bf100eaf95ab436179bf0110460e0a3fe0
+Description: debug symbols for ros-one-eigen-conversions
+Build-Ids: 0afe0a6dbd0674554f3d39422535e1a870757579
+
+Package: ros-one-eigen-conversions
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.06.09.22
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 64
+Depends: libc6 (>= 2.4), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 4.1.1), libeigen3-dev, liborocos-kdl-dev, ros-one-geometry-msgs, ros-one-std-msgs
+Filename: ./ros-one-eigen-conversions_1.13.2-14-geeb32b2-2026.10.06.09.22_amd64.deb
+Size: 12998
+MD5sum: 698c1a48038c7db6c0c658616d7a80b3
+SHA1: 1b6430f58edc21165c386c8f0954f2543f5e9603
+SHA256: 4899de161e0d55c5c1044cee2e9b813d7a0493946c487f5caf13478f9f7f7114
+SHA512: a305562510aee300c0252a73bac372910a7c352f146f34a0397a93dde64d4b079f5c4171b74ebc7c12cd72ef33bf4db731cddf3008d47f295cb840634ca50c49
+Homepage: http://ros.org/wiki/eigen_conversions
+Description: Conversion functions between: - Eigen and KDL - Eigen and geometry_msgs.
+
+Package: ros-one-gencpp
+Architecture: amd64
+Version: 0.7.2-2026.10.06.07.56
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 81
+Depends: ros-one-genmsg
+Filename: ./ros-one-gencpp_0.7.2-2026.10.06.07.56_amd64.deb
+Size: 16064
+MD5sum: f2c5ff5b032dcb2bbbd028bf07f89302
+SHA1: d161eec3ab6268cfd305289af282b4320b8ba975
+SHA256: 57d464ff201b0d5eb65b332015d56516b5a44497d3b971e3e8b7859e36672901
+SHA512: e6a62e7905d5543eeaa8b96f5177ffbe3cd87e957d385523c16f1ebd60d3e7c43a3748ad1baf6baae2d7b84b1929c338c701b8e3213189227fb73f0167f70ee9
+Description: C++ ROS message and service generators.
+
+Package: ros-one-geneus
+Architecture: amd64
+Version: 3.0.0-2026.10.06.07.56
+Priority: optional
+Section: misc
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Installed-Size: 124
+Depends: ros-one-genmsg
+Filename: ./ros-one-geneus_3.0.0-2026.10.06.07.56_amd64.deb
+Size: 28710
+MD5sum: 4d74ea6b7bafbe8785850c93d1ee24c7
+SHA1: 510d6d2fa2a9cd12dd262177aab9d80147a1d899
+SHA256: 5487bf69cd55611295e58be951abfaba25d6f942baac268f16767d013cc4903c
+SHA512: 7adbb783ccb2b20e91c030ffc18073707b3c48649902d7cb7bec3d4e72e06031981c7b1e5f099a5d8ed868620cc7ecabb759f34313cdf069f307821233fc1236
+Description: EusLisp ROS message and service generators.
+
+Package: ros-one-genlisp
+Architecture: amd64
+Version: 0.4.18-2026.10.06.07.56
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 115
+Depends: ros-one-genmsg
+Filename: ./ros-one-genlisp_0.4.18-2026.10.06.07.56_amd64.deb
+Size: 23930
+MD5sum: abdec38d5a3386b9f6410fc0770e6f9c
+SHA1: 4a7e3ce74ae8b28ba84523060e0ef73e95568211
+SHA256: fe9fe73e46e242c7b22ae9b597e8758c21a40e38f16050fa74ea540ba82ed144
+SHA512: a075a63cc5f192a397a88825d9e9c1cfc384e9c599c6c24fcaca20fc48bdd89441f65dbe49cd5a7dc57459789333947cab01fc3664f37ecaf30ec478de7fde4c
+Homepage: http://www.ros.org/wiki/roslisp
+Description: Common-Lisp ROS message and service generators.
+
+Package: ros-one-genmsg
+Architecture: amd64
+Version: 0.5.16-1-g7d8b6ce-2026.10.06.07.51
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 184
+Depends: catkin, libgmock-dev, libgtest-dev, python3-empy
+Filename: ./ros-one-genmsg_0.5.16-1-g7d8b6ce-2026.10.06.07.51_amd64.deb
+Size: 37580
+MD5sum: 6bab37c5f3ed6724f87c35693aae9d5b
+SHA1: f49300e3bd1cb302e08e2f6e0dce533977b5f913
+SHA256: 31a88778673451c43e74dae8c059f0ba8fe001b3e6fe4f2a666e71e43c4c7870
+SHA512: d0debb1ce461e75029d1bd4923d2729580f33e9c90df71e0d1b5fc10422b1479c8813255ff3589356b9bc8bec1e6aa4a4e4111377976f4af55fbf0bb373250e1
+Homepage: http://wiki.ros.org/genmsg
+Description: Standalone Python library for generating ROS message and service data structures for various languages.
+
+Package: ros-one-gennodejs
+Architecture: amd64
+Version: 2.0.1-8-g19d224c-2026.10.06.07.55
+Priority: optional
+Section: misc
+Maintainer: Chris Smith <csmith@rethinkrobotics.com>
+Installed-Size: 113
+Depends: ros-one-genmsg
+Filename: ./ros-one-gennodejs_2.0.1-8-g19d224c-2026.10.06.07.55_amd64.deb
+Size: 23950
+MD5sum: 1485e8c906e1e17648662244519f9ff7
+SHA1: 2c0397786f5f709da918bd18f0b63a8b6ea5cc09
+SHA256: 5c57e555a5db70c6d0f958f53f33f0c822b3af4d7ebf2656361023783c1607a4
+SHA512: f6c936ee0bc2cc968c2a7c065bbc5491ff211c293eddd8e59ecc91c807d66d91dfd466b7e8ece76768d678faab97624c103f0898cd38fb3cdfdd8649dcbf8de0
+Description: Javascript ROS message and service generators.
+
+Package: ros-one-genpy
+Architecture: amd64
+Version: 0.6.16-6-gf70658f-2026.10.06.07.56
+Priority: optional
+Section: misc
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Installed-Size: 247
+Depends: python3-yaml, ros-one-genmsg
+Filename: ./ros-one-genpy_0.6.16-6-gf70658f-2026.10.06.07.56_amd64.deb
+Size: 55218
+MD5sum: 542009d37277903e152c7acfe1814018
+SHA1: 9ef1fead483b02417f8a956f73bd34cfc106d461
+SHA256: b9e6986e6bba4b198b2be6d47f3b418747711b42346d38245f02b6aa360d2158
+SHA512: fbcc8f9e7d88e32cada740e7ee9f76e41842d402081ca0f228fb453df61b742262ad606949394c1b28b9b8f709265f1246f0dd1febd6cbc43991e17bf44f7edb
+Homepage: http://wiki.ros.org/genpy
+Description: Python ROS message and service generators.
+
+Package: ros-one-geometry-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.20
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 1178
+Depends: ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-geometry-msgs_1.13.2-1-g092bc23-2026.10.06.08.20_amd64.deb
+Size: 67070
+MD5sum: 3a926cd09c963b2e3d698a14dcfc1cfa
+SHA1: 509d5aeab440bcfb0cc626efd7ee3b487efba968
+SHA256: 0693d72c992e52053f87a9dee381603a67852fad2d7e75878cc1feb1cd3a0436
+SHA512: 57050a3a4ef9320b181987517ea9d7a46495ec449a345d0cdc393ad437ee2f38aac2cebedd7593b15ed649a2b513a4fbd596ebbe8b4e366b65fb580c5d94c31e
+Homepage: http://wiki.ros.org/geometry_msgs
+Description: geometry_msgs provides messages for common geometric primitives such as points, vectors, and poses.
+ These primitives are designed to provide a common data type and facilitate interoperability throughout the system.
+
+Package: ros-one-geometry2
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.05
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 14
+Depends: ros-one-tf2, ros-one-tf2-bullet, ros-one-tf2-eigen, ros-one-tf2-geometry-msgs, ros-one-tf2-kdl, ros-one-tf2-msgs, ros-one-tf2-py, ros-one-tf2-ros, ros-one-tf2-sensor-msgs, ros-one-tf2-tools
+Filename: ./ros-one-geometry2_0.7.5-34-g86d8b56-2026.10.06.09.05_amd64.deb
+Size: 2154
+MD5sum: 85c8de48aa5a3446b0c51bdb8d811728
+SHA1: 382e621101d1caac1d4625d57a70b6045d69b070
+SHA256: f4f398a4faa4e7a6abdccb5cee80b43184a8d7c877fd77c562a9e9cc06c7e670
+SHA512: 88b8437592ca3bee2141bb7adfee2621635136fc284fb0b43db07b03994cde46c5e6c5704b49e9d8d900c59bd8b97b33ac97150cf8f5308000c5149e5a72aed0
+Homepage: http://www.ros.org/wiki/geometry2
+Description: A metapackage to bring in the default packages second generation Transform Library in ros, tf2.
+
+Package: ros-one-geometry
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.06.09.23
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 15
+Depends: ros-one-angles, ros-one-eigen-conversions, ros-one-kdl-conversions, ros-one-tf, ros-one-tf-conversions
+Filename: ./ros-one-geometry_1.13.2-14-geeb32b2-2026.10.06.09.23_amd64.deb
+Size: 3418
+MD5sum: aeecaa087cb1be5c7dd8e2f55b86a046
+SHA1: 08e4f01a870577aba8ca1f145d14b3d621933463
+SHA256: ab7e7306c55ea47eb2e5f3b67d4ab0512ee17e0c038c08b8df0b19886f1a7c72
+SHA512: 132ac9050c2f1606b0b92af4e800d777d49c95e65ef95bcf5cb57e0171c901415b348868b29b85844b592265fcc00a8f1ec7fc32ca3d8a5540c8049bac60315d
+Homepage: http://www.ros.org/wiki/geometry
+Description: A metapackage for geometry library suite.
+ Migration: Since ROS Hydro, tf has been &quot;deprecated&quot; in favor of tf2. tf2 is an iteration on tf providing generally the same feature set more efficiently. As well as adding a few new features. As tf2 is a major change the tf API has been maintained in its current form. Since tf2 has a superset of the tf features with a subset of the dependencies the tf implementation has been removed and replaced with calls to tf2 under the hood. This will mean that all users will be compatible with tf2. It is recommended for new work to use tf2 directly as it has a cleaner interface. However tf will continue to be supported for through at least J Turtle.
+
+Package: ros-one-kdl-conversions-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.06.09.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-kdl-conversions
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 40
+Depends: ros-one-kdl-conversions (= 1.13.2-14-geeb32b2-2026.10.06.09.24)
+Filename: ./ros-one-kdl-conversions-dbgsym_1.13.2-14-geeb32b2-2026.10.06.09.24_amd64.ddeb
+Size: 25606
+MD5sum: 81505f3afa802eb9ff2422200b45cb20
+SHA1: 4a161984922e46534428937598129e40f6b3c892
+SHA256: 338776f1ad746e44ca667cd3c419b8ff686a0544833e0f9a9aa199ab67edef70
+SHA512: a36d1fcb73c7c572fcd902aaf44c1156fce76c19dd57f0c478092c0f6fd6ebb7f11aa8c86f84da47d29671b959af47f0bf65bc52cf610851f81a3cc3d8b52246
+Description: debug symbols for ros-one-kdl-conversions
+Build-Ids: a123672f5c4d9777de23c0832922d57ea1c93aca
+
+Package: ros-one-kdl-conversions
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.06.09.24
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 51
+Depends: libc6 (>= 2.4), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 4.1.1), liborocos-kdl-dev, ros-one-geometry-msgs
+Filename: ./ros-one-kdl-conversions_1.13.2-14-geeb32b2-2026.10.06.09.24_amd64.deb
+Size: 10354
+MD5sum: 28602cb497c9057113ad580aac5d716f
+SHA1: d9655bd21909ff8556a434f456bd946b87a74020
+SHA256: 745bd223eac1b1787f6a701a1780b503cc4122439aa0b7d470a2babf45aa985a
+SHA512: 941493509378c0e7bc6bd69491efa6b571ab6db5fcde768120e2716a0e1011789e3a066cf7a36faaaf2b21a543b2af64b132fc2fd26dbb15ca191876d57fc8b7
+Homepage: http://ros.org/wiki/kdl_conversions
+Description: Conversion functions between KDL and geometry_msgs types.
+
+Package: ros-one-kdl-parser-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.14.1-2-g093117a-2026.10.06.09.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-kdl-parser
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 350
+Depends: ros-one-kdl-parser (= 1.14.1-2-g093117a-2026.10.06.09.05)
+Filename: ./ros-one-kdl-parser-dbgsym_1.14.1-2-g093117a-2026.10.06.09.05_amd64.ddeb
+Size: 329966
+MD5sum: 9b814c94048eeebd07478f3932c2b49c
+SHA1: 4fc6384083b0e56181186038640ebb512388860b
+SHA256: 5ce988f81a17216b8b678d7e51945ad417759e9d48f3fddef3cad0e9ff070782
+SHA512: fb9b2b8f73d463998923f209a2307baac268e3680de658dea7f2d2b8893f671e7e6bc3a49b59c9aae8d245fa110eefdfd488bb7961e670390093323abf710e31
+Description: debug symbols for ros-one-kdl-parser
+Build-Ids: decb3c3ac5dd8045a3981f868a1e4d1fd9eba7df
+
+Package: ros-one-kdl-parser-py
+Architecture: amd64
+Version: 1.14.1-2-g093117a-2026.10.06.09.06
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 52
+Depends: python3-pykdl, ros-one-urdfdom-py
+Filename: ./ros-one-kdl-parser-py_1.14.1-2-g093117a-2026.10.06.09.06_amd64.deb
+Size: 10342
+MD5sum: 579f54e858ed2e8cae8180eb5740d11e
+SHA1: a1dbb17200dc8cc91e888f27e5343f1394d69ca5
+SHA256: a134274845a1d9d730835379bdf62c0d996923233f9aeaeb05054e34c8985519
+SHA512: 98ac43d329d0dcab12007b3fd9fe8f5aec51017f298e70174eadb9b041b4a9a4a7d2bddbcc13681a0a3e74eb04f1581ca2aa2a14e468a09ce9b84b71f10d81c6
+Homepage: http://ros.org/wiki/kdl_parser_py
+Description: The Kinematics and Dynamics Library (KDL) defines a tree structure to represent the kinematic and dynamic parameters of a robot mechanism.
+ kdl_parser_py provides Python tools to construct a KDL tree from an XML robot representation in URDF.
+
+Package: ros-one-kdl-parser
+Architecture: amd64
+Version: 1.14.1-2-g093117a-2026.10.06.09.05
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 87
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libtinyxml2.6.2v5 (>= 2.6.2), liburdfdom-model3.0 (>= 3.0.1), liborocos-kdl-dev (>= 1.3.0), libtinyxml-dev, libtinyxml2-dev, liburdfdom-headers-dev, ros-one-rosconsole, ros-one-urdf
+Filename: ./ros-one-kdl-parser_1.14.1-2-g093117a-2026.10.06.09.05_amd64.deb
+Size: 24958
+MD5sum: 06fea8de19f82018d9d3f976360084d5
+SHA1: 74fea9b9cd7d063fce19ef22b1c14b310f7fbb43
+SHA256: cd9c59a0a3740005a32d5f178716ebd64bc3f2ea70e3516e07db60e7ed337b84
+SHA512: 58c651a1879f71fb4ff25895d4173ca9ee76bc98db15b7b1d12d85f52270d2f05455e76add8c4120ec82065c66e060a8692ec00098543703dcb554fcae6ef233
+Homepage: http://ros.org/wiki/kdl_parser
+Description: The Kinematics and Dynamics Library (KDL) defines a tree structure to represent the kinematic and dynamic parameters of a robot mechanism.
+ kdl_parser provides tools to construct a KDL tree from an XML robot representation in URDF.
+
+Package: ros-one-message-filters-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.36
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-message-filters
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 58
+Depends: ros-one-message-filters (= 1.17.0-15-g678162e3-2026.10.06.08.36)
+Filename: ./ros-one-message-filters-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.36_amd64.ddeb
+Size: 42264
+MD5sum: 90c1f0155946f87810230866bc56b58b
+SHA1: 5b686f14f1a6c11898c8730ef1d929eed4255a3f
+SHA256: c9db312bd655052cc5537128dceccefaa776ef6a90a3f6b60ad22c59d36e5611
+SHA512: 2e72c9226127a507c7d9fd3190d4e13021907eb455a50a4d29816c59968aa13cce2dd560d54e290a0958f226c521621b20a802bcaff3ea781183b9243ad68b96
+Description: debug symbols for ros-one-message-filters
+Build-Ids: fbe9e8271e0aca1b9d21cf08bafaac62fd313033
+
+Package: ros-one-message-filters
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.36
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 218
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libboost-thread-dev, ros-one-rosconsole, ros-one-roscpp
+Filename: ./ros-one-message-filters_1.17.0-15-g678162e3-2026.10.06.08.36_amd64.deb
+Size: 35974
+MD5sum: 8c681a431f710f46643b8efee0929baa
+SHA1: c5a6d805d2f72c4b4491ecf8104086c01caee06d
+SHA256: 0727c903f54f5e3fa62f7d2661865560f2a8b7e94d70fcd021f4c51a51088f8d
+SHA512: 03d7284f5318bf1a33e343e0cac039f3a6238c3554587fc479845dd023d56257ae7e13acbe521dca098ee6a65bf18626cc7ad9e9b95768efc8a96d6e4dd30f3c
+Homepage: http://ros.org/wiki/message_filters
+Description: A set of message filters which take in messages and may output those messages at a later time, based on the conditions that filter needs met.
+
+Package: ros-one-message-generation
+Architecture: amd64
+Version: 0.4.1-2026.10.06.07.59
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 29
+Depends: ros-one-gencpp, ros-one-geneus, ros-one-genlisp, ros-one-genmsg, ros-one-gennodejs, ros-one-genpy
+Filename: ./ros-one-message-generation_0.4.1-2026.10.06.07.59_amd64.deb
+Size: 4774
+MD5sum: 467136f2ad9d0f2b1a49f60cce3bcc93
+SHA1: e86995bcdd7a20a1bfcbbdd7ec864af2999ed33a
+SHA256: e3905895a542392185668029d9d18e9bad4708b3541343c802f1e3769bcdf701
+SHA512: 44c5e6e7ad568a8dd085f59ebefabd21a9ad36422f953867b1e2d57dfc61b8b7454ac81beb5ddd4fe032489dfb164820338a0b088fa1559d7a081d531179e596
+Homepage: http://ros.org/wiki/message_generation
+Description: Package modeling the build-time dependencies for generating language bindings of messages.
+
+Package: ros-one-message-runtime
+Architecture: amd64
+Version: 0.4.13-2026.10.06.07.59
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 28
+Depends: ros-one-cpp-common, ros-one-genpy, ros-one-roscpp-serialization, ros-one-roscpp-traits, ros-one-rostime
+Filename: ./ros-one-message-runtime_0.4.13-2026.10.06.07.59_amd64.deb
+Size: 4810
+MD5sum: b45e1c316d033501f705a0eb9f15cd5f
+SHA1: f4972a0e8c8c912f2c5bd121c5688cce90b5b90b
+SHA256: 0c3a775e7746489cfe54e05569dd05319240243a67a2923bb2c744fe93c44431
+SHA512: 2f90ba2c6a65aeccfe10a96676a0b3e9c212b6e5a75a418855f38f083cbef91999323eabff315bffb77ddd993e0eae977e3c0430d88c166dd98c2009e4b9aefd
+Homepage: http://ros.org/wiki/message_runtime
+Description: Package modeling the run-time dependencies for language bindings of messages.
+
+Package: ros-one-mk
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.02
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 46
+Depends: ros-one-rosbuild, ros-one-rospack
+Filename: ./ros-one-mk_1.15.10-1-g99fd9bb7-2026.10.06.08.02_amd64.deb
+Size: 10574
+MD5sum: 658895daab0d214478a7150ea17d9f95
+SHA1: b97be1d2c820d9beb3cff9012f24b08e92966704
+SHA256: cf30305c8cb36d8924764a7be161a9ff799db77a481b806ba95486ac8043efa9
+SHA512: f75a9f371de3089a624bc908f083130c411822bf78944385213c27143d7e8807d64f25d22044651d9110bc2e9e0f137638f877a371da77858a479bd994cf92c4
+Homepage: http://www.ros.org/wiki/ROS
+Description: A collection of .mk include files for building ROS architectural elements.
+ Most package authors should use cmake .mk, which calls CMake for the build of the package. The other files in this package are intended for use in exotic situations that mostly arise when importing 3rdparty code.
+
+Package: ros-one-nav-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.21
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 1034
+Depends: ros-one-actionlib-msgs, ros-one-geometry-msgs, ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-nav-msgs_1.13.2-1-g092bc23-2026.10.06.08.21_amd64.deb
+Size: 68696
+MD5sum: 3283ee3839d683d117688b0c1ef7d539
+SHA1: 989071b2bb743e3446c6bd839b58e5e0d622cd40
+SHA256: de0a7139ddfdb0158ab95f499dfe34a9bd172cbe5fbd85395282f01e33b9dea1
+SHA512: ebda6bceaf514b4635f8b29fc0fd1a2826fa43148465aaab090a6f6c4480d7aadf3eab45250d9fa5fa023dd387f93babf185e2660337d58645477e7ab13984d6
+Homepage: http://wiki.ros.org/nav_msgs
+Description: nav_msgs defines the common messages used to interact with the navigation stack.
+
+Package: ros-one-pluginlib
+Architecture: amd64
+Version: 1.13.0-2-g51a2cb0-2026.10.06.08.15
+Priority: optional
+Section: misc
+Maintainer: Steven! Ragnarök <stevenragnarok@osrfoundation.org>
+Installed-Size: 115
+Depends: libboost-dev, libboost-filesystem-dev, libtinyxml2-dev, ros-one-class-loader, ros-one-rosconsole, ros-one-roslib (>= 1.11.1)
+Filename: ./ros-one-pluginlib_1.13.0-2-g51a2cb0-2026.10.06.08.15_amd64.deb
+Size: 21804
+MD5sum: fa489f9f9722f16cdb015a7c60452fa0
+SHA1: 5f1afccac61ae97d98538e3f1cfd6c7dd01a9789
+SHA256: 614979a4517187e4913397cccd57d1e29ef0ba6158d96f98b04d76c60313f4de
+SHA512: b787cd8bf913a394fb971a216d6708435e489b71fd2e32a35f7b887aff7210b62d1e51e53cc0f433b610786817b02daa3b2985bb8a2ee81633ea88cf2d5eb939
+Homepage: http://www.ros.org/wiki/pluginlib
+Description: The pluginlib package provides tools for writing and dynamically loading plugins using the ROS build infrastructure.
+ To work, these tools require plugin providers to register their plugins in the package.xml of their package.
+
+Package: ros-one-robot-state-publisher-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.15.2-5-g498648a-2026.10.06.09.31
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-robot-state-publisher
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 1270
+Depends: ros-one-robot-state-publisher (= 1.15.2-5-g498648a-2026.10.06.09.31)
+Filename: ./ros-one-robot-state-publisher-dbgsym_1.15.2-5-g498648a-2026.10.06.09.31_amd64.ddeb
+Size: 1206230
+MD5sum: d6bc94156032fed3b43e350efa53e82e
+SHA1: 511321af22036ce1523f07b696611bddfa4f7a25
+SHA256: 47a003bcda645827b93bff19adef07eaa0070f4a465ee14d31978a6151b11248
+SHA512: 3f71f2e4ae4ea60bba8614c4424efb3d947449e151dcd68120c798f813131000d4674b8e0d4a423fd31d843251bc5fe75664b9362f13c93a330bc448fb3baa10
+Description: debug symbols for ros-one-robot-state-publisher
+Build-Ids: 0010e167076cd2679b9733a7f7505a9df9d4b34e 9143665a3b69212bb512c778f2f5901f9918282a a97bafd3568ad48a110790b0c81939089f569da5
+
+Package: ros-one-robot-state-publisher
+Architecture: amd64
+Version: 1.15.2-5-g498648a-2026.10.06.09.31
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 220
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), liburdfdom-world3.0 (>= 3.0.1), liborocos-kdl-dev, ros-one-kdl-parser, ros-one-rosconsole, ros-one-roscpp, ros-one-rostime, ros-one-sensor-msgs, ros-one-tf, ros-one-tf2-kdl, ros-one-tf2-ros
+Filename: ./ros-one-robot-state-publisher_1.15.2-5-g498648a-2026.10.06.09.31_amd64.deb
+Size: 56812
+MD5sum: 04bcda03875d58bb44d57932c01e468b
+SHA1: 197bc15df03950f6643a718ffa7c618669760706
+SHA256: 60858c8c0bcf7a1e6fdcfe6495548db40de45d87d397570643a131f882a7dc3d
+SHA512: 4fc25966a22701626de2d4c273fff5f144e0540e084b91a816297c55dc7623920fb916dcab14343cb4ae231625e3ac33b84742d13c9c8768d69c7b95f898f508
+Homepage: http://wiki.ros.org/robot_state_publisher
+Description: This package allows you to publish the state of a robot to tf2.
+ Once the state gets published, it is available to all components in the system that also use tf2. The package takes the joint angles of the robot as input and publishes the 3D poses of the robot links, using a kinematic tree model of the robot. The package can both be used as a library and as a ROS node. This package has been well tested and the code is stable. No major changes are planned in the near future.
+
+Package: ros-one-ros-comm
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.22
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 17
+Depends: ros-one-message-filters, ros-one-ros, ros-one-rosbag, ros-one-rosconsole, ros-one-roscpp, ros-one-rosgraph, ros-one-rosgraph-msgs, ros-one-roslaunch, ros-one-roslisp, ros-one-rosmaster, ros-one-rosmsg, ros-one-rosnode, ros-one-rosout, ros-one-rosparam, ros-one-rospy, ros-one-rosservice, ros-one-rostest, ros-one-rostopic, ros-one-roswtf, ros-one-std-srvs, ros-one-topic-tools, ros-one-xmlrpcpp
+Filename: ./ros-one-ros-comm_1.17.0-15-g678162e3-2026.10.06.08.22_amd64.deb
+Size: 3280
+MD5sum: 0412a78bb046a0085ea086f867ee72da
+SHA1: a06c37620e509701bbde03fc2820afb22b7dc569
+SHA256: 7ec95a14ab453165c274c450bc14cd3f9397f132907783381ba99cf227bc21eb
+SHA512: fa548c7ed55b0413edd94c95c5040a0aa74b25b308c54845358f0ba0e91939af33f0c6a003ee9ec369336a9f803ec9dcc879848cfaa9f51546281530f3eb72eb
+Homepage: http://wiki.ros.org/ros_comm
+Description: ROS communications-related packages, including core client libraries (roscpp, rospy) and graph introspection tools (rostopic, rosnode, rosservice, rosparam).
+
+Package: ros-one-ros-environment
+Architecture: amd64
+Version: 1.3.2-5-gee6d167-2026.10.06.07.47
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 44
+Depends: ros-one-setup-files
+Filename: ./ros-one-ros-environment_1.3.2-5-gee6d167-2026.10.06.07.47_amd64.deb
+Size: 5846
+MD5sum: 71ad9172686b623f1cc67e03ea3b9ab9
+SHA1: 86a27cc22d106dd82396fe2dc666a04b24fc4930
+SHA256: 997a03a34b58c8c5ca3c0c96012b5236a6d84b38b587370868293528d56ea18f
+SHA512: 4831f43ed1c18a10023f4edb769a57608175edf87c90bcb87504d80c638c07fa8d10af75523403aaad938a9906ea0369a48b25cc545a0dbb47b71993279e0fc3
+Description: The package provides the environment variables `ROS_VERSION`, `ROS_DISTRO`, `ROS_PACKAGE_PATH`, and `ROS_ETC_DIR`.
+
+Package: ros-one-ros
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.03
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 15
+Depends: catkin, libgmock-dev, libgtest-dev, ros-one-mk, ros-one-rosbash, ros-one-rosboost-cfg, ros-one-rosbuild, ros-one-rosclean, ros-one-roscreate, ros-one-roslang, ros-one-roslib, ros-one-rosmake, ros-one-rosunit
+Filename: ./ros-one-ros_1.15.10-1-g99fd9bb7-2026.10.06.08.03_amd64.deb
+Size: 1898
+MD5sum: c6f33eec2adc4d1478bdc5c1ebeedef4
+SHA1: 55967b4e2b44fb8ffa48c0202c578d827e7a9cb8
+SHA256: 68d82eeb8bcf4acc4d91e4b70f339af7db8677350f3a771047da6a44224d1d48
+SHA512: 1aa07be4b0fd460c77a53ce4b7b2deff677e9bb83a6403039721e93e37e7213968482739f7552b735cac64e5ddfe4a9c13c7a73f5041c20801b2c626b17106f3
+Homepage: http://www.ros.org/wiki/ROS
+Description: ROS packaging system
+
+Package: ros-one-rosbag-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-rosbag
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 4545
+Depends: ros-one-rosbag (= 1.17.0-15-g678162e3-2026.10.06.08.48)
+Filename: ./ros-one-rosbag-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.ddeb
+Size: 4205780
+MD5sum: 844965f0c7f43739e26039e272a7a6db
+SHA1: 0cfe44df1ee3d54eb060d329b5e107d08effbe2f
+SHA256: 497532cb239b29bd2b5df9b82590aa8477e5e98243fa03dcc722fb3923aa3981
+SHA512: 0e6ecc0e8e7de667b7456d42f9b3ee38328230289d055df444cd09b6383994c8ed19668a56f44c047e3dea0e07c86241b025195f8f2324125dd88ae8f5cc9f1b
+Description: debug symbols for ros-one-rosbag
+Build-Ids: 39a7a3fb652b61f243ea7b7ede922c1b1c9b5ba8 4cb8965490472f9c6203e72311b09e819b75ef3a 7c25c6548de75ec06e96a8c856cd6383ccdeac85 cc06744bf9f4fbe0596388fa9c2a1c86adde3bb7
+
+Package: ros-one-rosbag-migration-rule
+Architecture: amd64
+Version: 1.0.1-1-g2269b62-2026.10.06.07.52
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 29
+Filename: ./ros-one-rosbag-migration-rule_1.0.1-1-g2269b62-2026.10.06.07.52_amd64.deb
+Size: 4670
+MD5sum: 0c425ad4a12c39a18480ee0aa4ea5803
+SHA1: d6cf16880ed1597ce05013aa58368834c93b9ee7
+SHA256: f341e875f79d4fec30b3121b4b47502e72db2593033c9e36866d9d164d88e1c9
+SHA512: 7c08d86046fe70ae31f36314400ce450b2f08dbb5f13bcf2f816c3917af5b12ce011d37636ed1ad08a576ac83f73cc3f298ec34aa4d40aa2f989a2e6fea4d38d
+Homepage: http://ros.org/wiki/rosbag_migration_rule
+Description: This empty package allows to export rosbag migration rule files without depending on rosbag.
+
+Package: ros-one-rosbag-snapshot-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.0.7-2026.10.06.09.02
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-rosbag-snapshot
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 2167
+Depends: ros-one-rosbag-snapshot (= 1.0.7-2026.10.06.09.02)
+Filename: ./ros-one-rosbag-snapshot-dbgsym_1.0.7-2026.10.06.09.02_amd64.ddeb
+Size: 1985376
+MD5sum: 08f0d3ca7803360fc1f5fe994f4fb093
+SHA1: 710cce43b1d60f836934a2c559feca6bafec418c
+SHA256: d3e8881dca26ed6e76f24442c9c1ec8de10d197b2220dc2414a35d7e0555ea98
+SHA512: 76b0331f885a3113929a85a0a190da445c327428bbf509054f2dae40709a2a185f42e417e1219aea0b86dd61d4f5fc0e196ef97189df7d3b674f5c4905273e1e
+Description: debug symbols for ros-one-rosbag-snapshot
+Build-Ids: 08ace4ac121eaaa69a852b582121955b1cc31e10 fb5d660fae76e35d45d6673f341fc5accb0eecd5
+
+Package: ros-one-rosbag-snapshot-msgs
+Architecture: amd64
+Version: 1.0.7-2026.10.06.09.01
+Priority: optional
+Section: misc
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 204
+Depends: ros-one-message-runtime, ros-one-rosgraph-msgs
+Filename: ./ros-one-rosbag-snapshot-msgs_1.0.7-2026.10.06.09.01_amd64.deb
+Size: 23318
+MD5sum: 3916bd1384b033209741173fadde1f37
+SHA1: 240d2d13801ffe881cb4547833381ac3effacb71
+SHA256: 14f7c14f8790232f7227ea4c36941139f90838cf7f87bdaf595ae69b592d4e58
+SHA512: c49dd6fd04db10357595b21643be9dd079ed32d1a9ec3344bb41fc08fbd9396ff0138d086518bf381b6ef95302340d05ac36a6281650895805a678739f8e3790
+Description: Service and message definitions for rosbag_snapshot
+
+Package: ros-one-rosbag-snapshot
+Architecture: amd64
+Version: 1.0.7-2026.10.06.09.02
+Priority: optional
+Section: misc
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Installed-Size: 490
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-rosbag, ros-one-rosbag-snapshot-msgs, ros-one-roscpp, ros-one-rosgraph-msgs, ros-one-std-srvs, ros-one-topic-tools
+Filename: ./ros-one-rosbag-snapshot_1.0.7-2026.10.06.09.02_amd64.deb
+Size: 142636
+MD5sum: 15d23ec8cc6686480e1cc378eadb5487
+SHA1: b59abe238755435ecb9a9d974480c32679d98114
+SHA256: 669a7e8919d07686b7aa46b684255c1ae15c2226a32a4d492c93c5f4ffec57b7
+SHA512: 265b903efa46bf6705111a2afd3075d019e7b8bc554ac23a54ddb3913a877924c3aa01bea55650311f945ccf76f7d6894b25ce9de744dcc2e01721acc080ce86
+Description: The rosbag_snapshot package
+
+Package: ros-one-rosbag-storage-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.37
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-rosbag-storage
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 3156
+Depends: ros-one-rosbag-storage (= 1.17.0-15-g678162e3-2026.10.06.08.37)
+Filename: ./ros-one-rosbag-storage-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.37_amd64.ddeb
+Size: 2975310
+MD5sum: d5a8fb2ec339521a67b2c7c04d548905
+SHA1: 17f07ac7c740ec75cd5145b782ca9f6cd4d77e01
+SHA256: f42fd93d56000be31e09d2c5df8f937b161b2ef5d756c7658b6a27ee1e7dad3d
+SHA512: 1f6f9c5a6b31e0b3423840c254c543e2894eb2929e2a3428c065ac8bb420bde3d91dbaad0c2d845b93ab08ddbe45b4bfc5d7af622f41ef38d274cb2d369b8655
+Description: debug symbols for ros-one-rosbag-storage
+Build-Ids: 3ee033ccdfd5502ceb6558d2237caa115e67daa1 c091aff7e94f009d73ad790adb82a3a40a22bad1
+
+Package: ros-one-rosbag-storage
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.37
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 643
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libbz2-1.0, libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgpgme11 (>= 1.2.0), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libboost-filesystem-dev, libbz2-dev, libconsole-bridge-dev, libgpgme-dev, libssl-dev, ros-one-cpp-common (>= 0.3.17), ros-one-pluginlib, ros-one-roscpp-serialization, ros-one-roscpp-traits (>= 0.3.17), ros-one-roslz4, ros-one-rostime
+Filename: ./ros-one-rosbag-storage_1.17.0-15-g678162e3-2026.10.06.08.37_amd64.deb
+Size: 184464
+MD5sum: ea149d430922bbe69430359235239835
+SHA1: ed78cc3fcdc89467f1527b898b70a5536869c895
+SHA256: 92dd69bd64c452a400c67de8fdcfa0f50481dff0d21bf735c41d55cdc5cdd1c1
+SHA512: 621a1e2773ab13ba02b65aa97aeedc75bc679657b5139d1f0fe2cfff1b1d244e2eb767bc98e5389c6522ce128fe61b54f9643d992857dbcf468cf5da5fe68257
+Description: This is a set of tools for recording from and playing back ROS message without relying on the ROS client library.
+
+Package: ros-one-rosbag
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.48
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 1367
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libboost-date-time-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-regex-dev, libboost-thread-dev, python3-gnupg, python3-pycryptodome, python3-rospkg, ros-one-genmsg, ros-one-genpy, ros-one-rosbag-storage, ros-one-rosconsole, ros-one-roscpp, ros-one-roslib, ros-one-rospy, ros-one-std-srvs, ros-one-topic-tools, ros-one-xmlrpcpp
+Filename: ./ros-one-rosbag_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.deb
+Size: 350724
+MD5sum: 0c49b233484f3b5153bb9ba8baa43e90
+SHA1: b273f7c6c1a49cb4202ccf50657bdb8515c283ed
+SHA256: 4a3ab2ce963f4b8e5e5d3456639cbcad356bee586456092877febd00448841c9
+SHA512: 0204513a37462ad47737bdd219bb551569034ee2d3e557909e43428ac1c6d723c71576ff9e49dfcd6a5757238159f9294eb40e944533241c58343432772d785c
+Homepage: http://wiki.ros.org/rosbag
+Description: This is a set of tools for recording from and playing back to ROS topics.
+ It is intended to be high performance and avoids deserialization and reserialization of the messages.
+
+Package: ros-one-rosbash
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.03
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 145
+Depends: catkin, libgmock-dev, libgtest-dev, ros-one-rospack
+Filename: ./ros-one-rosbash_1.15.10-1-g99fd9bb7-2026.10.06.08.03_amd64.deb
+Size: 22028
+MD5sum: 0efeda5061971adf824f05efd4463d6b
+SHA1: 8ec3f3f48fea3731df0b2393221eaf7a91a8832b
+SHA256: 91f2caec4431be3bddf9ead825e55c7d98a07b785f64203b6637277681152534
+SHA512: 089b26e1ee19664868421b1b25d23fb32ef399a90d9035ab71b5a046e581656d2ab407194f31c29ff47de5ae1e77a8bcd360ffb7e1b819c789698fd4f0f322f4
+Homepage: http://www.ros.org/wiki/rosbash
+Description: Assorted shell commands for using ros with bash.
+
+Package: ros-one-rosboost-cfg
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.04
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 66
+Filename: ./ros-one-rosboost-cfg_1.15.10-1-g99fd9bb7-2026.10.06.08.04_amd64.deb
+Size: 14614
+MD5sum: 27258645f10719e7c06cce09fc2f162c
+SHA1: 90341f4bc28911b1068e6895c8164b01f5c1cfe8
+SHA256: 68e71d7e6f62b2506231b83cbc61e85b7a57bb3b36964f35bb9a69b64093a1ab
+SHA512: 2402b9cf8102ce35a2e3c98fd77d722d696038e43ec55406b6045b874bddc528d591aaf8a6c1ef3ad1a9f97c140ea2732b437a18642d12fab8a1aad0f0c620ef
+Homepage: http://ros.org/wiki/rosboost_cfg
+Description: Contains scripts used by the rosboost-cfg tool for determining cflags/lflags/etc.
+ of boost on your system
+
+Package: ros-one-rosbuild
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.04
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 147
+Depends: catkin, libgmock-dev, libgtest-dev, ros-one-message-generation, ros-one-message-runtime
+Filename: ./ros-one-rosbuild_1.15.10-1-g99fd9bb7-2026.10.06.08.04_amd64.deb
+Size: 28558
+MD5sum: cac89ace5e6176fdbfd04550a1ba8aea
+SHA1: 83c7124962a099c289e1fac85cfc2e6bf2157c36
+SHA256: 8721ca056a01a04b6b261de2b7efcfaeced0d56c563e465171cd75656cf43b0d
+SHA512: 03344e382179445fcfc60ce240a451136b65d9d8caa2ba456a996cfbe395fb3e139aba39e633281f7da2971045f141c981ae3fdbe77f8e39d41e92a7eaa81746
+Homepage: http://ros.org/wiki/rosbuild
+Description: rosbuild contains scripts for managing the CMake-based build system for ROS.
+
+Package: ros-one-rosclean
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.05
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 59
+Depends: python3-rospkg
+Filename: ./ros-one-rosclean_1.15.10-1-g99fd9bb7-2026.10.06.08.05_amd64.deb
+Size: 12640
+MD5sum: 7eafe0ccb19a5c89602a5c52d7ce5203
+SHA1: 38408090f33b9e1bc38694b952957ccc6972949e
+SHA256: 213816fe49f255a50203500952ee5f81683d8b66d9120d8b59bd8b9855df0535
+SHA512: 824102dd48c180f47af2c4a1389e4c5397fc74adf7cdf451c1503f2c5f30e4265fbfc7cc87ef7e5d1a8e0882e8130ba44b1e7eb9c0f6e3abd93129d419494199
+Homepage: http://wiki.ros.org/rosclean
+Description: rosclean: cleanup filesystem resources (e.g.
+ log files).
+
+Package: ros-one-rosconsole-bridge-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.5.4-1-g38b0830-2026.10.06.08.15
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-rosconsole-bridge
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 68
+Depends: ros-one-rosconsole-bridge (= 0.5.4-1-g38b0830-2026.10.06.08.15)
+Filename: ./ros-one-rosconsole-bridge-dbgsym_0.5.4-1-g38b0830-2026.10.06.08.15_amd64.ddeb
+Size: 50432
+MD5sum: d6accfbb295e19ae4d104f08c35cd7eb
+SHA1: 77ef633f5d73f39eb45c194a8f41f9a6cd07788d
+SHA256: 9607f257bce2080753f025c68b49017827548704c55c6363e55676ddb0e4b606
+SHA512: 7d0d70c23cec271c9d428ff97896ac787cae64137fec2acb8f0cd8170ab456b2af8b9e8b53b0dc219aa4e22fb4a7c0c2786627404783adc315a24dad35ca9a23
+Description: debug symbols for ros-one-rosconsole-bridge
+Build-Ids: ba582aadb0e75b91a8483508da4baceeb34a27f7
+
+Package: ros-one-rosconsole-bridge
+Architecture: amd64
+Version: 0.5.4-1-g38b0830-2026.10.06.08.15
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 59
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libconsole-bridge-dev, ros-one-cpp-common, ros-one-rosconsole
+Filename: ./ros-one-rosconsole-bridge_0.5.4-1-g38b0830-2026.10.06.08.15_amd64.deb
+Size: 12836
+MD5sum: c03bf71e8537a260db18bb70dee7936b
+SHA1: 840f27810157e61b2591e15925163af44e86d147
+SHA256: 0a95b350d81a80fd219f8d26c3618a2f613d7228758fdfbbbfca671ed9728e2c
+SHA512: 79ab84cc5d69ff39d31cf20d1ed18ec26980cdd6024c1ba0fc0d5a576bcadcd2054e4e76f0b7c4164d9a82b01eaececbfa984c9de40c13eb9d3c3f1340c339ae
+Homepage: http://www.ros.org/wiki/rosconsole_bridge
+Description: rosconsole_bridge is a package used in conjunction with console_bridge and rosconsole for connecting console_bridge-based logging to rosconsole-based logging.
+
+Package: ros-one-rosconsole-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.14.3-6-g08c1475e-2026.10.06.08.12
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-rosconsole
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 1355
+Depends: ros-one-rosconsole (= 1.14.3-6-g08c1475e-2026.10.06.08.12)
+Filename: ./ros-one-rosconsole-dbgsym_1.14.3-6-g08c1475e-2026.10.06.08.12_amd64.ddeb
+Size: 1215022
+MD5sum: ece09c3a70aea2bca512e337cba72845
+SHA1: b3290628c7c2bba729f8458429e6ba326ddc3019
+SHA256: ffab985c097471aa4c583b73f72848581ed75bf9208552e72965befbc09a9eb0
+SHA512: 68d232b8d421c5a834c9a8604e09d228bf1ca223ce74938c873d0ffd6fd86c931ba766ea9536cf5524e9ccb0c48a0786242022154dbee0dd5df7573bdb6f5734
+Description: debug symbols for ros-one-rosconsole
+Build-Ids: 0bb7e3566e89405e7ffac01fda98f8c2609812c4 19cb9563c41a1aa48f06cd2d2ca50be5c47c4c47 71dba5309aa703777c64ee9a90de1d5172307742
+
+Package: ros-one-rosconsole
+Architecture: amd64
+Version: 1.14.3-6-g08c1475e-2026.10.06.08.12
+Priority: optional
+Section: misc
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Installed-Size: 446
+Depends: libboost-regex1.74.0-icu70, libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), liblog4cxx12 (>= 0.12.1), libstdc++6 (>= 11), libapr1-dev, libaprutil1-dev, libboost-regex-dev, liblog4cxx-dev, ros-one-cpp-common, ros-one-rosbuild, ros-one-rostime
+Filename: ./ros-one-rosconsole_1.14.3-6-g08c1475e-2026.10.06.08.12_amd64.deb
+Size: 111872
+MD5sum: 8c2919dc06107ecf55758aaba4110988
+SHA1: 339ae56b0c1323bb9570acb60a9b72d8b0f86cf2
+SHA256: 4c13e421c993f3f2cd6c8a7ff2eaf973b7fe7a200fbfe8f3be17767ac8693ba5
+SHA512: 2e829768ffbe741d0426282a61d6ec6bbcf81001078ec62d8a6a36849515315c0e9b234c06049e494263975f8fa730f627da40e34ed084b21f31c492b9337618
+Homepage: http://www.ros.org/wiki/rosconsole
+Description: ROS console output library.
+
+Package: ros-one-roscpp-core
+Architecture: amd64
+Version: 0.7.3-4-g34fad8c-2026.10.06.07.51
+Priority: optional
+Section: misc
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 14
+Depends: ros-one-cpp-common, ros-one-roscpp-serialization, ros-one-roscpp-traits, ros-one-rostime
+Filename: ./ros-one-roscpp-core_0.7.3-4-g34fad8c-2026.10.06.07.51_amd64.deb
+Size: 1702
+MD5sum: a95db043b2d9264280191c994297e8f1
+SHA1: dacd0a9632d4fede160e8261d2efc93169197943
+SHA256: e0dbed04b5942fdec8d35fd99afa3d8b0adcda1a6bc8ec58e4f3ba0a028d8a60
+SHA512: b153666761fbb17cafcf12614e87e8268df3afb5065492bd66264dc6463969bdd8853ec3fd461e52a3b2a3415bfda1e94e76d3f78ce1a3cdea1cafb51288bce1
+Homepage: http://www.ros.org/wiki/roscpp_core
+Description: Underlying data libraries for roscpp messages.
+
+Package: ros-one-roscpp-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.33
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-roscpp
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 9593
+Depends: ros-one-roscpp (= 1.17.0-15-g678162e3-2026.10.06.08.33)
+Filename: ./ros-one-roscpp-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.33_amd64.ddeb
+Size: 9146216
+MD5sum: a75af4137798db0dbbaf83495590ddff
+SHA1: 8e19e0f6c99bb17405689425115ce554255c0955
+SHA256: 39d592c25f9b9bfe41eb6d77cbedfe5c484b7b512dd2276e65d8cc64cb6a36ae
+SHA512: 62f7fb11452f9919596fd8d3f4777318c7c8a0d68e649c6b384b0dddefcd503271beb2e8daffda76f0f89fcfe7c1edef9aafabd89121d843fa461f893f9635ee
+Description: debug symbols for ros-one-roscpp
+Build-Ids: b45a997f8e38ce60eacf64b10e7b99b8b99f86cd
+
+Package: ros-one-roscpp-serialization-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.3-4-g34fad8c-2026.10.06.07.53
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-roscpp-serialization
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 45
+Depends: ros-one-roscpp-serialization (= 0.7.3-4-g34fad8c-2026.10.06.07.53)
+Filename: ./ros-one-roscpp-serialization-dbgsym_0.7.3-4-g34fad8c-2026.10.06.07.53_amd64.ddeb
+Size: 30628
+MD5sum: 7f514e68af754604131f153f5296123f
+SHA1: ec8186b894482bee670711e3572f4bcaf773baec
+SHA256: bc5a29fc6db221a54d0a16f5db3e3a74906f15b0164c3d5a27343a16f42eec70
+SHA512: 5a0e55087c5d46867015a811357269ffe38f55f26914b26c45bcc6bdd8e01e155ed4133a2dff32dacc7057070ca90df25384261f214551b251c426a33d2ad780
+Description: debug symbols for ros-one-roscpp-serialization
+Build-Ids: 91f5d378c1f20dc863a834ad0a44e7fec4339755
+
+Package: ros-one-roscpp-serialization
+Architecture: amd64
+Version: 0.7.3-4-g34fad8c-2026.10.06.07.53
+Priority: optional
+Section: misc
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 76
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-one-cpp-common, ros-one-roscpp-traits, ros-one-rostime
+Filename: ./ros-one-roscpp-serialization_0.7.3-4-g34fad8c-2026.10.06.07.53_amd64.deb
+Size: 13986
+MD5sum: 3b0734494779532edcc9064d4167687d
+SHA1: 3e30f4a1118bafb8a00d1b5f25e16146358fc4c5
+SHA256: c52085824d2078afd6382c4fab586464c9576925b408e09d4d2cc4c7c9bf9688
+SHA512: 988cda9098f268b1e327cb3b9971dd0da7c7e4db62dea0c227832c2b6b68ff1b9a0f5d3365ef181b45a66404eb65cbcafcf1e159a183cae89e40e6b0b967cc64
+Homepage: http://ros.org/wiki/roscpp_serialization
+Description: roscpp_serialization contains the code for serialization as described in MessagesSerializationAndAdaptingTypes.
+ This package is a component of roscpp.
+
+Package: ros-one-roscpp-traits
+Architecture: amd64
+Version: 0.7.3-4-g34fad8c-2026.10.06.07.52
+Priority: optional
+Section: misc
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 63
+Depends: ros-one-cpp-common, ros-one-rostime
+Filename: ./ros-one-roscpp-traits_0.7.3-4-g34fad8c-2026.10.06.07.52_amd64.deb
+Size: 10716
+MD5sum: 27c8e7170b3a14a71a076e496c641f51
+SHA1: 603633dbf272392efbc64f2125481c5c1ac07fbc
+SHA256: 5ab0fb9846a0a7b812ebad6ffe5fc56db58513e50680e76453d31c606f994ace
+SHA512: 1099e4742afa545e25d98dc57f8aea5aa665647e254ce66973e58f286fa5dd0abf6117958024d963c75897c488c24bb943190d85aaf609b4f18f40c254f8e639
+Homepage: http://ros.org/wiki/roscpp_traits
+Description: roscpp_traits contains the message traits code as described in MessagesTraits.
+ This package is a component of roscpp.
+
+Package: ros-one-roscpp
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.33
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 1876
+Depends: libboost-chrono1.74.0 (>= 1.74.0), libboost-filesystem1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libboost-chrono-dev, libboost-filesystem-dev, libboost-system-dev, ros-one-cpp-common (>= 0.3.17), ros-one-message-runtime, ros-one-rosconsole, ros-one-roscpp-serialization, ros-one-roscpp-traits (>= 0.3.17), ros-one-rosgraph-msgs (>= 1.10.3), ros-one-rostime (>= 0.6.4), ros-one-std-msgs, ros-one-xmlrpcpp
+Filename: ./ros-one-roscpp_1.17.0-15-g678162e3-2026.10.06.08.33_amd64.deb
+Size: 438146
+MD5sum: f55a6d78c7f37a84ae8036849f32e9ed
+SHA1: b4769b9bf7f86e525a06a029d17294eb08313f84
+SHA256: d2960cba0b362292f783987f20d25189f3420e906f4767e646cf51abf0b218ae
+SHA512: 7c8b9c04fe6d85b193ff35b1d4b36dc15113d233481a2fe58e9082f64fd20a787d403fe5957a2b06e3a0fc50bfdc7b49d22bb2eaf88ffdae8334debdcd1b5b9e
+Homepage: http://ros.org/wiki/roscpp
+Description: roscpp is a C++ implementation of ROS.
+ It provides a client library that enables C++ programmers to quickly interface with ROS Topics, Services, and Parameters. roscpp is the most widely used ROS client library and is designed to be the high-performance library for ROS.
+
+Package: ros-one-roscreate
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.06
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 68
+Depends: python3-rospkg, ros-one-roslib
+Filename: ./ros-one-roscreate_1.15.10-1-g99fd9bb7-2026.10.06.08.06_amd64.deb
+Size: 12802
+MD5sum: 5b58f93f7b484de3a7a4892d41ae7d6e
+SHA1: e01cd99ba6ab1396f2ce0a41374c3d7d9e8f9e0f
+SHA256: 5eb3325a52f95125adc3dd0949fc548b3f0fc99bf9b69e3f2ba919979b985bb8
+SHA512: a44a457d7c269c7598dcdc78bd4c22e6e95f7e61400c5ad7fd64aa012a0acd37f67b204d4aafb8ab858e820b0bfa97220ae89918b2f1101d9ab086b77b4f34e3
+Homepage: http://wiki.ros.org/roscreate
+Description: roscreate contains a tool that assists in the creation of ROS filesystem resources.
+ It provides: roscreate-pkg, which creates a new package directory, including the appropriate build and manifest files.
+
+Package: ros-one-rosgraph-msgs
+Architecture: amd64
+Version: 1.11.3-1-gf51a0429-2026.10.06.08.11
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 231
+Depends: ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-rosgraph-msgs_1.11.3-1-gf51a0429-2026.10.06.08.11_amd64.deb
+Size: 26800
+MD5sum: 4d72cef82c267d51f39b7df502f76f21
+SHA1: b7ff9304015cbf2545e5528a7cd4e035179f857c
+SHA256: 27ea69b3b46bae0654d721ea3a09c3632511c28ba2d7c620f66941dbede7124c
+SHA512: 1f4682130ff086f704afa4453c571bdf156f3d31445a5da3fdd7f8792c8c7e39f1645ab969d9eada900be031b6effb8f972b3b49234987ae867e32eee6b3f356
+Homepage: http://ros.org/wiki/rosgraph_msgs
+Description: Messages relating to the ROS Computation Graph.
+ These are generally considered to be low-level messages that end users do not interact with.
+
+Package: ros-one-rosgraph
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.23
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 235
+Depends: python3-netifaces, python3-rospkg, python3-yaml
+Filename: ./ros-one-rosgraph_1.17.0-15-g678162e3-2026.10.06.08.23_amd64.deb
+Size: 52014
+MD5sum: 7e4767574e2889b767f34f878b7602ae
+SHA1: ccccf4800cfb91f8dc10eb956b715016f06258ba
+SHA256: 3cda988c042eb2d4ae56ea5759d8bc48752f0bbf007086d60267430cff00f7bf
+SHA512: 86dcf298de1d73c238729394cedfa36885993c5af87fdd51e7a1399438aa1b83882515fef7ffa6447643f0b0c575b117fbfb4975f2bb729af46ce9c975ac009a
+Homepage: http://wiki.ros.org/rosgraph
+Description: rosgraph contains the rosgraph command-line tool, which prints information about the ROS Computation Graph.
+ It also provides an internal library that can be used by graphical tools.
+
+Package: ros-one-roslang
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.07
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 30
+Depends: catkin, libgmock-dev, libgtest-dev, ros-one-genmsg
+Filename: ./ros-one-roslang_1.15.10-1-g99fd9bb7-2026.10.06.08.07_amd64.deb
+Size: 6148
+MD5sum: 48504a4c6c5e35d17b9c2f767dcb043b
+SHA1: 6d06fc593e08f6144daf9a83b16d35b65d414626
+SHA256: a1196cd9f53e8cfac8c89d231865e08dedba7e6ed7df193e9a989d4a13a494d4
+SHA512: 70d2dbcd4d678b1bf2a89240f624a66b70a28b879adc1046daf67624fa051fea317f0c51ed5d2dd3616600308c017247cbe4287ccc6b30f99be9b7a2ec5afefc
+Homepage: http://ros.org/wiki/roslang
+Description: roslang is a common package that all ROS client libraries depend on.
+ This is mainly used to find client libraries (via 'rospack depends-on1 roslang').
+
+Package: ros-one-roslaunch
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.23
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 684
+Depends: python3-paramiko, python3-rospkg (>= 1.0.37), python3-yaml, ros-one-rosclean, ros-one-rosgraph-msgs, ros-one-roslib, ros-one-rosmaster (>= 1.11.16), ros-one-rosout, ros-one-rosparam, ros-one-rosunit (>= 1.13.3)
+Filename: ./ros-one-roslaunch_1.17.0-15-g678162e3-2026.10.06.08.23_amd64.deb
+Size: 145364
+MD5sum: bdb0b3ffbd2a84a73efafaa2397a9e91
+SHA1: 6c1c93f01891f05eb57358e82a0b4a11175de650
+SHA256: 95ba75381197a7d347cd978f5431de154e5264feb17f62bcd9311aff70e997bb
+SHA512: c3440aab5bec4280741486488ba5a62d16208d91cfa405fd751d45f860c39a26fe583705088b172e31aef85493ed3c0a047f95c99714d43253b0b4f7faf51e2b
+Homepage: http://wiki.ros.org/roslaunch
+Description: roslaunch is a tool for easily launching multiple ROS nodes locally and remotely via SSH, as well as setting parameters on the Parameter Server.
+ It includes options to automatically respawn processes that have already died. roslaunch takes in one or more XML configuration files (with the .launch extension) that specify the parameters to set and nodes to launch, as well as the machines that they should be run on.
+
+Package: ros-one-roslib-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-roslib
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 277
+Depends: ros-one-roslib (= 1.15.10-1-g99fd9bb7-2026.10.06.08.08)
+Filename: ./ros-one-roslib-dbgsym_1.15.10-1-g99fd9bb7-2026.10.06.08.08_amd64.ddeb
+Size: 249424
+MD5sum: 4cfb7d31027fd0fa6c957d465a18a8f4
+SHA1: 3bd18dab969279fb5b934f0446ee02d8c47a68a1
+SHA256: b2e3d62f6f234375c6adb1c4685fce21042e85e83af7f6560e93e2a454d2b8b7
+SHA512: bc91dc13cb4d3ce8655fadf67f7736cd704b3690727253966896c1884153521f8a0d3122413e9483e4fb17986e8fcc0e87d1c1d75448b0dcbf029af38e95a706
+Description: debug symbols for ros-one-roslib
+Build-Ids: 54b4733326141992f54629c1346ce85b6e73021f
+
+Package: ros-one-roslib
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.08
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 433
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), catkin, libgmock-dev, libgtest-dev, python3-rospkg (>= 1.0.37), ros-one-ros-environment, ros-one-rospack
+Filename: ./ros-one-roslib_1.15.10-1-g99fd9bb7-2026.10.06.08.08_amd64.deb
+Size: 97178
+MD5sum: 19d86f7f268fb1d55f30f25c92bd2b9d
+SHA1: 7a3012c30f94538857aa08b14ae42fd8cadf559f
+SHA256: 5015f6e87ad7e2c84b9f94d717795797b870fa31de63a6a89b281a5d2ef648dc
+SHA512: 4a730f4bc65dcda5e9b28a28d3beec9505fda6d4d15b45b8d78b1e2d556f2b32370a64e1eb8bdb1d7ee4dbb7a53ce2cbb939c102b7148731bb6ca85547d5885a
+Homepage: http://wiki.ros.org/roslib
+Description: Base dependencies and support libraries for ROS.
+ roslib contains many of the common data structures and tools that are shared across ROS client library implementations.
+
+Package: ros-one-roslint
+Architecture: amd64
+Version: 0.12.0-4-gac02636-2026.10.06.07.53
+Priority: optional
+Section: misc
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Installed-Size: 602
+Filename: ./ros-one-roslint_0.12.0-4-gac02636-2026.10.06.07.53_amd64.deb
+Size: 151646
+MD5sum: 4c56934896ceb468fb2475ddc1473525
+SHA1: 4885797537bbba68e90a954b19ab1ac365da80e8
+SHA256: eb7df45f2cc6b339cf7e099d95ebba77cb413121313a077b739eb91b6eea581e
+SHA512: 42ab78ca8a191d2d79964dfce489b4c471bbfe8413810655efad15792fe74e027fa35330c20a631a2179a3acdb25ef2658b77c802ab82c4a6ff5b463d38a46bc
+Homepage: http://ros.org/wiki/roslint
+Description: CMake lint commands for ROS packages.
+ The lint commands perform static checking of Python or C++ source code for errors and standards compliance.
+
+Package: ros-one-roslisp
+Architecture: amd64
+Version: 1.9.25-2026.10.06.08.15
+Priority: optional
+Section: misc
+Maintainer: Gayane Kazhoyan <kazhoyan@cs.uni-bremen.de>
+Installed-Size: 561
+Depends: ros-one-ros-environment, ros-one-rosgraph-msgs, ros-one-roslang, ros-one-rospack, ros-one-std-srvs, sbcl
+Filename: ./ros-one-roslisp_1.9.25-2026.10.06.08.15_amd64.deb
+Size: 99724
+MD5sum: fe853aa43b9ca3be19be69e54942e7f9
+SHA1: 1e0c511a4197bab227526785e0d14f8e6ca44486
+SHA256: feedfa602943420db1b6165bbedec4d6fc9f700694fde13465a7be05f5616a6f
+SHA512: 8d8769f162695315bb18dde8c01c2d765165690dc716a6ef9976c6b7ba07c45f3d45dc2a4433dd781f43fce3b73eb440f62335b7d0f014dc02a75ed687e2bf09
+Homepage: http://ros.org/wiki/roslisp
+Description: Lisp client library for ROS, the Robot Operating System.
+
+Package: ros-one-roslz4-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-roslz4
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 50
+Depends: ros-one-roslz4 (= 1.17.0-15-g678162e3-2026.10.06.08.24)
+Filename: ./ros-one-roslz4-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.24_amd64.ddeb
+Size: 27404
+MD5sum: 03d37081b75ad9df7c62ab41a1887d33
+SHA1: d97d570b7046dad76fa826874a867ea5f03c181e
+SHA256: de6e90988f250d3dfce24302c8a877fbfcfe2985637506e71ae9f0413eac7d3f
+SHA512: e8cd4649f83274c2c1e608411464546050349d751c5e48a366cb14319450323aaf4df0cf21d6932f85b877b07d60461d2414ededa6bcdd551ec7d4a72abb496a
+Description: debug symbols for ros-one-roslz4
+Build-Ids: 3cd6625664148a4006c65cbf3481100dd83ac796 fd346bd139603cd979afd97fb0f704f5ca811046
+
+Package: ros-one-roslz4
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.24
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 85
+Depends: libc6 (>= 2.14), liblz4-1 (>= 0.0~r130), libpython3.10 (>= 3.10.0), liblz4-dev, lz4, python3-dev
+Filename: ./ros-one-roslz4_1.17.0-15-g678162e3-2026.10.06.08.24_amd64.deb
+Size: 18334
+MD5sum: 0d9b442fda3e448afa0cda77d87d4a17
+SHA1: e104197c86a0a3b662205f70f5a6754e3c5d3735
+SHA256: c1f05b58190dc89f4fc75dcdb40c678d9f0c38c375f389edd0fc668816dee5ad
+SHA512: 0f6640457b227262c1783e73d2887a8f975605803e33679412182d7e1c5264427cd8fa4ef3d41d458ca928c66d933018074e1a8d50c05cb139d61735279dbd42
+Description: A Python and C++ implementation of the LZ4 streaming format.
+ Large data streams are split into blocks which are compressed using the very fast LZ4 compression algorithm.
+
+Package: ros-one-rosmake
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.07
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 148
+Depends: catkin, libgmock-dev, libgtest-dev, python3-rospkg
+Filename: ./ros-one-rosmake_1.15.10-1-g99fd9bb7-2026.10.06.08.07_amd64.deb
+Size: 34926
+MD5sum: 8451f22c848e7ec75902e61708db009f
+SHA1: ee90d14dc2797773490cd1982c94cc412c8cb37f
+SHA256: c4be6a9b5e976bf0dbfb3b4eaa6d96f227c28ab4a0a5a9f843248c0dd3733d9f
+SHA512: 852ea31453d0188b719bf97dbf33b9acd9ff1ce83e5a8aabc59532fb32867068d78da3b7e54d69ea27202605c8dc722400479e4d4fd763f8d4a2700203930ffa
+Homepage: http://wiki.ros.org/rosmake
+Description: rosmake is a ros dependency aware build tool which can be used to build all dependencies in the correct order.
+
+Package: ros-one-rosmaster
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.25
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 224
+Depends: python3-defusedxml, ros-one-rosgraph
+Filename: ./ros-one-rosmaster_1.17.0-15-g678162e3-2026.10.06.08.25_amd64.deb
+Size: 44624
+MD5sum: e82bbdc277624e5b556ed50153a0a459
+SHA1: b623629622ff4953f62553949ec2731fc53b0f76
+SHA256: 1d67d241d03e7fefe5899ffba27f32ac6e70cad7a94c71ca0654fb46ad95e58f
+SHA512: 653241da2e96810af04e4b105e1745080891a8a4718fcd2133100c2543859cf3a82322a28c6c0d6002d84a8ddd22f9444df019767e5ddabddf766627e7650b5d
+Homepage: http://wiki.ros.org/rosmaster
+Description: ROS Master implementation.
+
+Package: ros-one-rosmsg
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.38
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 99
+Depends: catkin (>= 0.6.4), libgmock-dev (>= 0.6.4), libgtest-dev (>= 0.6.4), python3-rospkg, ros-one-genmsg, ros-one-genpy (>= 0.6.5), ros-one-rosbag, ros-one-roslib
+Filename: ./ros-one-rosmsg_1.17.0-15-g678162e3-2026.10.06.08.38_amd64.deb
+Size: 24194
+MD5sum: 362a5ad3ec420ccd20a0a8730e6dded7
+SHA1: 8f7a7035a58c47a6ae2c4201ce6b85e58c98b276
+SHA256: e7474d6de0386b0e2864d7c60972bc67c3aa3ad525d2b73e52f11e121647105a
+SHA512: e8f8aa7d831388c0ba0a9f0d770ff427e3a86fd9cd508832f700cf02de2d1079cfaaf502c06d4f61405f6fc222fe668c88ac818ec5051dedb4ec92be831b6fff
+Homepage: http://wiki.ros.org/rosmsg
+Description: rosmsg contains two command-line tools: rosmsg and rossrv.
+ rosmsg is a command-line tool for displaying information about ROS Message types. rossrv is a command-line tool for displaying information about ROS Service types.
+
+Package: ros-one-rosnode
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.39
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 98
+Depends: ros-one-rosgraph, ros-one-rostopic
+Filename: ./ros-one-rosnode_1.17.0-15-g678162e3-2026.10.06.08.39_amd64.deb
+Size: 22350
+MD5sum: 9e769546a413ee9df305b9f86794b446
+SHA1: 931170433e6783febe01ed81b264bffa11de3ece
+SHA256: 71d3dd5dd4f687dcf34d15b5424c445ffcd938ee248d27b1837bd2e0bdb47ad5
+SHA512: f3473455adfb07c0048c0c1b34f88382b6f8a60418cd3bfdebd918301ae32a4e4cdfecce6b9b08fddc9263bd5371c04fb3f362d7dfb7ee407e2b15812af4b16c
+Homepage: http://ros.org/wiki/rosnode
+Description: rosnode is a command-line tool for displaying debug information about ROS Nodes, including publications, subscriptions and connections.
+ It also contains an experimental library for retrieving node information. This library is intended for internal use only.
+
+Package: ros-one-rosout-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.35
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-rosout
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 399
+Depends: ros-one-rosout (= 1.17.0-15-g678162e3-2026.10.06.08.35)
+Filename: ./ros-one-rosout-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.35_amd64.ddeb
+Size: 364674
+MD5sum: 4b7023c5ea7ffe7f187688ce0fbcb391
+SHA1: 627aa3b196c740aaf6a143cb65e950d3f71367ed
+SHA256: 8d68dfb31e2b80206a8da8af7fae3503f09676108b6cf16fff6d41c364016c0e
+SHA512: 43f23d0711e7f37b5e31e575c0d9ced3998046b90d553b50544bb11ae18d936052a04facd89c711e77e1abfc937641a4fb28159351ab7852f36408c777e1f44f
+Description: debug symbols for ros-one-rosout
+Build-Ids: 3d868f5261b3d677e629c2ff5eeae97d4225ab97
+
+Package: ros-one-rosout
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.35
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 113
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-roscpp, ros-one-rosgraph-msgs
+Filename: ./ros-one-rosout_1.17.0-15-g678162e3-2026.10.06.08.35_amd64.deb
+Size: 34560
+MD5sum: 83571a0626886afd38ff174fffc4ed90
+SHA1: d93b6c2d02672c8459fde2e8e30deaa0ecc61803
+SHA256: bcfa2dd27203aac74020bbac9194443c3e387274f6099714bf236aebdeeafb0a
+SHA512: 945f2fbac7573ba3cd8b5d023ade314935571f5a67d22ba7e52b8ec42e099fc082144a21379c534c9bc5a5649146ceca38c4086c84fd8e39e8fa7c0b155e24c4
+Homepage: http://ros.org/wiki/rosout
+Description: System-wide logging mechanism for messages sent to the /rosout topic.
+
+Package: ros-one-rospack-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.6.4-1-gfd4d6fd-2026.10.06.07.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-rospack
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Installed-Size: 1239
+Depends: ros-one-rospack (= 2.6.4-1-gfd4d6fd-2026.10.06.07.56)
+Filename: ./ros-one-rospack-dbgsym_2.6.4-1-gfd4d6fd-2026.10.06.07.56_amd64.ddeb
+Size: 1170184
+MD5sum: 6e7514edbd6abdd468b4ec0cb75a09ae
+SHA1: 60bc77badd9b4029e1f5f7e96d0a45bc7bded6b0
+SHA256: 9d3ac7939df38b77351b3f5c68611e20544e8ac795e7480c59ab5d9ef2bb95aa
+SHA512: 56a7ed5042ae402a12d47958c21c6239825af10c5f15e4ad2fe44e8085f4d8c56aaff236e82dfba2b604104477e82a748ce8c9de387e62ba7cdb6b05f8890493
+Description: debug symbols for ros-one-rospack
+Build-Ids: 162179b0c261406af886f7a9e57f6308aceb37e2 566f76e8c62082b43984869c9a2db0d876904ace e349b74020d82f8c23eaedf915d5821ecfeff3a3
+
+Package: ros-one-rospack
+Architecture: amd64
+Version: 2.6.4-1-gfd4d6fd-2026.10.06.07.56
+Priority: optional
+Section: misc
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Installed-Size: 330
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libboost-filesystem-dev, libboost-program-options-dev, libboost-system-dev, libtinyxml2-dev, pkg-config, python3-catkin-pkg, python3-dev, python3-rosdep2, ros-one-ros-environment
+Filename: ./ros-one-rospack_2.6.4-1-gfd4d6fd-2026.10.06.07.56_amd64.deb
+Size: 101360
+MD5sum: b5e7eea8cdb5505cb34d145d10c32638
+SHA1: ad041a47d5d4f2b4e9c8460581d895f94f39ed1b
+SHA256: de2540c79a05f9ac2ba3ee619df2d523fbd1d1c877d93242d7260c9b7dcf4d53
+SHA512: c62c122c36e8709b2b4c06551ee6b9a96e65f337ade430a9a7f9c4f35a943a40c0deedf3b735457489ae37bb131ebb76c3e403761864cede0d3a679b7a9603b1
+Homepage: http://wiki.ros.org/rospack
+Description: ROS Package Tool
+
+Package: ros-one-rosparam
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.26
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 81
+Depends: python3-yaml, ros-one-rosgraph
+Filename: ./ros-one-rosparam_1.17.0-15-g678162e3-2026.10.06.08.26_amd64.deb
+Size: 18880
+MD5sum: 801c67fd718bc9fbe2372c5b0e808d71
+SHA1: 51156f3d3859b2bb323ceb441ad3c1645839262a
+SHA256: 78b7988fc15f6900a7f45d6e55b7346c7a19107ce0de508bdfca9f4ac4844784
+SHA512: bd08a0a1cb4f9c0540392065e5a789b64a48b8626546d22b83510a9db19f052e472edcf8dbb1992420f4e5abae918ca5a94915da7de157d3130837b834477057
+Homepage: http://wiki.ros.org/rosparam
+Description: rosparam contains the rosparam command-line tool for getting and setting ROS Parameters on the Parameter Server using YAML-encoded files.
+ It also contains an experimental library for using YAML with the Parameter Server. This library is intended for internal use only. rosparam can be invoked within a roslaunch file.
+
+Package: ros-one-rospy
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.27
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 699
+Depends: python3-numpy, python3-rospkg, python3-yaml, ros-one-genpy, ros-one-roscpp, ros-one-rosgraph, ros-one-rosgraph-msgs (>= 1.10.3), ros-one-roslib, ros-one-std-msgs
+Filename: ./ros-one-rospy_1.17.0-15-g678162e3-2026.10.06.08.27_amd64.deb
+Size: 143416
+MD5sum: 743e2af1ade42b6f593050741f91d3e7
+SHA1: 6190da85874831d9e491faa0feb75d3c85463de2
+SHA256: 5e062082eee43359b4905c329a485083c8c4901b7d09ba43f8fdef2ccfc3779f
+SHA512: fd045f4b26b567f31e4ddebd948d4d69cc58d531ea2aab9f6784795e05985bb60a65838d26cc7cc14643c48052af392edc796cf4022970eb7c6bdca883d3f9b7
+Homepage: http://wiki.ros.org/rospy
+Description: rospy is a pure Python client library for ROS.
+ The rospy client API enables Python programmers to quickly interface with ROS Topics, Services, and Parameters. The design of rospy favors implementation speed (i.e. developer time) over runtime performance so that algorithms can be quickly prototyped and tested within ROS. It is also ideal for non-critical-path code, such as configuration and initialization code. Many of the ROS tools are written in rospy to take advantage of the type introspection capabilities. Many of the ROS tools, such as rostopic and rosservice, are built on top of rospy.
+
+Package: ros-one-rosservice
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.27
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 97
+Depends: ros-one-genpy, ros-one-rosgraph, ros-one-roslib, ros-one-rosmsg, ros-one-rospy
+Filename: ./ros-one-rosservice_1.17.0-15-g678162e3-2026.10.06.08.27_amd64.deb
+Size: 20482
+MD5sum: 821c771e256819837f72757f5e31ea13
+SHA1: 00434838237a3cf380c577e4db186cd6f1c24bb2
+SHA256: ad5739ff299d1558fe46d58043681b7f2f5b23f97652a5a293eef2b5d082bf5e
+SHA512: 4ee168087404b8ea0257f3ed13deea570a4549b4252d8f7644a3e3a5d2848616a64df1f827e47358e7e7e76284da97848489f4a7f9dca680f5153fedd0f29e65
+Homepage: http://ros.org/wiki/rosservice
+Description: rosservice contains the rosservice command-line tool for listing and querying ROS Services.
+ It also contains a Python library for retrieving information about Services and dynamically invoking them. The Python library is experimental and is for internal-use only.
+
+Package: ros-one-rostest
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.28
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 155
+Depends: libboost-thread-dev, ros-one-rosgraph, ros-one-roslaunch, ros-one-rosmaster, ros-one-rospy, ros-one-rosunit
+Filename: ./ros-one-rostest_1.17.0-15-g678162e3-2026.10.06.08.28_amd64.deb
+Size: 33020
+MD5sum: 01132d646b317c8bb7d58da4d04fe6ce
+SHA1: d93d60e724fbe533dcc4b4377409a469b08b531c
+SHA256: 385f6454d0dda837e41c1485992f5ef626ed2f3f54be0490dc928653e04c083e
+SHA512: 2380f27ed9f607e30cb13f9ee0546da57add848dc95f5fc08cdee1b74f203e08203dc9788a46a1310c73de2cbc80e7638f3e810b9e6babda22568b38027ed024
+Homepage: http://ros.org/wiki/rostest
+Description: Integration test suite based on roslaunch that is compatible with xUnit frameworks.
+
+Package: ros-one-rostime-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.3-4-g34fad8c-2026.10.06.07.52
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-rostime
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 282
+Depends: ros-one-rostime (= 0.7.3-4-g34fad8c-2026.10.06.07.52)
+Filename: ./ros-one-rostime-dbgsym_0.7.3-4-g34fad8c-2026.10.06.07.52_amd64.ddeb
+Size: 233616
+MD5sum: 7f4fb66bc0f762d0cb402c75b9205c3b
+SHA1: 5dfbc813ae43d559046c5fe2a8d37fb65a1949c4
+SHA256: d248aca020941b28133e4d7dbe5f46e4e941611b00dff00aa6baeddfeafcf2b9
+SHA512: 928d7af11d2fc45b22b1beb3b1b237b33e57f91877f4cce09e86eea6a53bda12e6013986fa3a0aa1f987c1d61ca9d4a437ff77be8ad491d261cce9da7072c6c5
+Description: debug symbols for ros-one-rostime
+Build-Ids: b4531d4349c1e6fe78d2d7da410beb57e3832500
+
+Package: ros-one-rostime
+Architecture: amd64
+Version: 0.7.3-4-g34fad8c-2026.10.06.07.52
+Priority: optional
+Section: misc
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Installed-Size: 174
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 9), libboost-date-time-dev, libboost-system-dev, libboost-thread-dev, ros-one-cpp-common
+Filename: ./ros-one-rostime_0.7.3-4-g34fad8c-2026.10.06.07.52_amd64.deb
+Size: 40650
+MD5sum: 1897f3deb62bbbdf863203a2e2e68e8c
+SHA1: a5ca504da4ad1bde0956d4591d3b30d1b289c50c
+SHA256: b150b1efe8ac95bf2cd7703d9e29cba69be5b7ccf69263a55c65ea1eed9656cf
+SHA512: b5f1ec9eb35cc5cbd3c8a70a1f610e2b3f3a7117d287dce7b9f5dd9ddd77604ec1dab74d28c2a9520aee1930f54f236e13ee84db2a271e83086c12456dee37f2
+Homepage: http://ros.org/wiki/rostime
+Description: Time and Duration implementations for C++ libraries, including roscpp.
+
+Package: ros-one-rostopic
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.40
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 193
+Depends: ros-one-genpy (>= 0.5.4), ros-one-rosbag, ros-one-rospy
+Filename: ./ros-one-rostopic_1.17.0-15-g678162e3-2026.10.06.08.40_amd64.deb
+Size: 48690
+MD5sum: 4089b86d6d373017016d6a44e56ea454
+SHA1: 3c184f14639dd1f86d52b17d08176e2d0adbbffb
+SHA256: e886d3cb7b4773b8f2e88b0349a5ec3fc2cf8d2136bbd8ae21165be53bfc2949
+SHA512: 82595345f1a544d4f5a226e3463fb0f2463dfc7c35ea2788a8b396c86d043a640c22a343d4df680a4a89ddde221f8a7a0900db689970617b2beb34e6582868f6
+Homepage: http://ros.org/wiki/rostopic
+Description: rostopic contains the rostopic command-line tool for displaying debug information about ROS Topics, including publishers, subscribers, publishing rate, and ROS Messages.
+ It also contains an experimental Python library for getting information about and interacting with topics dynamically. This library is for internal-use only as the code API may change, though it does provide examples of how to implement dynamic subscription and publication behaviors in ROS.
+
+Package: ros-one-rosunit
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.06.08.09
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 224
+Depends: python3-rospkg, ros-one-roslib
+Filename: ./ros-one-rosunit_1.15.10-1-g99fd9bb7-2026.10.06.08.09_amd64.deb
+Size: 50456
+MD5sum: 83c28bce6b1c425948080ef08e84c864
+SHA1: 3585b15b6a41ce5e4eed1ff6d4a018601a9073e2
+SHA256: 37f32c3c42800f0b483d1ccac9a63dce8e3a75a0c3a01631921175b12b193d52
+SHA512: eaf1cf6df066b257efe81f3d6b8465c603317ad39f165986803181b9cd3336298514f14dd344eb88e3c3ae9beac782f070ef6f586e7b1530007e5e97f36c735b
+Homepage: http://wiki.ros.org/rosunit
+Description: Unit-testing package for ROS.
+ This is a lower-level library for rostest and handles unit tests, whereas rostest handles integration tests.
+
+Package: ros-one-roswtf
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.49
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 193
+Depends: python3-paramiko, python3-rospkg, ros-one-rosbuild, ros-one-rosgraph, ros-one-roslaunch, ros-one-roslib, ros-one-rosnode, ros-one-rosservice
+Filename: ./ros-one-roswtf_1.17.0-15-g678162e3-2026.10.06.08.49_amd64.deb
+Size: 44176
+MD5sum: f7b4bc3d34d9388f7b24cc6c0a0bd2ed
+SHA1: 451d82369999425e55af37bf9a10fc28d35509c0
+SHA256: 1c6e9c00498846529dafdeaed2d162ff21a8b7c2927c9294a75b13408fd4c23e
+SHA512: 6e86977ce879e9769179786334d7b887c08f3a6923ba02c6661db509bea35d98f2a2dedb8b85b5142030c3a68ed671cacd6df096b44f12a5ef3935f815289734
+Homepage: http://wiki.ros.org/roswtf
+Description: roswtf is a tool for diagnosing issues with a running ROS system.
+ Think of it as a FAQ implemented in code.
+
+Package: ros-one-sensor-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.50
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 1916
+Depends: ros-one-geometry-msgs, ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-sensor-msgs_1.13.2-1-g092bc23-2026.10.06.08.50_amd64.deb
+Size: 137434
+MD5sum: f199fd6405099fa0da291bf435a46cb5
+SHA1: 85043d84be929ddffd94ea26e1394fe9dff30e3d
+SHA256: ce1c215d4833271622749116ee1cb983cdf5569297dd954e12cfe14133184a29
+SHA512: d64d8bd6bff8b1a487f12ef569dbd49ccc0cbb0922b95ef8a2467a61fbc7512bdce04bff5dc713de8456008512316c2fa719c70c20f316a034bbd91696e2a6b6
+Homepage: http://ros.org/wiki/sensor_msgs
+Description: This package defines messages for commonly used sensors, including cameras and scanning laser rangefinders.
+
+Package: ros-one-setup-files
+Architecture: amd64
+Version: 0-2026.10.06.07.47
+Priority: optional
+Section: misc
+Maintainer: Michael Goerner <me@v4hn.de>
+Installed-Size: 67
+Depends: python3
+Filename: ./ros-one-setup-files_0-2026.10.06.07.47_amd64.deb
+Size: 10804
+MD5sum: c700a93f51bf294a41a21333fa9bb6e5
+SHA1: c7ffe22f0982afdfb3d06eaf8b27355153e81cf7
+SHA256: 1c108a6e9efdfba2e07e7e92142ed65ef7e445bdf4a3f65be26a3a11257ba96a
+SHA512: 2ba39c98e261ab73c29e7cc04055b1183bb6a18d51c2d05fc6f2fcc15afb4f0c3a1aac42d5d03b90967c962c9270173c7e0b986de18d7d23f41d1e0193c463ba
+Description: Helper package that should do nothing when built with catkin, but otherwise installs global setup.{sh,zsh,bash,fish} files into the install workspace.
+
+Package: ros-one-shape-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.29
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 196
+Depends: ros-one-geometry-msgs, ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-shape-msgs_1.13.2-1-g092bc23-2026.10.06.08.29_amd64.deb
+Size: 24114
+MD5sum: d977e2f2a6efba86c6151c605b982d6d
+SHA1: ca8f79bcdf9a1962dde3c024318bcb69527333d4
+SHA256: b972ab076dc9de2a879cf3ef1c02c4591dbef6c5ec38a0ca20511b61ef1a7dae
+SHA512: 92a63c931bc616669940622bf49eb8f24b557947b69d57ff5dca9ad5269dff14a7c2d3477bc78d2ca747d541af4e132705c80339bc114b506efd570d836b7b42
+Homepage: http://wiki.ros.org/shape_msgs
+Description: This package contains messages for defining shapes, such as simple solid object primitives (cube, sphere, etc), planes, and meshes.
+
+Package: ros-one-std-msgs
+Architecture: amd64
+Version: 0.5.13-1-gf3554d4-2026.10.06.08.02
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 1125
+Depends: ros-one-message-runtime
+Filename: ./ros-one-std-msgs_0.5.13-1-gf3554d4-2026.10.06.08.02_amd64.deb
+Size: 58182
+MD5sum: ca7611557f24f0552509f89e98108e7e
+SHA1: 02350fb33c0cdcc3a4b6d615e7f244009ada76c7
+SHA256: 32a1a03e80261d650d9f5cf85ba167422b4900b2504b2b08fd0af30079f98a2f
+SHA512: 81b53824ff583636e9381fa77a9de2351cbeced3a939b2cefc2454fcb686e423734a3ecc3c51f3ef798bc5e372009586c67e753f33de6524fc83c4d1732c1b71
+Homepage: http://www.ros.org/wiki/std_msgs
+Description: Standard ROS Messages including common message types representing primitive data types and other basic message constructs, such as multiarrays.
+ For common, generic robot-specific message types, please see common_msgs.
+
+Package: ros-one-std-srvs
+Architecture: amd64
+Version: 1.11.3-1-gf51a0429-2026.10.06.08.12
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 193
+Depends: ros-one-message-runtime
+Filename: ./ros-one-std-srvs_1.11.3-1-gf51a0429-2026.10.06.08.12_amd64.deb
+Size: 19776
+MD5sum: 37a03ebc3e1b8e1c98a064385a15948b
+SHA1: 4085068cfe89651940223eb6ff38804b903fbd90
+SHA256: 950e45c754ba5d9be93a23f9a9705a2a1ae40c16416f877301f49cb890c3a0a5
+SHA512: 63a3a9f1f1159f8b4a3a25a67e371346c27850824737ba02a14cb6d04548fd936be218c2b4764425e1e5d76768bc6984dcb75c2de2775e7c54f5e6b709da1d1a
+Homepage: http://ros.org/wiki/std_srvs
+Description: Common service definitions.
+
+Package: ros-one-stereo-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.51
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 145
+Depends: ros-one-message-runtime, ros-one-sensor-msgs, ros-one-std-msgs
+Filename: ./ros-one-stereo-msgs_1.13.2-1-g092bc23-2026.10.06.08.51_amd64.deb
+Size: 19808
+MD5sum: a0805ed0176be24ea91926a184e7d714
+SHA1: e305cf9f327bc1137443af44df3be56127a50ffc
+SHA256: 42a75595608d0277bb20ef882b28cf61aee79c7439a1dad957118c52ce9d71c7
+SHA512: 56ad214c47959c51a71ea9ea827d46aec7eeceb3700a5dd642074c46f8aedecec7ca263c4f269a57d1ad735669006fd4d9217b1b26e61f4105623a9b49ca5aed
+Homepage: http://wiki.ros.org/stereo_msgs
+Description: stereo_msgs contains messages specific to stereo processing, such as disparity images.
+
+Package: ros-one-test-rosbag-storage
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.41
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 29
+Depends: ros-one-rosbag-storage, ros-one-std-msgs
+Filename: ./ros-one-test-rosbag-storage_1.17.0-15-g678162e3-2026.10.06.08.41_amd64.deb
+Size: 4688
+MD5sum: 0f0dcd2204ebc6ff6865fb6171c17cfe
+SHA1: 3c5c43cb28c73306ba60a6e9c0f69f218fbe36b8
+SHA256: 544dfa80c0600edc54e2b8a8614ba21f393206e1287ef6aa3b7160abd6367d45
+SHA512: 06d7d3f85fc7cd69a7d4d4b408fb7b538bc313d72573c7df79ca0eeb3973bd02d6bc471c732f9b1828ea545bc4028b289f13d2c1495ae416191b304d4bd054f2
+Description: A package containing the unit tests for rosbag_storage.
+
+Package: ros-one-test-rosbag
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.52
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 30
+Depends: ros-one-rosbag, ros-one-rostest
+Filename: ./ros-one-test-rosbag_1.17.0-15-g678162e3-2026.10.06.08.52_amd64.deb
+Size: 5106
+MD5sum: da849766d0ec85d017000e11ccd94672
+SHA1: 5f31769b583d4c16d0063920cf620b5ed8588a5d
+SHA256: 71d2d022678b1909b4aef8f64d73d05507a6ca3218f2c1b1fccf2339d5b665b0
+SHA512: 3f3a289d5562ab7e55f2422031388c013dec39d6971a47935dfdee172f00aacb20e54ceede2091103054676a5c0d5f6090ff18cf0e1914834ab1bb140292b764
+Homepage: http://wiki.ros.org/rosbag
+Description: A package containing the unit tests for rosbag.
+
+Package: ros-one-test-roscpp
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.42
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 29
+Depends: ros-one-message-runtime, ros-one-rosconsole, ros-one-rosgraph-msgs, ros-one-std-msgs, ros-one-std-srvs, ros-one-xmlrpcpp
+Filename: ./ros-one-test-roscpp_1.17.0-15-g678162e3-2026.10.06.08.42_amd64.deb
+Size: 4932
+MD5sum: 4ab10e36bc95e4de4e90afc5d8d7ce99
+SHA1: dcf9ea0ff972352f96cc5055950af45ae2583df4
+SHA256: d39bb8808ad59751bdb6c4383d863c4d4754b1a4a29bd23147406baf06836128
+SHA512: 52a244caa7324583615af57c05206157a7a0e7b226c556099f7586b90835b4328b301de559be6f8a405b7ec5829a47f88d13de1880b0265c4e19c3862d325718
+Homepage: http://ros.org/wiki/roscpp
+Description: Tests for roscpp which depend on rostest.
+
+Package: ros-one-test-rosgraph
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.43
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 28
+Filename: ./ros-one-test-rosgraph_1.17.0-15-g678162e3-2026.10.06.08.43_amd64.deb
+Size: 4702
+MD5sum: 56f243c7cc9bff03fbbf5b60709d22c8
+SHA1: baa7b24cb4ab1d9e2ac05ea5781ad1d4aa8ff70a
+SHA256: 1e7f253797565d2fee8fea05678ce71fbe65422c9814fbbb0b873bcebcad5e60
+SHA512: 73ae15e8724a4c590c13f73af0a487280b2efde42c34c0749788aecbc89d50c830fa285759fd9214354b24570d7019854b5775732850c90b9ce879bfe0976aab
+Homepage: http://ros.org/wiki/rosgraph
+Description: Tests for rosgraph which depend on rostest.
+
+Package: ros-one-test-roslaunch
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.44
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 29
+Filename: ./ros-one-test-roslaunch_1.17.0-15-g678162e3-2026.10.06.08.44_amd64.deb
+Size: 4918
+MD5sum: 49aedc5855680c9b2facb888f132ad40
+SHA1: 3f7a68b2893e12fa472a62f6b5531fdabd2977da
+SHA256: 47f6aa8b133be304789a7eda6688a34849bfe9b6267f1cc4c9c1567231d593a0
+SHA512: aec9f3449fc6db30571092fb77c30d1420cce4ffd6c5244ca77b01f72df7c8a20f448ed9a4e46793a07e6b739a04c963813883b506c5bb128f87ce5fcd1189c7
+Homepage: http://wiki.ros.org/roslaunch
+Description: Tests for roslaunch which depend on rostest.
+
+Package: ros-one-test-roslib-comm
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.30
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 28
+Filename: ./ros-one-test-roslib-comm_1.17.0-15-g678162e3-2026.10.06.08.30_amd64.deb
+Size: 4770
+MD5sum: b1f05d4a070e648cbd25ea05a3886057
+SHA1: d914713c414cc2a7d5c9ec2cdc9c03ac21d9aeb5
+SHA256: 2743baca1c32a8983d2733a94afca6e1dfd9f72a7d2a547ec6187c0f858ccf71
+SHA512: 6ec1e238625dc04006c85e95cadddd0e6d650a8bffbc7e48ee32d297490f00a3d9580fb24aeb706293e73091a085d6deaf320bf2c08e654b0e14b7914a4436ab
+Homepage: http://ros.org/wiki/roslib
+Description: Unit tests verifying that roslib is operating as expected.
+
+Package: ros-one-test-rosmaster
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.45
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 28
+Filename: ./ros-one-test-rosmaster_1.17.0-15-g678162e3-2026.10.06.08.45_amd64.deb
+Size: 4728
+MD5sum: a636e9d896357a58b4a2b5bf7d67957a
+SHA1: aef6f5c986ee7414f1b927c88322118993bb4b8f
+SHA256: a8c5c157bf11e539c7584c34f5a67ec4bc55ab4428bdd940cce99be5f1a4cb02
+SHA512: 3c0f3fd77433a279cd93a31eb5be7dceb969e8d3d6886e77a4ba964c1415cb71b606adee28bd58e4732986a05483848211c024f21287e7c4ab4bfe548e3ff988
+Homepage: http://ros.org/wiki/rosmaster
+Description: Tests for rosmaster which depend on rostest.
+
+Package: ros-one-test-rosparam
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.46
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 29
+Filename: ./ros-one-test-rosparam_1.17.0-15-g678162e3-2026.10.06.08.46_amd64.deb
+Size: 4944
+MD5sum: 33ffd4e2310ce90977090498a9b3af07
+SHA1: fa61260bbce01f8272ce912a10578be0631827d2
+SHA256: d6d447d4746c60e0b55d5e12d8a54b3bf002a117885981fc9d8a5aeb64b5fa3d
+SHA512: 094007e685b15d8cd65b8d30246ecdcde949ad4f75397a48515348ca0b9c483745373d46b5d84446befa789fc09cdd0236522fd5e312f2b5ae82531fc27f46e1
+Homepage: http://wiki.ros.org/rosparam
+Description: A package containing the unit tests for rosparam.
+
+Package: ros-one-test-rospy
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.53
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 29
+Filename: ./ros-one-test-rospy_1.17.0-15-g678162e3-2026.10.06.08.53_amd64.deb
+Size: 4958
+MD5sum: 955c9269caf6bc32c313da19a0862a6e
+SHA1: b80d605bfa90d738ad98052d7cb238d1d642eff8
+SHA256: c6925b408488277c21d2d8e6340a86382e8abcb6d36a9b66c65466d7461377c3
+SHA512: 356aef8240fd9eb46c3f0f646390072edb24c1952d542a7c896ef653a166d227e54f76bdb16f202ceaecf524330fa8c04d502a5a8f53cd7b13803f0f37735f0d
+Homepage: http://wiki.ros.org/rospy
+Description: rospy unit and integration test framework.
+
+Package: ros-one-test-rosservice
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.54
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 28
+Filename: ./ros-one-test-rosservice_1.17.0-15-g678162e3-2026.10.06.08.54_amd64.deb
+Size: 4728
+MD5sum: d12145b26a6f64f1b09686c8dd4a4a5c
+SHA1: 784b99d1ff888176df84acfabb5bacfb0c5e99e6
+SHA256: 379510909c5973a2c18cb3d5d49856c2974588ea6b3a678ea3af81a715054563
+SHA512: 25a189cacbf7b666b99b90d6d514773197d177d87036343f2da004771adb9a23c0803ff7897c710b78026833bcddd22e6b0e3714ca724317b9d60963730f94ff
+Homepage: http://ros.org/wiki/rosservice
+Description: Tests for the rosservice tool.
+
+Package: ros-one-test-rostest
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.55
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 28
+Filename: ./ros-one-test-rostest_1.17.0-15-g678162e3-2026.10.06.08.55_amd64.deb
+Size: 4636
+MD5sum: ee2ba1f9e48f8a0adc12b66a86640b8b
+SHA1: 7fabb93d63dd219a1ace400206d8e062502debb7
+SHA256: 3e6a1ec56855e1cbec53a27084eff103fe2d443e22926f724800965b67cd174a
+SHA512: 93325e0b558ede27bce5abd3be48683c2cab981fa1ed8723c7997e67c42512fa827e46ca1af9a7809f55df20656ed06a9dbd0acca8cdaf21413c6a23fb3eac74
+Homepage: http://ros.org/wiki/rostest
+Description: Tests for rostest.
+
+Package: ros-one-test-rostopic
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.56
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 28
+Filename: ./ros-one-test-rostopic_1.17.0-15-g678162e3-2026.10.06.08.56_amd64.deb
+Size: 4706
+MD5sum: f51258556a168cdb36f8de5c74f21d1d
+SHA1: 59016407ebfef1eb9db3dcbe7669f78448d0979e
+SHA256: 498cc24faa85c52a43398f7b70257cb3fb7fe6bab4e7d186d3c8ef2802c6bde4
+SHA512: 7de2947b4443eb3fa5a4f8fcc2c6f0d3b5888bd628d43380789c20981914f0e0b0cf98d7fe86031166893c558fb5b6846ea3ff95a9bc36f23f5ad521e9ce9602
+Homepage: http://ros.org/wiki/rostopic
+Description: Tests for rostopic.
+
+Package: ros-one-test-tf2
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.16
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 33
+Depends: ros-one-rosconsole, ros-one-roscpp, ros-one-rostest, ros-one-tf2, ros-one-tf2-bullet, ros-one-tf2-eigen, ros-one-tf2-geometry-msgs, ros-one-tf2-kdl, ros-one-tf2-msgs, ros-one-tf2-ros
+Filename: ./ros-one-test-tf2_0.7.5-34-g86d8b56-2026.10.06.09.16_amd64.deb
+Size: 9014
+MD5sum: 7855ab0cfa04a175f08b2cc67987490d
+SHA1: 1ba9b45f04bfe5c5a8dc50d28a523ebd2ee8d37e
+SHA256: 16248bd909bdb86849b20fe22f2b00ac2239a938050d4069d4e60e6c7477dd3a
+SHA512: 13067d8fba15ce57ca5227d9886c9aa6d8396efd78f144a2b18fe36848d6af931e76a7c1e7a9426740969e37d7f230fb48e76c15114b32d3e292e1501eb534e3
+Homepage: http://www.ros.org/wiki/geometry_experimental
+Description: tf2 unit tests
+
+Package: ros-one-tf-conversions-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.06.09.27
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-tf-conversions
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 140
+Depends: ros-one-tf-conversions (= 1.13.2-14-geeb32b2-2026.10.06.09.27)
+Filename: ./ros-one-tf-conversions-dbgsym_1.13.2-14-geeb32b2-2026.10.06.09.27_amd64.ddeb
+Size: 125870
+MD5sum: e1501adf588a6895320fd1fe0a17e7fe
+SHA1: 94703304bb8bddaa426cef570e5e22f814417aff
+SHA256: 167c3868e28205fae3a0219f83e06fe148f3870b3f846c3d3b806c1c4059c443
+SHA512: efcc150c419b46ba5ecf9962a8b0ed6c571386392ea955b69b3e68bb666f635726787530a177ac3dee1ad8d725a632b744008e34869a5ff210c7fe5a58eab2d8
+Description: debug symbols for ros-one-tf-conversions
+Build-Ids: 68723dfa79d3246cdfc22d4ea8b4ba26b6417a79
+
+Package: ros-one-tf-conversions
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.06.09.27
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 88
+Depends: libc6 (>= 2.4), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 4.1.1), libeigen3-dev, liborocos-kdl-dev, python3-pykdl, ros-one-geometry-msgs, ros-one-kdl-conversions, ros-one-tf
+Filename: ./ros-one-tf-conversions_1.13.2-14-geeb32b2-2026.10.06.09.27_amd64.deb
+Size: 17826
+MD5sum: f9ce78091d676690f9963ccd757eebf5
+SHA1: d2680a5b60ddfd84d42fc46becb9c104d6a02cbb
+SHA256: 65da017a867fd72f8565f5acb47fddb8a8cc904fd94cb26ff834b45df1c133f8
+SHA512: 2f5dc39af49304bcb85718dc5aa6406de1560d64ab4971e6786ef864bd66838a053616c7603ccf0626f0d8bd7e2a98118ccf6a17e3e11eefec46a595d0a4c55a
+Homepage: http://www.ros.org/wiki/tf_conversions
+Description: This package contains a set of conversion functions to convert common tf datatypes (point, vector, pose, etc) into semantically identical datatypes used by other libraries.
+ The conversion functions make it easier for users of the transform library (tf) to work with the datatype of their choice. Currently this package has support for the Kinematics and Dynamics Library (KDL) and the Eigen matrix library. This package is stable, and will get integrated into tf in the next major release cycle (see roadmap).
+
+Package: ros-one-tf-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.06.09.25
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-tf
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 3167
+Depends: ros-one-tf (= 1.13.2-14-geeb32b2-2026.10.06.09.25)
+Filename: ./ros-one-tf-dbgsym_1.13.2-14-geeb32b2-2026.10.06.09.25_amd64.ddeb
+Size: 2976764
+MD5sum: 5b0a026ab4b2f37cc7f28ecb0f3be1c3
+SHA1: 993a76eb3570d1aa5378fcd156eef187bc735df6
+SHA256: 9f9888f35b9447b06d69d639d74bacdc0f1fa50a3b68115a738030f20c124fe0
+SHA512: 42306ea6869975c0144c470e58a97f43c071f8a8ed575f71fcea99c994627312720daecb16b63fd7469468c8a952a9a442c87798638843e0f71561a0f096a8ea
+Description: debug symbols for ros-one-tf
+Build-Ids: 46ea15e097c6caa45685e441a6e0c811d4bf36be 632df5b14b2b841f5000e7ef22086926525533a7 6b3102647bc35d785302193d27e77d86634ef173 8648e137e5e1fc11b0e204029b34e079fde5b65e d6a5f28aa5888d657137eb7a1b0244fd728c27e0 f823e0987fc0d87e1aa61d6efe65a8947ab08a91
+
+Package: ros-one-tf2-bullet
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.09
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 38
+Depends: libbullet-dev, ros-one-geometry-msgs, ros-one-tf2
+Filename: ./ros-one-tf2-bullet_0.7.5-34-g86d8b56-2026.10.06.09.09_amd64.deb
+Size: 8354
+MD5sum: afc6cbdf77cdf593e90efa72e6dc3d08
+SHA1: d890ac9b43067010cc3424d9a8f584cfdb7c2179
+SHA256: 717e775ff04b9f6119382ac18d35b34196a4b96e6b63c0616590d1b0351bd0a7
+SHA512: 0d4ecc6908fa9a01a71d4db7aee8088819ab30a37f0216916878679ad0b04e1a7d2cb5000e2c37cd424c9b490c877dbb72980fc3d7d723651eac11a4e5cd3b89
+Homepage: http://www.ros.org/wiki/tf2_bullet
+Description: tf2_bullet
+
+Package: ros-one-tf2-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-tf2
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 855
+Depends: ros-one-tf2 (= 0.7.5-34-g86d8b56-2026.10.06.09.07)
+Filename: ./ros-one-tf2-dbgsym_0.7.5-34-g86d8b56-2026.10.06.09.07_amd64.ddeb
+Size: 799456
+MD5sum: a87b9e5e7677f85de707c46ce3da0077
+SHA1: 2608b6ea3f68f6ea6fd4c4c44e9249de33eb8941
+SHA256: cb917d6edbdbcda2a0cfcf46fbd60d5310abc8f211c3b612fe9b3beb7a064e47
+SHA512: 750a92d545ec3f9ba10e9b069a02719bfa34a5694637062a53bd586a8a5a1b03fd5cb4a2ae215fa167854edac4f900260915765aeda892fa50b9d973c1420745
+Description: debug symbols for ros-one-tf2
+Build-Ids: 071ef75d6625e9a3cdc60bcf392900aeca2270a3
+
+Package: ros-one-tf2-eigen
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.10
+Priority: optional
+Section: misc
+Maintainer: Koji Terada <terakoji@gmail.com>
+Installed-Size: 53
+Depends: libeigen3-dev, ros-one-geometry-msgs, ros-one-tf2
+Filename: ./ros-one-tf2-eigen_0.7.5-34-g86d8b56-2026.10.06.09.10_amd64.deb
+Size: 9770
+MD5sum: 4adac8c177270cae073ed4a209edcbf1
+SHA1: 8292d49033e76f929d77143427a79967dc70e14e
+SHA256: e40e40ea04e8bfe3b4020116e0c5c81826e52dd53ffe8d74e526f688c309f588
+SHA512: 3ba484a934aa878afc628f0b8451e42c07aa9814b0f5b4c29f47b5441e06939b91046f4579fb64d0f17f46df355693669a0802355505b517bce3b72d08740044
+Description: tf2_eigen
+
+Package: ros-one-tf2-geometry-msgs
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.14
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 89
+Depends: liborocos-kdl-dev, python3-pykdl, ros-one-geometry-msgs, ros-one-tf2, ros-one-tf2-ros
+Filename: ./ros-one-tf2-geometry-msgs_0.7.5-34-g86d8b56-2026.10.06.09.14_amd64.deb
+Size: 15216
+MD5sum: 3549a00122917aa8a141e8614d80a6af
+SHA1: 405f4e151d2434a43f374503252a499b7e8bfe6a
+SHA256: 0e0778c3fb4fd6d8a187bb2acbc6e29c697dd7de305505422342e5b5b82934dc
+SHA512: 5cdb06b5aed64b756c6a5c9aae3afe51a60c4e07c8c92be6a4d8276016259cfe98d5100c49d13bedc3ed1d9aee1f4aa9d5f10b8c7710eb23b75c03a52ad9da6f
+Homepage: http://www.ros.org/wiki/tf2_ros
+Description: tf2_geometry_msgs
+
+Package: ros-one-tf2-kdl
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.15
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 71
+Depends: libeigen3-dev, liborocos-kdl-dev, ros-one-tf2, ros-one-tf2-ros
+Filename: ./ros-one-tf2-kdl_0.7.5-34-g86d8b56-2026.10.06.09.15_amd64.deb
+Size: 12988
+MD5sum: 60c9d7d3d062d5f8149ea64b10658b11
+SHA1: 88e30d914eba8e3ea1ad74f6eb160209e03a80d5
+SHA256: 06999bfb24e39eec42761f39dbe4dbd884d5275aab75d5792c325c5b79107f10
+SHA512: 29a3c5fc833b6e1eb966cf6ddbd831dc7d5d1972c7b0e92130b6393fdd880cd7b05fd11493345623602347ba98413a6478856bdfbb521ac6342f706a3b1789e4
+Homepage: http://ros.org/wiki/tf2
+Description: KDL binding for tf2
+
+Package: ros-one-tf2-msgs
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.06
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 639
+Depends: ros-one-actionlib-msgs, ros-one-geometry-msgs, ros-one-message-generation
+Filename: ./ros-one-tf2-msgs_0.7.5-34-g86d8b56-2026.10.06.09.06_amd64.deb
+Size: 45650
+MD5sum: 54a5a12e5541e7e9bd3bfea746536959
+SHA1: 12e768175313075442e9cab47399ad2570f2ef1d
+SHA256: 408e308ea963f0b6697f39804eb87c6d3dbdcbe3dd662644ccb95ce4779ab09e
+SHA512: c12fa56330b7c3ebdcf47401ca2ff2e103b4b30b3fff1403e681c0dfdfd8050d001c29f28a34c1738f224841e29428483e130d04a002e3137e850f124b4b2eca
+Homepage: http://www.ros.org/wiki/tf2_msgs
+Description: tf2_msgs
+
+Package: ros-one-tf2-py-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.11
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-tf2-py
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 233
+Depends: ros-one-tf2-py (= 0.7.5-34-g86d8b56-2026.10.06.09.11)
+Filename: ./ros-one-tf2-py-dbgsym_0.7.5-34-g86d8b56-2026.10.06.09.11_amd64.ddeb
+Size: 206440
+MD5sum: d336ca0188278df70f6b56e72f3b4346
+SHA1: db8525649efbde0af4ef4748d8a3ab6eeb0e1486
+SHA256: b7fec844c97e6fd23883db7577f7a93119492f0e780311c96c8b9d0a2017541a
+SHA512: 464c8cb41cc8e66a6972f2e90173d2507ffedca5e92ddda6fe8f5bcf5ee27ffe0f9f988a11b14794d2b5c8d1f07a158fa1d68f4e8ddaa97f572985beeff826c7
+Description: debug symbols for ros-one-tf2-py
+Build-Ids: b275fd66c58d9d05c49a16dc4c50ab027345ce0e
+
+Package: ros-one-tf2-py
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.11
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 110
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-one-rospy, ros-one-tf2
+Filename: ./ros-one-tf2-py_0.7.5-34-g86d8b56-2026.10.06.09.11_amd64.deb
+Size: 29918
+MD5sum: 3a0c1db76153e6eccc88b687c6a6ee3f
+SHA1: a26ee9bb878c15cbb8372f09b42cee82ef9c67d6
+SHA256: b94f719f1d91b880b63c033ae104b73d807d006c24596913a01013f2e98b2448
+SHA512: 88e6ca3ef7df0c3ad51696cae87bb9158be0e619df62c8a53d9e4a75401c1b8800ae554113c05efdc80c95465dbf1b5fbcdf97713a073ae5bcc828b2267127b4
+Homepage: http://ros.org/wiki/tf2_py
+Description: The tf2_py package
+
+Package: ros-one-tf2-ros-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.12
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-tf2-ros
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 3444
+Depends: ros-one-tf2-ros (= 0.7.5-34-g86d8b56-2026.10.06.09.12)
+Filename: ./ros-one-tf2-ros-dbgsym_0.7.5-34-g86d8b56-2026.10.06.09.12_amd64.ddeb
+Size: 3148050
+MD5sum: 6474a11d1cc0a33e8660afcf89373078
+SHA1: 871e6e67380c9326221021e48915dfab142c7604
+SHA256: 7d611c1d2da3ee8c672894d3118eb84a44a7cb98b5daff5cda80571bae2bd86d
+SHA512: e73022b69157961de43d6b5f396f8b56abfeb0aaccde258e6f042e23cf8f380567cb00d217ededfb21da74dc3498171aa374ccfe8c4b91fa14acfe51ab7b6752
+Description: debug symbols for ros-one-tf2-ros
+Build-Ids: 4a23a5b90b6e2a3576316f05dc1e1f96bd8479eb b4db3379904f8a3a8321fcf0a633d0d6970741be dbee7a4488b765d03980b0ad988eb59552fb012e
+
+Package: ros-one-tf2-ros
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.12
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 930
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-actionlib, ros-one-actionlib-msgs, ros-one-geometry-msgs, ros-one-message-filters, ros-one-roscpp, ros-one-rosgraph, ros-one-rospy, ros-one-std-msgs, ros-one-tf2, ros-one-tf2-msgs, ros-one-tf2-py, ros-one-xmlrpcpp
+Filename: ./ros-one-tf2-ros_0.7.5-34-g86d8b56-2026.10.06.09.12_amd64.deb
+Size: 218932
+MD5sum: 1bed9f140abffe89c0a6921e4f71512e
+SHA1: 1141103a6691c8cb0cfbd54c76a26191ba0af47f
+SHA256: 31e738f3ada49188d2910bb132a17159c8ab36c3e90739fbac535305917be35a
+SHA512: 610193f5511a74be808b951664a71713cbe6edcbe4829af095f5d28e987ca1a9589c905f9b3430d75ad3c14fe01b9fbef4605c70f4223b648ede7e0508b32307
+Homepage: http://www.ros.org/wiki/tf2_ros
+Description: This package contains the ROS bindings for the tf2 library, for both Python and C++.
+
+Package: ros-one-tf2-sensor-msgs
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.17
+Priority: optional
+Section: misc
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Installed-Size: 51
+Depends: libeigen3-dev, python3-pykdl, ros-one-rospy, ros-one-sensor-msgs, ros-one-tf2, ros-one-tf2-ros
+Filename: ./ros-one-tf2-sensor-msgs_0.7.5-34-g86d8b56-2026.10.06.09.17_amd64.deb
+Size: 9718
+MD5sum: a526f9575119d49ebdf165d13c1313b0
+SHA1: 2d5f9d36dd8cb09d7a18602c2c210c72390a5035
+SHA256: 3c6b415a590a55535854d5be3532f3dea31b1927ea6d1c3230521fc2d3c04ba3
+SHA512: 51b802532f8833978fef2a2e9ca818d51c731988a7637c8b274cc74ac5def9c976ec565488aa398fc1714efe88399ec5854e3e853a53778f55445ca25398a9e6
+Homepage: http://www.ros.org/wiki/tf2_ros
+Description: Small lib to transform sensor_msgs with tf.
+ Most notably, PointCloud2
+
+Package: ros-one-tf2-tools
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.19
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 46
+Depends: ros-one-tf2, ros-one-tf2-msgs, ros-one-tf2-ros
+Filename: ./ros-one-tf2-tools_0.7.5-34-g86d8b56-2026.10.06.09.19_amd64.deb
+Size: 11114
+MD5sum: 38b59b9ecff6bf7445567980c27e4284
+SHA1: bd96dcc8f744cdeb7856068c9ac330d91be37a36
+SHA256: 68ea0831dccfad278d2f76eddfd1caffa9f75c87cfee583a4cb7034121c59363
+SHA512: f8dcb3c39acbc89bc1ebab213509fa9ba7bde0a82f415910a6d7fc43f76729883a9fd6ef2de7fbfc6145888da120b67e6422290fd53f066265a7288f3c8865ef
+Homepage: http://www.ros.org/wiki/tf2_tools
+Description: tf2_tools
+
+Package: ros-one-tf2
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.06.09.07
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 353
+Depends: libc6 (>= 2.14), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libconsole-bridge-dev, ros-one-geometry-msgs, ros-one-rostime, ros-one-tf2-msgs
+Filename: ./ros-one-tf2_0.7.5-34-g86d8b56-2026.10.06.09.07_amd64.deb
+Size: 104266
+MD5sum: a04f3589767103a05d0b7486b1ab0fd9
+SHA1: f8cc5875334c2fe04addc90279a17211e92ea00d
+SHA256: f0478ca2c76693dade6a72facd430208cae884db660b7c1ac3e5f5afae8a2c03
+SHA512: 3ff3dd5eb23cc1fcefbbadb8d1d064037ef421eede2fb21acc44b8b5f17f77873c3d4ac69a7e3964f7ba25860cf66f2d7473491c1b46dcef6b1aac5c81071e23
+Homepage: http://www.ros.org/wiki/tf2
+Description: tf2 is the second generation of the transform library, which lets the user keep track of multiple coordinate frames over time.
+ tf2 maintains the relationship between coordinate frames in a tree structure buffered in time, and lets the user transform points, vectors, etc between any two coordinate frames at any desired point in time.
+
+Package: ros-one-tf
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.06.09.25
+Priority: optional
+Section: misc
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Installed-Size: 1052
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), graphviz, ros-one-geometry-msgs, ros-one-message-filters (>= 1.11.1), ros-one-message-runtime, ros-one-rosconsole, ros-one-roscpp, ros-one-roswtf, ros-one-sensor-msgs, ros-one-std-msgs, ros-one-tf2-ros (>= 0.5.16)
+Filename: ./ros-one-tf_1.13.2-14-geeb32b2-2026.10.06.09.25_amd64.deb
+Size: 222640
+MD5sum: 2647b9d313adcfa4ee1672f9a445e0dd
+SHA1: fb1725262956662b695ddb151185d9a7c64fc287
+SHA256: d0f116b9966c88d32d42a1e87552334278a2d3c0272b70635be1040b69f04b8e
+SHA512: 99398d8676090ef9ed854d1963a8ceb1b3f9f1ac121193f9c1b55c21f57718c5c52bf52ccb6a356aa9b11c8fe50bc5d1b5a5e13bfc66fed1a34eff3cd7c96c64
+Homepage: http://www.ros.org/wiki/tf
+Description: tf is a package that lets the user keep track of multiple coordinate frames over time.
+ tf maintains the relationship between coordinate frames in a tree structure buffered in time, and lets the user transform points, vectors, etc between any two coordinate frames at any desired point in time. Migration: Since ROS Hydro, tf has been &quot;deprecated&quot; in favor of tf2. tf2 is an iteration on tf providing generally the same feature set more efficiently. As well as adding a few new features. As tf2 is a major change the tf API has been maintained in its current form. Since tf2 has a superset of the tf features with a subset of the dependencies the tf implementation has been removed and replaced with calls to tf2 under the hood. This will mean that all users will be compatible with tf2. It is recommended for new work to use tf2 directly as it has a cleaner interface. However tf will continue to be supported for through at least J Turtle.
+
+Package: ros-one-topic-tools-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.46
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-topic-tools
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 2804
+Depends: ros-one-topic-tools (= 1.17.0-15-g678162e3-2026.10.06.08.46)
+Filename: ./ros-one-topic-tools-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.46_amd64.ddeb
+Size: 2525118
+MD5sum: 4446e73a9f1fb67074a6969d7c2fa4dd
+SHA1: 36a3d0b6862fa3ab99c27a0916d74f7adc8a7051
+SHA256: 4555c6d66dd68f3cafc7688a5701c2957ec2ff5e413290a4ab109b04d02d8240
+SHA512: 57db775199e4fc20952c224f3fdac4e63d4daefb90c749865d056040bf60a4618b9bb5590a90149c57bfd210eb76b8249fd134d5a66d44d1a747d289deb4810c
+Description: debug symbols for ros-one-topic-tools
+Build-Ids: 859fee270bd043dfbb6f30898b3bb584974c4a91 8af5062f2ae10dafe73aa1cade7dc2338fe6b750 8dac74a93cef6b96a4db95d819f673f5a383e1a8 b7eeecb6f8b65be421bf7c309e01efae4dcb9547 c429d5996083898a9b1fd690a22c7bf551921f6d e033cced298210933d34830be47ebc1c23cc528f f430ec0564340edf114fb71a8eb460c713743575
+
+Package: ros-one-topic-tools
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.46
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 1095
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-message-runtime, ros-one-rosconsole, ros-one-roscpp, ros-one-rostime, ros-one-std-msgs, ros-one-xmlrpcpp
+Filename: ./ros-one-topic-tools_1.17.0-15-g678162e3-2026.10.06.08.46_amd64.deb
+Size: 160102
+MD5sum: 2ffb7f06e0bd5611dea2a8a59e193762
+SHA1: 5c13eaf5c6f2ccd07e5cac78ad771721ce53615c
+SHA256: 410e1aa2c32b496d84e2af20265d9f454bb1dbc0c3606b6b79c54fab43e5c433
+SHA512: 2c95b4f3406531d57c4458961b3d0fe4b0b7f6ff01b1200490988dbb802349b849d656c834dce8212fc6ddcb188bc1a92784cbe6aeedb5ccaf2c99c0e3e49332
+Homepage: http://ros.org/wiki/topic_tools
+Description: Tools for directing, throttling, selecting, and otherwise messing with ROS topics at a meta level.
+ None of the programs in this package actually know about the topics whose streams they are altering; instead, these tools deal with messages as generic binary blobs. This means they can be applied to any ROS topic.
+
+Package: ros-one-trajectory-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.30
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 305
+Depends: ros-one-geometry-msgs, ros-one-message-runtime, ros-one-rosbag-migration-rule, ros-one-std-msgs
+Filename: ./ros-one-trajectory-msgs_1.13.2-1-g092bc23-2026.10.06.08.30_amd64.deb
+Size: 29726
+MD5sum: d01244ddc01195279868ed2e3e385867
+SHA1: 09fcff6fa44bc299d6c77461eb5f4cc47acd3fec
+SHA256: 6dc69df961c65165e81fa7dd0fdc96d9f801d8058fc35652982b3c2e6ee6513a
+SHA512: 3700587583f430a29bbb8a14a0d7f032203e5e60a086123717c7675e4dcda5240f97ca1085568ce8154db159be2fa423d1dd15efe6d1115a630d37cbe959d3db
+Homepage: http://wiki.ros.org/trajectory_msgs
+Description: This package defines messages for defining robot trajectories.
+ These messages are also the building blocks of most of the control_msgs actions.
+
+Package: ros-one-urdf-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.13.2-9-g0bc1089-2026.10.06.09.00
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-urdf
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 899
+Depends: ros-one-urdf (= 1.13.2-9-g0bc1089-2026.10.06.09.00)
+Filename: ./ros-one-urdf-dbgsym_1.13.2-9-g0bc1089-2026.10.06.09.00_amd64.ddeb
+Size: 840494
+MD5sum: 24c21eb574cf5df8f24e1cad15dccb33
+SHA1: f1421e113b3fe02a528439cc58f37820f2a56b12
+SHA256: ef9ca94641549980bb8230d3d81f203e745a6ff8e17b5bdadc0632342cb1d21e
+SHA512: 44f855202d725170627aac7017b49a9f7a2412b5aefdb7e4a4ae53a7cf7e5628f518a212b95b8bc1be79b04f2f8eaff34d2914f1dc7522f566dcca2b6cc0974c
+Description: debug symbols for ros-one-urdf
+Build-Ids: cd677d3a6187a62a1377bb0314c2024915cd6910
+
+Package: ros-one-urdf-parser-plugin
+Architecture: amd64
+Version: 1.13.2-9-g0bc1089-2026.10.06.08.59
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 34
+Depends: liburdfdom-headers-dev
+Filename: ./ros-one-urdf-parser-plugin_1.13.2-9-g0bc1089-2026.10.06.08.59_amd64.deb
+Size: 6672
+MD5sum: 4c6433f602340a2e6bf143abe8a0de79
+SHA1: 04eb62bc351707d9278f455fd03eb54e94ec5048
+SHA256: 4fc265118ef0a97b26e7f8dad78ebac00be818b325f6d13de510fa29351dadbc
+SHA512: e46b00150c11503f22f2fbf431f884f7feea77f9a24acc9149b64b1048c6dba5d1689e95dc30b3b88bfc47caad3defb4d6a403eee271bc27a8c90fc96f408b43
+Homepage: http://ros.org/wiki/urdf
+Description: This package contains a C++ base class for URDF parsers.
+
+Package: ros-one-urdf
+Architecture: amd64
+Version: 1.13.2-9-g0bc1089-2026.10.06.09.00
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 229
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libtinyxml2.6.2v5 (>= 2.6.2), liburdfdom-model3.0 (>= 3.0.1), libtinyxml-dev, libtinyxml2-dev, liburdfdom-dev, liburdfdom-headers-dev, ros-one-pluginlib, ros-one-rosconsole-bridge, ros-one-roscpp
+Filename: ./ros-one-urdf_1.13.2-9-g0bc1089-2026.10.06.09.00_amd64.deb
+Size: 72042
+MD5sum: a2664964b75d0ed96de04478a3328a9a
+SHA1: d7d09526a2ac440d544fd886ace817639713849e
+SHA256: 22976e4065858f6cb8bd55139fb19be396495b50425b4fb7867f0967dcd961ca
+SHA512: b337b7745828ecb752d121d9eca421d0ed333aab8dd85f512ea212987d1866e871dacc0bc1da2aa1a798e7c1788dc264f29710060653bd3488aa4bd6222c6ac6
+Homepage: http://ros.org/wiki/urdf
+Description: This package contains a C++ parser for the Unified Robot Description Format (URDF), which is an XML format for representing a robot model.
+ The code API of the parser has been through our review process and will remain backwards compatible in future releases.
+
+Package: ros-one-urdfdom-py
+Architecture: amd64
+Version: 0.4.6-2026.10.06.08.59
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Installed-Size: 142
+Depends: python3-yaml, ros-one-rospy
+Filename: ./ros-one-urdfdom-py_0.4.6-2026.10.06.08.59_amd64.deb
+Size: 35868
+MD5sum: 8d0aa865c7620a571cb5047666371101
+SHA1: 2e231e8da8d4ea9e59f6dd455b4490ac78de5396
+SHA256: 403a83ffd4b0733cce443cd2cdcb4695a4acc95f12871776f73853fe8209fad9
+SHA512: 3491fe6ba05e535d8b12cf81b1542ea220ee23e296e9cba9650208d44b7c139fa300681b2bd832b27e14fd03743b4dc6f64abff436ca9694956438ded23c69cb
+Homepage: http://wiki.ros.org/urdfdom_py
+Description: Python implementation of the URDF parser.
+
+Package: ros-one-visualization-msgs
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.31
+Priority: optional
+Section: misc
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Installed-Size: 1126
+Depends: ros-one-geometry-msgs, ros-one-message-runtime, ros-one-std-msgs
+Filename: ./ros-one-visualization-msgs_1.13.2-1-g092bc23-2026.10.06.08.31_amd64.deb
+Size: 72860
+MD5sum: b09d354abd3b6f036950dca80169c370
+SHA1: d5109ad267035a5f8d197a80e7d145918ccfd12f
+SHA256: 628841eefab2fd53945b00729f099d6e91aa3519e62dc4d33b6b60d55d453c05
+SHA512: 220b3f5c3d8f2fbc06d5d171b6cc9fbc843e781314befc8dad6e385d94527c0f3a1fcf7bd7ad99c8fb26083322fb6f12fc64ad341460e10c2746f9aaa3e0062e
+Homepage: http://ros.org/wiki/visualization_msgs
+Description: visualization_msgs is a set of messages used by higher level packages, such as rviz, that deal in visualization-specific data.
+ The main messages in visualization_msgs is visualization_msgs/Marker. The marker message is used to send visualization &quot;markers&quot; such as boxes, spheres, arrows, lines, etc. to a visualization environment such as rviz. See the rviz tutorial rviz tutorials for more information.
+
+Package: ros-one-xmlrpcpp-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.32
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-one-xmlrpcpp
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 567
+Depends: ros-one-xmlrpcpp (= 1.17.0-15-g678162e3-2026.10.06.08.32)
+Filename: ./ros-one-xmlrpcpp-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.32_amd64.ddeb
+Size: 526288
+MD5sum: 9fefaf9ca410e53bf7c9bee5196ee064
+SHA1: a49c19b00970e42c3f363ade93ee0610ce22b629
+SHA256: bf54d5a5061213474595defd2484c1302612e1d8e8f32351b7784a449869245c
+SHA512: eab878bfc9fbfbd1bfc99c391405dbe4a3ec62e54b62ac777f70c1318c907a00b6544faa5d365aca8a96bb262c6aceb4fd5fadaae6ba7f0461b3057493df9e22
+Description: debug symbols for ros-one-xmlrpcpp
+Build-Ids: 484beba2fdd14cadcfd82c8e7acacfde10e82c2d
+
+Package: ros-one-xmlrpcpp
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.32
+Priority: optional
+Section: misc
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Installed-Size: 205
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-one-cpp-common, ros-one-rostime (>= 0.6.9)
+Filename: ./ros-one-xmlrpcpp_1.17.0-15-g678162e3-2026.10.06.08.32_amd64.deb
+Size: 64174
+MD5sum: 0ece81c17e6de74e9f1fac884dedc738
+SHA1: b2482a31a4381cc719557c52f7d712046e2ec048
+SHA256: 94dbed224469de11c6430b2ada3be4c5383004fdd8ca83623385e719aad925c0
+SHA512: 86fe0a8fa3ddbd49740876ff10143983e0c88ad8382edac24da73a1bddbe206039a9a1fe725f89cb49eb866b04101c78300ca79e55749da96f2a2eaac53074bd
+Homepage: http://xmlrpcpp.sourceforge.net
+Description: XmlRpc++ is a C++ implementation of the XML-RPC protocol.
+ This version is heavily modified from the package available on SourceForge in order to support roscpp's threading model. As such, we are maintaining our own fork.
+

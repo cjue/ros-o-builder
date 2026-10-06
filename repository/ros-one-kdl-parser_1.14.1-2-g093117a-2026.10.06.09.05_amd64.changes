@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Aug 2020 00:00:00 -0000
+Source: ros-one-kdl-parser
+Binary: ros-one-kdl-parser
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.14.1-2-g093117a-2026.10.06.09.05
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Changed-By: Chris Lalancette <clalancette@osrfoundation.org>
+Description:
+ ros-one-kdl-parser - The Kinematics and Dynamics Library (KDL) defines a tree structur
+Changes:
+ ros-one-kdl-parser (1.14.1-2-g093117a-2026.10.06.09.05) jammy; urgency=high
+Checksums-Sha1:
+ 4fc6384083b0e56181186038640ebb512388860b 329966 ros-one-kdl-parser-dbgsym_1.14.1-2-g093117a-2026.10.06.09.05_amd64.ddeb
+ 869e65d42476a3100797ea1b5bc7600c46a06e8a 14363 ros-one-kdl-parser_1.14.1-2-g093117a-2026.10.06.09.05_amd64.buildinfo
+ 74fea9b9cd7d063fce19ef22b1c14b310f7fbb43 24958 ros-one-kdl-parser_1.14.1-2-g093117a-2026.10.06.09.05_amd64.deb
+Checksums-Sha256:
+ 5ce988f81a17216b8b678d7e51945ad417759e9d48f3fddef3cad0e9ff070782 329966 ros-one-kdl-parser-dbgsym_1.14.1-2-g093117a-2026.10.06.09.05_amd64.ddeb
+ 5891afc2f3f4aaa79b7bd76303551c80f2088f61081eaf6b7e529d349c81d4b5 14363 ros-one-kdl-parser_1.14.1-2-g093117a-2026.10.06.09.05_amd64.buildinfo
+ cd9c59a0a3740005a32d5f178716ebd64bc3f2ea70e3516e07db60e7ed337b84 24958 ros-one-kdl-parser_1.14.1-2-g093117a-2026.10.06.09.05_amd64.deb
+Files:
+ 9b814c94048eeebd07478f3932c2b49c 329966 debug optional ros-one-kdl-parser-dbgsym_1.14.1-2-g093117a-2026.10.06.09.05_amd64.ddeb
+ b58fb625aa95ec3c233f1799c3befec7 14363 misc optional ros-one-kdl-parser_1.14.1-2-g093117a-2026.10.06.09.05_amd64.buildinfo
+ 06fea8de19f82018d9d3f976360084d5 24958 misc optional ros-one-kdl-parser_1.14.1-2-g093117a-2026.10.06.09.05_amd64.deb

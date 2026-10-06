@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-sensor-msgs
+Binary: ros-one-sensor-msgs
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.06.08.50
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-sensor-msgs - This package defines messages for commonly used sensors, includin
+Changes:
+ ros-one-sensor-msgs (1.13.2-1-g092bc23-2026.10.06.08.50) jammy; urgency=high
+ .
+   * Remove additional spaces (#180 <https://github.com/ros/common_msgs/issues/180>)
+   * sensor_msgs/CompressedImage: updated description of format field (#184 <https://github.com/ros/common_msgs/issues/184>)
+   * Fix STL assertion on recent libstdc++ when handling empty PointCloud2 (#192 <https://github.com/ros/common_msgs/issues/192>)
+   * Contributors: Atsushi Watanabe, Martin Pecka, Oskar
+Checksums-Sha1:
+ 715e6efc19e2ff5b00f757924258d6808fbdb224 9951 ros-one-sensor-msgs_1.13.2-1-g092bc23-2026.10.06.08.50_amd64.buildinfo
+ 85043d84be929ddffd94ea26e1394fe9dff30e3d 137434 ros-one-sensor-msgs_1.13.2-1-g092bc23-2026.10.06.08.50_amd64.deb
+Checksums-Sha256:
+ fb78705f5a6a9cd63521e3db8e6c2cf0ce0aeab2ba0f0ac3161779a5e7cf68a7 9951 ros-one-sensor-msgs_1.13.2-1-g092bc23-2026.10.06.08.50_amd64.buildinfo
+ ce1c215d4833271622749116ee1cb983cdf5569297dd954e12cfe14133184a29 137434 ros-one-sensor-msgs_1.13.2-1-g092bc23-2026.10.06.08.50_amd64.deb
+Files:
+ 10c140a03f5ad94ac379266388d9b5f1 9951 misc optional ros-one-sensor-msgs_1.13.2-1-g092bc23-2026.10.06.08.50_amd64.buildinfo
+ f199fd6405099fa0da291bf435a46cb5 137434 misc optional ros-one-sensor-msgs_1.13.2-1-g092bc23-2026.10.06.08.50_amd64.deb

@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-rosbag
+Binary: ros-one-rosbag
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.06.08.48
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosbag - This is a set of tools for recording from and playing back to ROS
+Changes:
+ ros-one-rosbag (1.17.0-15-g678162e3-2026.10.06.08.48) jammy; urgency=high
+ .
+   * Exposed record snapshot feature to command line. (#2254 <https://github.com/ros/ros_comm/issues/2254>)
+   * Fix rosbag calling uncallable signal handler object (#2236 <https://github.com/ros/ros_comm/issues/2236>)
+   * Add --min-space option to the python cli of rosbag record (#2298 <https://github.com/ros/ros_comm/issues/2298>)
+   * Fix latched topic not latched in splitted rosbags (#2351 <https://github.com/ros/ros_comm/issues/2351>)
+   * Enable building with boost 1.83.0 (#2354 <https://github.com/ros/ros_comm/issues/2354>)
+   * Contributors: Blake Anderson, Hugal31, Yannik Nager, Zijun Xu, daizhirui
+Checksums-Sha1:
+ 0cfe44df1ee3d54eb060d329b5e107d08effbe2f 4205780 ros-one-rosbag-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.ddeb
+ ae264d9a7da9e7788e2ec8b813cb39194bb18875 15718 ros-one-rosbag_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.buildinfo
+ b273f7c6c1a49cb4202ccf50657bdb8515c283ed 350724 ros-one-rosbag_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.deb
+Checksums-Sha256:
+ 497532cb239b29bd2b5df9b82590aa8477e5e98243fa03dcc722fb3923aa3981 4205780 ros-one-rosbag-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.ddeb
+ b7d9904de09feffdf7f2cd470e39f7f668fbef8644ab6ff7d4ef10b49bc7331b 15718 ros-one-rosbag_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.buildinfo
+ 4a3ab2ce963f4b8e5e5d3456639cbcad356bee586456092877febd00448841c9 350724 ros-one-rosbag_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.deb
+Files:
+ 844965f0c7f43739e26039e272a7a6db 4205780 debug optional ros-one-rosbag-dbgsym_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.ddeb
+ e7fbfb1e22667f18e916c9f98b6b883b 15718 misc optional ros-one-rosbag_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.buildinfo
+ 0c49b233484f3b5153bb9ba8baa43e90 350724 misc optional ros-one-rosbag_1.17.0-15-g678162e3-2026.10.06.08.48_amd64.deb
