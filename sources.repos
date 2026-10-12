@@ -119,6 +119,9 @@ repositories:
     type: git
     url: https://github.com/ros/rospack.git
     version: noetic-devel
+  rqt_ez_publisher:
+    type: gitcom/ros-o/rqt_ez_publisher.git
+    version: obese-devel
   setup_files:
     type: git
     url: https://github.com/v4hn/setup_files.git
