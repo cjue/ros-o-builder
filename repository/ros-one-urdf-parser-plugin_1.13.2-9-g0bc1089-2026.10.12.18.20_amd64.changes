@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sat, 26 Apr 2025 00:00:00 -0000
+Source: ros-one-urdf-parser-plugin
+Binary: ros-one-urdf-parser-plugin
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-9-g0bc1089-2026.10.12.18.20
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Changed-By: Chris Lalancette <clalancette@osrfoundation.org>
+Description:
+ ros-one-urdf-parser-plugin - This package contains a C++ base class for URDF parsers.
+Changes:
+ ros-one-urdf-parser-plugin (1.13.2-9-g0bc1089-2026.10.12.18.20) jammy; urgency=high
+Checksums-Sha1:
+ 416b536c7969385c5b9b88866f167b1f52ef2f4e 8347 ros-one-urdf-parser-plugin_1.13.2-9-g0bc1089-2026.10.12.18.20_amd64.buildinfo
+ 1db5f47306111b31915c8b3349f45ae7bf92c458 6678 ros-one-urdf-parser-plugin_1.13.2-9-g0bc1089-2026.10.12.18.20_amd64.deb
+Checksums-Sha256:
+ 64e8c2e217471760d6826b56fe31e401465198fcd03f50d976f20086d1cbee60 8347 ros-one-urdf-parser-plugin_1.13.2-9-g0bc1089-2026.10.12.18.20_amd64.buildinfo
+ bc78d1e08292b755b3a6161d0b405a401d562897037f3363eeb3d6ff60e4340b 6678 ros-one-urdf-parser-plugin_1.13.2-9-g0bc1089-2026.10.12.18.20_amd64.deb
+Files:
+ 0f62b64df4b85ce34f9a5317ad35d9d8 8347 misc optional ros-one-urdf-parser-plugin_1.13.2-9-g0bc1089-2026.10.12.18.20_amd64.buildinfo
+ 4a048985175a9e2c484a2805a90f7ac3 6678 misc optional ros-one-urdf-parser-plugin_1.13.2-9-g0bc1089-2026.10.12.18.20_amd64.deb

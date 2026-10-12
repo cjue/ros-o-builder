@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-test-tf2
+Binary: ros-one-test-tf2
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.12.18.37
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-test-tf2 - tf2 unit tests
+Changes:
+ ros-one-test-tf2 (0.7.5-34-g86d8b56-2026.10.12.18.37) jammy; urgency=high
+Checksums-Sha1:
+ 86b1ff9d2360e619545b4f648f79c53b4384d230 14066 ros-one-test-tf2_0.7.5-34-g86d8b56-2026.10.12.18.37_amd64.buildinfo
+ e029fb50c22c5ffd01daeaff176c06f7296180db 9014 ros-one-test-tf2_0.7.5-34-g86d8b56-2026.10.12.18.37_amd64.deb
+Checksums-Sha256:
+ ec188c49bd9717d944915498d18864de108afa929c3ca79b439331009b56d725 14066 ros-one-test-tf2_0.7.5-34-g86d8b56-2026.10.12.18.37_amd64.buildinfo
+ c584c5a3f2630568514c918c562691c8193129955214610e47eecd06c899be50 9014 ros-one-test-tf2_0.7.5-34-g86d8b56-2026.10.12.18.37_amd64.deb
+Files:
+ 04d0b4b7269aeda159d1e96ab04b9f44 14066 misc optional ros-one-test-tf2_0.7.5-34-g86d8b56-2026.10.12.18.37_amd64.buildinfo
+ 311b4d52f2c0e3f43a34179446503a6b 9014 misc optional ros-one-test-tf2_0.7.5-34-g86d8b56-2026.10.12.18.37_amd64.deb

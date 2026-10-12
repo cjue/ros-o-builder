@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sat, 26 Apr 2025 00:00:00 -0000
+Source: ros-one-rospack
+Binary: ros-one-rospack
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 2.6.4-1-gfd4d6fd-2026.10.12.17.07
+Distribution: jammy
+Urgency: high
+Maintainer: Jacob Perron <jacob@openrobotics.org>
+Changed-By: Jacob Perron <jacob@openrobotics.org>
+Description:
+ ros-one-rospack - ROS Package Tool
+Changes:
+ ros-one-rospack (2.6.4-1-gfd4d6fd-2026.10.12.17.07) jammy; urgency=high
+ .
+   * Do not link to PYTHON_LIBRARIES on Apple (#127 <https://github.com/ros/rospack/issues/127>)
+   * Contributors: Tobias Fischer
+Checksums-Sha1:
+ 58cf5f93c60dbe7527bd174b82c5c95ca1de6037 1170138 ros-one-rospack-dbgsym_2.6.4-1-gfd4d6fd-2026.10.12.17.07_amd64.ddeb
+ 9fa6c971e75bc65883bd94394eba831938675c98 9642 ros-one-rospack_2.6.4-1-gfd4d6fd-2026.10.12.17.07_amd64.buildinfo
+ 660739709bcefdc4cba40a4c2349247eefbced5d 101358 ros-one-rospack_2.6.4-1-gfd4d6fd-2026.10.12.17.07_amd64.deb
+Checksums-Sha256:
+ 0f93fb887c55d5c8f89d3525b7ecf644d7c238e306e5e08a74bd9b4c5ff800ed 1170138 ros-one-rospack-dbgsym_2.6.4-1-gfd4d6fd-2026.10.12.17.07_amd64.ddeb
+ 77f4b358ee9a025aa75652fde9cd973ca43614587083d6fbef9f69ba55c6e087 9642 ros-one-rospack_2.6.4-1-gfd4d6fd-2026.10.12.17.07_amd64.buildinfo
+ 1a513ff5963e42ce0b9a7601116bbf2e6b1f279e8320199caeb52812098a8e78 101358 ros-one-rospack_2.6.4-1-gfd4d6fd-2026.10.12.17.07_amd64.deb
+Files:
+ ccde4a16c853c896a573d4b8da6d495f 1170138 debug optional ros-one-rospack-dbgsym_2.6.4-1-gfd4d6fd-2026.10.12.17.07_amd64.ddeb
+ 65a9afb7741945942823c0c39d0072f6 9642 misc optional ros-one-rospack_2.6.4-1-gfd4d6fd-2026.10.12.17.07_amd64.buildinfo
+ b18b21c08ff91eb704a45bb079eebe78 101358 misc optional ros-one-rospack_2.6.4-1-gfd4d6fd-2026.10.12.17.07_amd64.deb

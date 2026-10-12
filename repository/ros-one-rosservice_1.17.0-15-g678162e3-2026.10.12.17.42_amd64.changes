@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-rosservice
+Binary: ros-one-rosservice
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.12.17.42
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosservice - rosservice contains the rosservice command-line tool for listing
+Changes:
+ ros-one-rosservice (1.17.0-15-g678162e3-2026.10.12.17.42) jammy; urgency=high
+ .
+   * Fixed uninitialized Time usage in rosservice call (#2369 <https://github.com/ros/ros_comm/issues/2369>)
+   * Contributors: Martin Pecka
+Checksums-Sha1:
+ 62c1ad554eb18f07d0de6852e581e11176c0ff69 8281 ros-one-rosservice_1.17.0-15-g678162e3-2026.10.12.17.42_amd64.buildinfo
+ ba2fd1b9931654a91f5b3042bce0ba2bab75b110 20478 ros-one-rosservice_1.17.0-15-g678162e3-2026.10.12.17.42_amd64.deb
+Checksums-Sha256:
+ 28a9763100140f26d34fc1922131ea7e98331e18e09764508388d70b41b5bfd3 8281 ros-one-rosservice_1.17.0-15-g678162e3-2026.10.12.17.42_amd64.buildinfo
+ 9ed3e51bebc0bfb7f2beb9aa5a608a86a0c5fa9cb098e9857680a4268a6e8918 20478 ros-one-rosservice_1.17.0-15-g678162e3-2026.10.12.17.42_amd64.deb
+Files:
+ 3beb130738202f48f3f0dee9d34d3f20 8281 misc optional ros-one-rosservice_1.17.0-15-g678162e3-2026.10.12.17.42_amd64.buildinfo
+ 8d3000185e6e5d7aa41a94d8b013942c 20478 misc optional ros-one-rosservice_1.17.0-15-g678162e3-2026.10.12.17.42_amd64.deb

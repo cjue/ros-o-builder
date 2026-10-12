@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-tf2-geometry-msgs
+Binary: ros-one-tf2-geometry-msgs
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.12.18.34
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-tf2-geometry-msgs - tf2_geometry_msgs
+Changes:
+ ros-one-tf2-geometry-msgs (0.7.5-34-g86d8b56-2026.10.12.18.34) jammy; urgency=high
+Checksums-Sha1:
+ c1512787b7fa006deb2051d91ec7f02fd1b36b62 13795 ros-one-tf2-geometry-msgs_0.7.5-34-g86d8b56-2026.10.12.18.34_amd64.buildinfo
+ 82cc727568039559ec45d45aa25cd72375b747df 15210 ros-one-tf2-geometry-msgs_0.7.5-34-g86d8b56-2026.10.12.18.34_amd64.deb
+Checksums-Sha256:
+ a4cc47f3a745170c89ff710b7e1473109fa2cf0b6fa11f58ee1082aaec335ac8 13795 ros-one-tf2-geometry-msgs_0.7.5-34-g86d8b56-2026.10.12.18.34_amd64.buildinfo
+ 4e5db3220901ffaa7852ea0263801dccabbf622d6e4a23506bfed78ad6ec0d4c 15210 ros-one-tf2-geometry-msgs_0.7.5-34-g86d8b56-2026.10.12.18.34_amd64.deb
+Files:
+ f0f9da9968faa562cd6fc04a7097ed56 13795 misc optional ros-one-tf2-geometry-msgs_0.7.5-34-g86d8b56-2026.10.12.18.34_amd64.buildinfo
+ 6abb781a91e5dfdba1f2bcc77f9bf2cb 15210 misc optional ros-one-tf2-geometry-msgs_0.7.5-34-g86d8b56-2026.10.12.18.34_amd64.deb

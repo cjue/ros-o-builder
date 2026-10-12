@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-tf2-tools
+Binary: ros-one-tf2-tools
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.12.18.40
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-tf2-tools - tf2_tools
+Changes:
+ ros-one-tf2-tools (0.7.5-34-g86d8b56-2026.10.12.18.40) jammy; urgency=high
+Checksums-Sha1:
+ 1fb73e50f118d3694af93d8b2c388aa8a6a41845 13572 ros-one-tf2-tools_0.7.5-34-g86d8b56-2026.10.12.18.40_amd64.buildinfo
+ 397529032a1b6fa46df505ca505db947bbb9cc87 11112 ros-one-tf2-tools_0.7.5-34-g86d8b56-2026.10.12.18.40_amd64.deb
+Checksums-Sha256:
+ b253d263c14e6abd6647f5ec315198931255c198b7b5d75d996c980c87cc04e0 13572 ros-one-tf2-tools_0.7.5-34-g86d8b56-2026.10.12.18.40_amd64.buildinfo
+ 3eb07b2cbaa5314198ba82b3bb5801ddd9a7e053dc6a771e81062e43787a5e4d 11112 ros-one-tf2-tools_0.7.5-34-g86d8b56-2026.10.12.18.40_amd64.deb
+Files:
+ c1b298bdecd29f63cce5993d32aafb3d 13572 misc optional ros-one-tf2-tools_0.7.5-34-g86d8b56-2026.10.12.18.40_amd64.buildinfo
+ 00a838249922af5848882fac2edbc128 11112 misc optional ros-one-tf2-tools_0.7.5-34-g86d8b56-2026.10.12.18.40_amd64.deb

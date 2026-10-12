@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-class-loader
+Binary: ros-one-class-loader
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.5.2-2026.10.12.17.07
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-class-loader - The class_loader package is a ROS-independent package for loading
+Changes:
+ ros-one-class-loader (0.5.2-2026.10.12.17.07) jammy; urgency=high
+ .
+   * Fix shebang line for python3 (#158 <https://github.com/ros/class_loader/issues/158>)
+   * Suppress sanitizer warning about (expected) leak (#220 <https://github.com/ros/class_loader/issues/220>)
+   * Fix shebang for class_loader_headers_update.py (#180 <https://github.com/ros/class_loader/issues/180>) (#219 <https://github.com/ros/class_loader/issues/219>)
+   * Contributors: Mikael Arguedas, Shane Loretz
+Checksums-Sha1:
+ 229d6a3bf35f6874f69d1c6207a44d5ad0a6a241 635844 ros-one-class-loader-dbgsym_0.5.2-2026.10.12.17.07_amd64.ddeb
+ 3ee9d892ee54e5e51cce110596f7887f5d770b01 10823 ros-one-class-loader_0.5.2-2026.10.12.17.07_amd64.buildinfo
+ 4ed91d04935afa9310be520e79e340d5cc322e3c 65190 ros-one-class-loader_0.5.2-2026.10.12.17.07_amd64.deb
+Checksums-Sha256:
+ 1750e9bcf792a6b8a230178c894e355fa2730e112b617c37089538dd2b8068a8 635844 ros-one-class-loader-dbgsym_0.5.2-2026.10.12.17.07_amd64.ddeb
+ 0479d4f241f1508b54138dff810ee8d35203d5e5f719218b8b27d67ca7221337 10823 ros-one-class-loader_0.5.2-2026.10.12.17.07_amd64.buildinfo
+ 141498a9e757a59fe8813bb09954f0c449911730be4c251e0d241457fe4021da 65190 ros-one-class-loader_0.5.2-2026.10.12.17.07_amd64.deb
+Files:
+ 00f7e201632a9f891e671afe62ba3211 635844 debug optional ros-one-class-loader-dbgsym_0.5.2-2026.10.12.17.07_amd64.ddeb
+ 172f3f6d5210f29ed48a5514db34f6ed 10823 misc optional ros-one-class-loader_0.5.2-2026.10.12.17.07_amd64.buildinfo
+ c9fc4fac0aff11861fa8333a3af459a5 65190 misc optional ros-one-class-loader_0.5.2-2026.10.12.17.07_amd64.deb

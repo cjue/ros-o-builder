@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-geometry
+Binary: ros-one-geometry
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.12.18.44
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-geometry - A metapackage for geometry library suite.
+Changes:
+ ros-one-geometry (1.13.2-14-geeb32b2-2026.10.12.18.44) jammy; urgency=high
+Checksums-Sha1:
+ 168919c50208ecc34fceffb9bd0d992bf6f44de6 8264 ros-one-geometry_1.13.2-14-geeb32b2-2026.10.12.18.44_amd64.buildinfo
+ be9cdce76d195feb521abd7a8044f9deee9bb9f6 3418 ros-one-geometry_1.13.2-14-geeb32b2-2026.10.12.18.44_amd64.deb
+Checksums-Sha256:
+ c071156936d4ab6ddb0e1a6d9a85554049cebd2d750325ef7183aab27a13f561 8264 ros-one-geometry_1.13.2-14-geeb32b2-2026.10.12.18.44_amd64.buildinfo
+ 5be88a0c2ed48034a1da0af324abd76653eb1d8c34d265660e94ad425699f3cb 3418 ros-one-geometry_1.13.2-14-geeb32b2-2026.10.12.18.44_amd64.deb
+Files:
+ 16b19749d766f2797b43245cc3470312 8264 misc optional ros-one-geometry_1.13.2-14-geeb32b2-2026.10.12.18.44_amd64.buildinfo
+ d6779adeaa7f9106f14a467f5666614f 3418 misc optional ros-one-geometry_1.13.2-14-geeb32b2-2026.10.12.18.44_amd64.deb

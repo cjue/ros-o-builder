@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-diagnostic-msgs
+Binary: ros-one-diagnostic-msgs
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-1-g092bc23-2026.10.12.17.32
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-diagnostic-msgs - This package holds the diagnostic messages which provide the stan
+Changes:
+ ros-one-diagnostic-msgs (1.13.2-1-g092bc23-2026.10.12.17.32) jammy; urgency=high
+Checksums-Sha1:
+ 578604f8cb98210da2e67b12de8a62c9a59a7600 9905 ros-one-diagnostic-msgs_1.13.2-1-g092bc23-2026.10.12.17.32_amd64.buildinfo
+ 48a06ebdda090e5e204bcdf120a31fb92eafb246 33836 ros-one-diagnostic-msgs_1.13.2-1-g092bc23-2026.10.12.17.32_amd64.deb
+Checksums-Sha256:
+ aa78b752de3916de62e16ac519d88e314d9670354b8f501e9ec194f36b50853a 9905 ros-one-diagnostic-msgs_1.13.2-1-g092bc23-2026.10.12.17.32_amd64.buildinfo
+ aa643040fe239ed9d5a2d3c8c521011ae8f915b1c22cdc0f2c1ffa04c27a9e08 33836 ros-one-diagnostic-msgs_1.13.2-1-g092bc23-2026.10.12.17.32_amd64.deb
+Files:
+ 76626ab12dfa24002fd31a59f4f245b8 9905 misc optional ros-one-diagnostic-msgs_1.13.2-1-g092bc23-2026.10.12.17.32_amd64.buildinfo
+ d4c3ed8d576cdd8bfd2f24c0a0c4b1d9 33836 misc optional ros-one-diagnostic-msgs_1.13.2-1-g092bc23-2026.10.12.17.32_amd64.deb
