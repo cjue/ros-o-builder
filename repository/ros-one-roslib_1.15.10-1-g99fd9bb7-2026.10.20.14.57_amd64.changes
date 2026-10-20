@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sat, 26 Apr 2025 00:00:00 -0000
+Source: ros-one-roslib
+Binary: ros-one-roslib
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.20.14.57
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-roslib - Base dependencies and support libraries for ROS.
+Changes:
+ ros-one-roslib (1.15.10-1-g99fd9bb7-2026.10.20.14.57) jammy; urgency=high
+ .
+   * Call realpaths for roslaunch and rosbash. (#309 <https://github.com/ros/ros/issues/309>)
+   * Contributors: Ivor Wanders
+Checksums-Sha1:
+ 3a9badeff870ff092ef52bed2bccc3d8a9dd4944 249430 ros-one-roslib-dbgsym_1.15.10-1-g99fd9bb7-2026.10.20.14.57_amd64.ddeb
+ 52dc2ebeaa36bc713c6628d778b56972420209d4 10608 ros-one-roslib_1.15.10-1-g99fd9bb7-2026.10.20.14.57_amd64.buildinfo
+ 592dc038035b3433ec4380b26051ebd66fa8c3a3 97190 ros-one-roslib_1.15.10-1-g99fd9bb7-2026.10.20.14.57_amd64.deb
+Checksums-Sha256:
+ 4519c3189697a17c1c29dcd0b2e8287f8b2c9049b2de57ec76026e49a0f034aa 249430 ros-one-roslib-dbgsym_1.15.10-1-g99fd9bb7-2026.10.20.14.57_amd64.ddeb
+ 1ea57f2aafb3e7f1b655a5f5c886107a9f32ff7da419d265199988cf34796561 10608 ros-one-roslib_1.15.10-1-g99fd9bb7-2026.10.20.14.57_amd64.buildinfo
+ 0ef2eace6892c10358ebad33b38da35c7960b92e24b2142d3f882d19361ae82a 97190 ros-one-roslib_1.15.10-1-g99fd9bb7-2026.10.20.14.57_amd64.deb
+Files:
+ 151a7aedcdceaf875046c0dbecf18264 249430 debug optional ros-one-roslib-dbgsym_1.15.10-1-g99fd9bb7-2026.10.20.14.57_amd64.ddeb
+ c173b972369b0cf3555e8dedeb482af8 10608 misc optional ros-one-roslib_1.15.10-1-g99fd9bb7-2026.10.20.14.57_amd64.buildinfo
+ e0c17e4be7259cc7a9045fdd340d2e91 97190 misc optional ros-one-roslib_1.15.10-1-g99fd9bb7-2026.10.20.14.57_amd64.deb

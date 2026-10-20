@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-tf2-kdl
+Binary: ros-one-tf2-kdl
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.7.5-34-g86d8b56-2026.10.20.16.13
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-tf2-kdl - KDL binding for tf2
+Changes:
+ ros-one-tf2-kdl (0.7.5-34-g86d8b56-2026.10.20.16.13) jammy; urgency=high
+Checksums-Sha1:
+ deac80a59db2bfa37fbe1cdd0fbb1e8f6da077b8 13734 ros-one-tf2-kdl_0.7.5-34-g86d8b56-2026.10.20.16.13_amd64.buildinfo
+ c06e6ed19c9d012a15ce1ecf6cd8f5533ba1a9c3 12982 ros-one-tf2-kdl_0.7.5-34-g86d8b56-2026.10.20.16.13_amd64.deb
+Checksums-Sha256:
+ 3d0e100b504588eb25f04d1157d925e80436352ebdd371ac8dea7da664601dc5 13734 ros-one-tf2-kdl_0.7.5-34-g86d8b56-2026.10.20.16.13_amd64.buildinfo
+ cf85a653425e7dae888d4a06258e6566a4db72c02b221596aadc09eca566267e 12982 ros-one-tf2-kdl_0.7.5-34-g86d8b56-2026.10.20.16.13_amd64.deb
+Files:
+ e5ac09bbe6f1b839d4d491c0f059d8a2 13734 misc optional ros-one-tf2-kdl_0.7.5-34-g86d8b56-2026.10.20.16.13_amd64.buildinfo
+ ffc8123afe26fa3a5a0a0000aac642e8 12982 misc optional ros-one-tf2-kdl_0.7.5-34-g86d8b56-2026.10.20.16.13_amd64.deb

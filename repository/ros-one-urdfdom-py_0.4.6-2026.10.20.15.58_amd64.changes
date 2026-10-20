@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 04 Oct 2021 00:00:00 -0000
+Source: ros-one-urdfdom-py
+Binary: ros-one-urdfdom-py
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.4.6-2026.10.20.15.58
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Changed-By: Chris Lalancette <clalancette@osrfoundation.org>
+Description:
+ ros-one-urdfdom-py - Python implementation of the URDF parser.
+Changes:
+ ros-one-urdfdom-py (0.4.6-2026.10.20.15.58) jammy; urgency=high
+ .
+   * Support name attribute for collisions (#67 <https://github.com/ros/urdf_parser_py/issues/67>)
+   * Contributors: Nick Lamprianidis
+Checksums-Sha1:
+ b8c83160d5b0be3509763abbc88e36fb41c3b843 8225 ros-one-urdfdom-py_0.4.6-2026.10.20.15.58_amd64.buildinfo
+ 22a84540058639290c12068bad6663abafcb07f7 35870 ros-one-urdfdom-py_0.4.6-2026.10.20.15.58_amd64.deb
+Checksums-Sha256:
+ f0f5cf336c9414b1e01effd59d1fb92adf113fa3d097660a998fca5ed3cdc5f4 8225 ros-one-urdfdom-py_0.4.6-2026.10.20.15.58_amd64.buildinfo
+ 02ac6b3548c1e59c41cc12e516e05f40fb33e354ab29f545cb82aef08dca732a 35870 ros-one-urdfdom-py_0.4.6-2026.10.20.15.58_amd64.deb
+Files:
+ f2b0bbb5a554d36ca3967ef93dc6af41 8225 misc optional ros-one-urdfdom-py_0.4.6-2026.10.20.15.58_amd64.buildinfo
+ 97c9ec14bc6064c5410cb197a536025b 35870 misc optional ros-one-urdfdom-py_0.4.6-2026.10.20.15.58_amd64.deb

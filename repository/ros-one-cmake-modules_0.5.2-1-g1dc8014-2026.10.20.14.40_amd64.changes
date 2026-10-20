@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-cmake-modules
+Binary: ros-one-cmake-modules
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 0.5.2-1-g1dc8014-2026.10.20.14.40
+Distribution: jammy
+Urgency: high
+Maintainer: Mabel Zhang <mabel@openrobotics.org>
+Changed-By: Mabel Zhang <mabel@openrobotics.org>
+Description:
+ ros-one-cmake-modules - A common repository for CMake Modules which are not distributed w
+Changes:
+ ros-one-cmake-modules (0.5.2-1-g1dc8014-2026.10.20.14.40) jammy; urgency=high
+ .
+   * Do not put location of macOS SDK in UUID_INCLUDE_DIRS on macOS (#54 <https://github.com/ros/cmake_modules/issues/54>)
+   * Contributors: Silvio Traversaro
+Checksums-Sha1:
+ 664599f5c08129d3fd4aaea79c41a23123a79193 8284 ros-one-cmake-modules_0.5.2-1-g1dc8014-2026.10.20.14.40_amd64.buildinfo
+ 4b81645e45378ba7a1ad0ffdec68d96e7f575cd4 18614 ros-one-cmake-modules_0.5.2-1-g1dc8014-2026.10.20.14.40_amd64.deb
+Checksums-Sha256:
+ 80ae27d7ae5e19b4f91fc39e5866a0eea6117ebead825936cd15247d3e1c51ea 8284 ros-one-cmake-modules_0.5.2-1-g1dc8014-2026.10.20.14.40_amd64.buildinfo
+ 70efef84f2e85130ea93415e8ab64c7f1030db78ca27a67bdfd916cf18d167ee 18614 ros-one-cmake-modules_0.5.2-1-g1dc8014-2026.10.20.14.40_amd64.deb
+Files:
+ 59d1cb7ec8960c45ced0f2cbae42319a 8284 misc optional ros-one-cmake-modules_0.5.2-1-g1dc8014-2026.10.20.14.40_amd64.buildinfo
+ 368feddd252dd1349ba3015fbe75f7b9 18614 misc optional ros-one-cmake-modules_0.5.2-1-g1dc8014-2026.10.20.14.40_amd64.deb

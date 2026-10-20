@@ -1,0 +1,7 @@
+[31m[1mCould not resolve rosdep key 'rqt_gui'[0m
+[31m[1mTry to resolve the problem with rosdep and then continue.[0m
+ROS Distro index file associate with commit 'f7e7cea2318e0e01d7b8341dcff9ae9d0e35e2a7'[0m
+New ROS Distro index url: 'https://raw.githubusercontent.com/ros/rosdistro/f7e7cea2318e0e01d7b8341dcff9ae9d0e35e2a7/index-v4.yaml'[0m
+[1m[32m==> [0m[0mGenerating debs for [36mubuntu:jammy[0m for package(s) ['rqt_ez_publisher'][0m[0m
+[31m[1merror: (25, 'Inappropriate ioctl for device')[0m
+[33mThis version of bloom is '0.12.0', but the newest available version is '0.14.4'. Please update.[0m

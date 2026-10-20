@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sat, 26 Apr 2025 00:00:00 -0000
+Source: ros-one-mk
+Binary: ros-one-mk
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.15.10-1-g99fd9bb7-2026.10.20.14.51
+Distribution: jammy
+Urgency: high
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Changed-By: Michel Hidalgo <michel@ekumenlabs.com>
+Description:
+ ros-one-mk - A collection of .mk include files for building ROS architectural
+Changes:
+ ros-one-mk (1.15.10-1-g99fd9bb7-2026.10.20.14.51) jammy; urgency=high
+Checksums-Sha1:
+ 35227611cdab7c0fc8ebf5ab519b949631d0f350 8241 ros-one-mk_1.15.10-1-g99fd9bb7-2026.10.20.14.51_amd64.buildinfo
+ cdb120d39f6395130419b8f5173c9e7e8b70a44f 10584 ros-one-mk_1.15.10-1-g99fd9bb7-2026.10.20.14.51_amd64.deb
+Checksums-Sha256:
+ b611b69fcff3b159662f8e2c6f9d826e81cb75c23273310c59f22dd38bcfa0b0 8241 ros-one-mk_1.15.10-1-g99fd9bb7-2026.10.20.14.51_amd64.buildinfo
+ 9f25870701e6f51c48050fa4a835e207570c52fe745ecf4b461777f384b7187d 10584 ros-one-mk_1.15.10-1-g99fd9bb7-2026.10.20.14.51_amd64.deb
+Files:
+ c7f277c2a5e6e7ecd3db29394b59b0cf 8241 misc optional ros-one-mk_1.15.10-1-g99fd9bb7-2026.10.20.14.51_amd64.buildinfo
+ 9332c5111d0042571e612bcf604140ae 10584 misc optional ros-one-mk_1.15.10-1-g99fd9bb7-2026.10.20.14.51_amd64.deb

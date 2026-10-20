@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-topic-tools
+Binary: ros-one-topic-tools
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.20.15.43
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-topic-tools - Tools for directing, throttling, selecting, and otherwise messing
+Changes:
+ ros-one-topic-tools (1.17.0-15-g678162e3-2026.10.20.15.43) jammy; urgency=high
+ .
+   * Add wait_publisher_initialization option in topic_tools mux (#2305 <https://github.com/ros/ros_comm/issues/2305>)
+   * Contributors: Shingo Kitagawa
+Checksums-Sha1:
+ eaa94263708aa0976273f01801699cc60ca669ca 2525070 ros-one-topic-tools-dbgsym_1.17.0-15-g678162e3-2026.10.20.15.43_amd64.ddeb
+ ee0cb8add4406d06fa8f50182b7ed90798737025 13499 ros-one-topic-tools_1.17.0-15-g678162e3-2026.10.20.15.43_amd64.buildinfo
+ e287379770d7e2a3c9bff53c164ab7735cd169e9 160142 ros-one-topic-tools_1.17.0-15-g678162e3-2026.10.20.15.43_amd64.deb
+Checksums-Sha256:
+ 528ea752dcc95c6e45ef41e662678e8c9f0a0f174b98718557d1b4ffe0a4dbe5 2525070 ros-one-topic-tools-dbgsym_1.17.0-15-g678162e3-2026.10.20.15.43_amd64.ddeb
+ e23aad80fd92714c195b41c8bac165e462c497ba8943b1a4483ae0d25794ec40 13499 ros-one-topic-tools_1.17.0-15-g678162e3-2026.10.20.15.43_amd64.buildinfo
+ 915291ee7a544e4e9ba2d0fc43b8ea2747db2eb44b964ec2633ec7342f912fe5 160142 ros-one-topic-tools_1.17.0-15-g678162e3-2026.10.20.15.43_amd64.deb
+Files:
+ 6af3642dbb4371dfc3cd24b4083bb8d9 2525070 debug optional ros-one-topic-tools-dbgsym_1.17.0-15-g678162e3-2026.10.20.15.43_amd64.ddeb
+ 00cc0b961ce500de4ab215045193873d 13499 misc optional ros-one-topic-tools_1.17.0-15-g678162e3-2026.10.20.15.43_amd64.buildinfo
+ 2f8491e272eda48cdfbce472d405dd45 160142 misc optional ros-one-topic-tools_1.17.0-15-g678162e3-2026.10.20.15.43_amd64.deb

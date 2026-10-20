@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 13 Sep 2024 00:00:00 -0000
+Source: ros-one-rosmaster
+Binary: ros-one-rosmaster
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.17.0-15-g678162e3-2026.10.20.15.17
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Changed-By: Michael Carroll <michael@openrobotics.org>
+Description:
+ ros-one-rosmaster - ROS Master implementation.
+Changes:
+ ros-one-rosmaster (1.17.0-15-g678162e3-2026.10.20.15.17) jammy; urgency=high
+Checksums-Sha1:
+ 50b0d66dcd2cc2e00f4cded944a25678de852f87 8276 ros-one-rosmaster_1.17.0-15-g678162e3-2026.10.20.15.17_amd64.buildinfo
+ 094c8929382e6b368b5ab6f48519b809f42998e1 44628 ros-one-rosmaster_1.17.0-15-g678162e3-2026.10.20.15.17_amd64.deb
+Checksums-Sha256:
+ ef45f267e264153f4bac22cc2c3dac628e7d4cff05a7c9d94089975e069d5f1d 8276 ros-one-rosmaster_1.17.0-15-g678162e3-2026.10.20.15.17_amd64.buildinfo
+ 9dda00574194dc238919e71551f9a4fbc760c3f9c9651ab2b2cbc1d7596fd6de 44628 ros-one-rosmaster_1.17.0-15-g678162e3-2026.10.20.15.17_amd64.deb
+Files:
+ 7099f2b8ed995feba84db9bf3a35c923 8276 misc optional ros-one-rosmaster_1.17.0-15-g678162e3-2026.10.20.15.17_amd64.buildinfo
+ cf1f9df6e33998b0ab343f46349f34f8 44628 misc optional ros-one-rosmaster_1.17.0-15-g678162e3-2026.10.20.15.17_amd64.deb

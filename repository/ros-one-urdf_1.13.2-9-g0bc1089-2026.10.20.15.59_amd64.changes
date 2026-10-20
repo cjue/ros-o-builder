@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sat, 26 Apr 2025 00:00:00 -0000
+Source: ros-one-urdf
+Binary: ros-one-urdf
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-9-g0bc1089-2026.10.20.15.59
+Distribution: jammy
+Urgency: high
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Changed-By: Chris Lalancette <clalancette@osrfoundation.org>
+Description:
+ ros-one-urdf - This package contains a C++ parser for the Unified Robot Descript
+Changes:
+ ros-one-urdf (1.13.2-9-g0bc1089-2026.10.20.15.59) jammy; urgency=high
+ .
+   * Migrate parser plugin from boost to std shared_ptr (#40 <https://github.com/ros/urdf/issues/40>)
+   * Contributors: Robert Haschke
+Checksums-Sha1:
+ 4db608ca8826452d22a87728a9374d5ddc8f1afb 840492 ros-one-urdf-dbgsym_1.13.2-9-g0bc1089-2026.10.20.15.59_amd64.ddeb
+ 11d9b4210f03c5e84ed337cd39363b52af62cf0a 14213 ros-one-urdf_1.13.2-9-g0bc1089-2026.10.20.15.59_amd64.buildinfo
+ 4ca6e0f4f9e09f18e6d7d92153a0107b15d30e69 72040 ros-one-urdf_1.13.2-9-g0bc1089-2026.10.20.15.59_amd64.deb
+Checksums-Sha256:
+ dd814d458422f9aeea33d84d2aebc12857c361455eabbe3ae39cba4a30ed3870 840492 ros-one-urdf-dbgsym_1.13.2-9-g0bc1089-2026.10.20.15.59_amd64.ddeb
+ eed4bba1e6b3e845e3204eb81be5ce6744e80df07b6c11b2fa460fd274732b62 14213 ros-one-urdf_1.13.2-9-g0bc1089-2026.10.20.15.59_amd64.buildinfo
+ e9ac732850fd1534109eb109bd937e1cd03fd417923faf45f221b94d06376572 72040 ros-one-urdf_1.13.2-9-g0bc1089-2026.10.20.15.59_amd64.deb
+Files:
+ f09cbab8953008eb3fdd3bba6d402290 840492 debug optional ros-one-urdf-dbgsym_1.13.2-9-g0bc1089-2026.10.20.15.59_amd64.ddeb
+ 50e863732c28a12e5ab8726209a67ae0 14213 misc optional ros-one-urdf_1.13.2-9-g0bc1089-2026.10.20.15.59_amd64.buildinfo
+ 970e643156e2c22db7b5dfdacf4f84a5 72040 misc optional ros-one-urdf_1.13.2-9-g0bc1089-2026.10.20.15.59_amd64.deb

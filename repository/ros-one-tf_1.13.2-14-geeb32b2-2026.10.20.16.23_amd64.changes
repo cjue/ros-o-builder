@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Fri, 25 Apr 2025 00:00:00 -0000
+Source: ros-one-tf
+Binary: ros-one-tf
+Built-For-Profiles: noudeb nocheck
+Architecture: amd64
+Version: 1.13.2-14-geeb32b2-2026.10.20.16.23
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Changed-By: Tully Foote <tfoote@osrfoundation.org>
+Description:
+ ros-one-tf - tf is a package that lets the user keep track of multiple coordin
+Changes:
+ ros-one-tf (1.13.2-14-geeb32b2-2026.10.20.16.23) jammy; urgency=high
+ .
+   * Updates for Ubuntu 22 (#233 <https://github.com/ros/geometry/issues/233>)
+   * Contributors: Jochen Sprickerhof
+Checksums-Sha1:
+ fd339aab0300b66e8488d21c701478a9aa3d4e19 2977158 ros-one-tf-dbgsym_1.13.2-14-geeb32b2-2026.10.20.16.23_amd64.ddeb
+ 522a402bd28b26deb778a09529305378e07f8a96 14040 ros-one-tf_1.13.2-14-geeb32b2-2026.10.20.16.23_amd64.buildinfo
+ 290ba78dbc356f9e1db249b30798d2165c9b6566 222646 ros-one-tf_1.13.2-14-geeb32b2-2026.10.20.16.23_amd64.deb
+Checksums-Sha256:
+ ffbc155db8bbb6a47263688caeebadd29d799a9cea14ee2ce89aaba6780b850e 2977158 ros-one-tf-dbgsym_1.13.2-14-geeb32b2-2026.10.20.16.23_amd64.ddeb
+ 5ade6e21e1cb4a03902eaf2d6b1cf603062f108d6a6d0d7b86fca6ddebf50c6e 14040 ros-one-tf_1.13.2-14-geeb32b2-2026.10.20.16.23_amd64.buildinfo
+ c290c55b60931c9ceda96bb0953bd2f762c4a2cc8bc181b06ec8ce51c5472189 222646 ros-one-tf_1.13.2-14-geeb32b2-2026.10.20.16.23_amd64.deb
+Files:
+ 94bf98bbb7bdc77ef937f68c6a264cd0 2977158 debug optional ros-one-tf-dbgsym_1.13.2-14-geeb32b2-2026.10.20.16.23_amd64.ddeb
+ f8cc5336bbfe21ce99a9266edb0ce89a 14040 misc optional ros-one-tf_1.13.2-14-geeb32b2-2026.10.20.16.23_amd64.buildinfo
+ 6818abfed61ccc4869c2ace8a3c464b3 222646 misc optional ros-one-tf_1.13.2-14-geeb32b2-2026.10.20.16.23_amd64.deb
